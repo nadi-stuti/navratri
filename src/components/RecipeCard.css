@@ -1,0 +1,33 @@
+.recipe-card {
+    border-radius: 0.6rem;
+    display: flex;
+    background-color: light-dark(#e0e0e0, #444);
+    padding: 0.5rem;
+    gap: 1rem;
+    cursor: pointer;
+
+    img {
+        width: 200px;
+        border-radius: 0.6rem;
+    }
+
+    .details {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+
+        hr {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.recipe-card:active {
+    transform: scale(0.95);
+}

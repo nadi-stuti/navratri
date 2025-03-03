@@ -1,0 +1,45 @@
+.welcome-page {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    background: url('../assets/itl.cat_fall-wallpaper-hd_323495.png') no-repeat center center/cover;
+    background-size: cover;
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        height: 20em;
+        padding: 1.5em;
+    }
+
+    .content {
+        width: 100vw;
+        align-self: flex-end;
+        padding: 1rem;
+        padding-bottom: 3rem;
+        text-align: center;
+
+        button {
+            width: 100%;
+        }
+    }
+}
+
+@keyframes logo-spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}

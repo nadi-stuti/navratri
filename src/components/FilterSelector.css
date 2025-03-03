@@ -1,0 +1,26 @@
+.filter {
+    padding: 1rem;
+    display: flex;
+    gap: 1.25rem;
+
+    p {
+        margin: 0;
+    }
+
+    #label {
+        padding: 0.5rem;
+        font-weight: bold;
+    }
+
+    .active {
+        background-color: green;
+        border-radius: 0.3rem;
+        color: white;
+    }
+
+    #option {
+        padding: 0.5rem;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
