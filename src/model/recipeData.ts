@@ -1,6 +1,9 @@
+import { beveragesRecipe } from "./beverages";
+import { chutneyRecipe } from "./chutneyRecipedata";
 import { Difficulty } from "./enums";
 import { lunchRecipe } from "./lunchRecipeData";
 import { snackRecipe } from "./snackRecipeData";
+import { sweetsRecipe } from "./sweetsRecipedata";
 import { Recipe, type RecipeCategory } from "./types";
 
 export const recipeCategories: RecipeCategory[] = [
@@ -101,4 +104,10 @@ export function filterRecipeFromSearch(
   return match;
 }
 
-export const recipe: Recipe[] = [...lunchRecipe, ...snackRecipe];
+export const recipe: Recipe[] = [
+  ...lunchRecipe,
+  ...snackRecipe,
+  ...chutneyRecipe,
+  ...sweetsRecipe,
+  ...beveragesRecipe,
+];

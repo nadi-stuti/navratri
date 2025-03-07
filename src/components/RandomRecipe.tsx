@@ -20,10 +20,10 @@ const RandomRecipe = ({ mealCategories }: { mealCategories: number[] }) => {
             <div
               className="card"
               style={{ backgroundImage: `url(${meal.imageUrl})` }}
+              key={meal.name}
             >
               <p>
-                <b>{categoryName}</b>
-                {meal.name}
+                <b>{categoryName}</b>: {meal.name}
               </p>
             </div>
           );
