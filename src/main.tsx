@@ -3,6 +3,9 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import Welcome from "./pages/Welcome.tsx";
 import { App as CapacitorApp } from "@capacitor/app";
+import "./i18n/config";
+import { LanguageProvider } from "./contexts/LanguageContext";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 CapacitorApp.addListener("backButton", ({ canGoBack }) => {
   if (!canGoBack) {
@@ -14,6 +17,10 @@ CapacitorApp.addListener("backButton", ({ canGoBack }) => {
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Welcome />
+    <ThemeProvider>
+      <LanguageProvider>
+        <Welcome />
+      </LanguageProvider>
+    </ThemeProvider>
   </StrictMode>
 );

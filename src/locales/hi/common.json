@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "home": "होम",
+    "recipes": "व्यंजन",
+    "festival": "त्योहार के बारे में",
+    "dates": "तारीखें",
+    "fasting": "व्रत के बारे में",
+    "more": "और जानकारी"
+  },
+  "actions": {
+    "back": "वापस",
+    "next": "आगे",
+    "select": "चुनें",
+    "toggle": "बदलें",
+    "search": "खोजें",
+    "filter": "फिल्टर"
+  },
+  "labels": {
+    "language": "भाषा",
+    "theme": "थीम",
+    "lightMode": "लाइट मोड",
+    "darkMode": "डार्क मोड",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "notFound": "नहीं मिला"
+  }
+}

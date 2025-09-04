@@ -1,0 +1,26 @@
+{
+  "durgaForms": {
+    "shailaputri": "சைலபுத்ரி",
+    "brahmacharini": "பிரம்மச்சாரிணி",
+    "chandraghanta": "சந்திரகண்டா",
+    "kushmanda": "குஷ்மாண்டா",
+    "skandamata": "ஸ்கந்தமாதா",
+    "katyayani": "காத்யாயனி",
+    "kalaratri": "காலராத்ரி",
+    "mahagauri": "மகாகௌரி",
+    "siddhidatri": "சித்திதாத்ரி"
+  },
+  "celebrations": {
+    "worship": "வழிபாடு",
+    "offerings": "காணிக்கைகள்",
+    "mantras": "மந்திரங்கள்",
+    "colors": "நிறங்கள்",
+    "significance": "முக்கியத்துவம்"
+  },
+  "rituals": {
+    "morning": "காலை சடங்குகள்",
+    "evening": "மாலை சடங்குகள்",
+    "preparations": "தயாரிப்புகள்",
+    "observances": "கடைபிடிப்புகள்"
+  }
+}

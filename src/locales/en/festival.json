@@ -1,0 +1,26 @@
+{
+  "durgaForms": {
+    "shailaputri": "Shailaputri",
+    "brahmacharini": "Brahmacharini",
+    "chandraghanta": "Chandraghanta",
+    "kushmanda": "Kushmanda",
+    "skandamata": "Skandamata",
+    "katyayani": "Katyayani",
+    "kalaratri": "Kalaratri",
+    "mahagauri": "Mahagauri",
+    "siddhidatri": "Siddhidatri"
+  },
+  "celebrations": {
+    "worship": "Worship",
+    "offerings": "Offerings",
+    "mantras": "Mantras",
+    "colors": "Colors",
+    "significance": "Significance"
+  },
+  "rituals": {
+    "morning": "Morning Rituals",
+    "evening": "Evening Rituals",
+    "preparations": "Preparations",
+    "observances": "Observances"
+  }
+}

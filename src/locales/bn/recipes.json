@@ -1,0 +1,22 @@
+{
+  "categories": {
+    "southIndianSundal": "দক্ষিণ ভারতীয় সুন্দল",
+    "lunchDinner": "দুপুর এবং রাতের খাবার",
+    "breakfastSnacks": "নাস্তা এবং স্ন্যাকস",
+    "chutneyRaita": "চাটনি এবং রায়তা",
+    "sweetsDeserts": "মিষ্টি এবং ডেজার্ট",
+    "beverages": "পানীয়"
+  },
+  "ingredients": {
+    "title": "উপাদান",
+    "servings": "পরিবেশন",
+    "prepTime": "প্রস্তুতির সময়",
+    "cookTime": "রান্নার সময়"
+  },
+  "instructions": {
+    "title": "নির্দেশাবলী",
+    "step": "ধাপ",
+    "tips": "টিপস",
+    "variations": "বৈচিত্র্য"
+  }
+}

@@ -3,24 +3,64 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: light-dark(#213547, rgba(255, 255, 255, 0.87));
-  background-color: light-dark(#fff, #242424);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Light theme variables */
+:root[data-theme="light"] {
+  --primary-bg: #ffffff;
+  --secondary-bg: #f5f5f5;
+  --primary-text: #213547;
+  --secondary-text: #c2c2c2;
+  --accent-color: #646cff;
+  --button-bg: #e0e0e0;
+  --button-hover: #d0d0d0;
+  --card-gradient: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9));
+  --card-bg: #e0e0e0;
+  --link-color: rgb(64, 78, 1);
+  --link-hover: green;
+  --home-bg: #e0e0e0;
+  --border-color: #e0e0e0;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme variables */
+:root[data-theme="dark"] {
+  --primary-bg: #242424;
+  --secondary-bg: #1a1a1a;
+  --primary-text: rgba(255, 255, 255, 0.87);
+  --secondary-text: rgba(255, 255, 255, 0.6);
+  --accent-color: #646cff;
+  --button-bg: chocolate;
+  --button-hover: #d2691e;
+  --card-gradient: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9));
+  --card-bg: #444;
+  --link-color: greenyellow;
+  --link-hover: green;
+  --home-bg: #242424;
+  --border-color: #404040;
+  --shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* Apply theme variables */
+body {
+  color: var(--primary-text);
+  background-color: var(--primary-bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 a {
   font-weight: bold;
-  color: greenyellow;
+  color: var(--link-color);
   text-decoration: inherit;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: green;
+  color: var(--link-hover);
 }
 
 body {
@@ -44,7 +84,7 @@ h3 {
 }
 
 .card-grad {
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9));
+  background: var(--card-gradient);
 }
 
 button {
@@ -54,13 +94,15 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: chocolate;
+  background-color: var(--button-bg);
+  color: var(--primary-text);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s, background-color 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: var(--accent-color);
+  background-color: var(--button-hover);
 }
 
 button:focus,
@@ -68,19 +110,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  .card-grad {
-    color: #e0e0e0;
-  }
-
-  a {
-    color: rgb(64, 78, 1);
-  }
-
-  button {
-    background-color: #e0e0e0;
-  }
-}
+/* Remove media query as we now use CSS variables for theming */
 
 @media screen and (min-width: 600px) {
 

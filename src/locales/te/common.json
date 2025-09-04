@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "home": "హోమ్",
+    "recipes": "వంటకాలు",
+    "festival": "పండుగ గురించి",
+    "dates": "తేదీలు",
+    "fasting": "ఉపవాసం గురించి",
+    "more": "మరిన్ని"
+  },
+  "actions": {
+    "back": "వెనుకకు",
+    "next": "తదుపరి",
+    "select": "ఎంచుకోండి",
+    "toggle": "మార్చండి",
+    "search": "వెతకండి",
+    "filter": "ఫిల్టర్"
+  },
+  "labels": {
+    "language": "భాష",
+    "theme": "థీమ్",
+    "lightMode": "లైట్ మోడ్",
+    "darkMode": "డార్క్ మోడ్",
+    "loading": "లోడ్ అవుతోంది...",
+    "error": "లోపం",
+    "notFound": "కనుగొనబడలేదు"
+  }
+}

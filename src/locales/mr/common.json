@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "home": "मुख्यपृष्ठ",
+    "recipes": "पाककृती",
+    "festival": "सणाबद्दल",
+    "dates": "तारखा",
+    "fasting": "उपवासाबद्दल",
+    "more": "अधिक"
+  },
+  "actions": {
+    "back": "मागे",
+    "next": "पुढे",
+    "select": "निवडा",
+    "toggle": "बदला",
+    "search": "शोधा",
+    "filter": "गाळा"
+  },
+  "labels": {
+    "language": "भाषा",
+    "theme": "थीम",
+    "lightMode": "प्रकाश मोड",
+    "darkMode": "गडद मोड",
+    "loading": "लोड होत आहे...",
+    "error": "त्रुटी",
+    "notFound": "सापडले नाही"
+  }
+}

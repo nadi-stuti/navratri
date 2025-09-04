@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "home": "ಮುಖ್ಯಪುಟ",
+    "recipes": "ಪಾಕವಿಧಾನಗಳು",
+    "festival": "ಹಬ್ಬದ ಬಗ್ಗೆ",
+    "dates": "ದಿನಾಂಕಗಳು",
+    "fasting": "ಉಪವಾಸದ ಬಗ್ಗೆ",
+    "more": "ಹೆಚ್ಚು"
+  },
+  "actions": {
+    "back": "ಹಿಂದೆ",
+    "next": "ಮುಂದೆ",
+    "select": "ಆಯ್ಕೆಮಾಡಿ",
+    "toggle": "ಬದಲಾಯಿಸಿ",
+    "search": "ಹುಡುಕಿ",
+    "filter": "ಫಿಲ್ಟರ್"
+  },
+  "labels": {
+    "language": "ಭಾಷೆ",
+    "theme": "ಥೀಮ್",
+    "lightMode": "ಲೈಟ್ ಮೋಡ್",
+    "darkMode": "ಡಾರ್ಕ್ ಮೋಡ್",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "error": "ದೋಷ",
+    "notFound": "ಸಿಗಲಿಲ್ಲ"
+  }
+}

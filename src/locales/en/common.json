@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "home": "Home",
+    "recipes": "Recipes",
+    "festival": "About Festival",
+    "dates": "Dates",
+    "fasting": "About Fast",
+    "more": "More"
+  },
+  "actions": {
+    "back": "Back",
+    "next": "Next",
+    "select": "Select",
+    "toggle": "Toggle",
+    "search": "Search",
+    "filter": "Filter"
+  },
+  "labels": {
+    "language": "Language",
+    "theme": "Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "loading": "Loading...",
+    "error": "Error",
+    "notFound": "Not Found"
+  }
+}

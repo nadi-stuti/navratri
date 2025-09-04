@@ -1,0 +1,34 @@
+{
+  "home": {
+    "title": "Navratri Festival App",
+    "subtitle": "Celebrate the divine nine nights",
+    "welcome": "Welcome to your complete Navratri companion"
+  },
+  "recipes": {
+    "title": "Navratri Recipes",
+    "subtitle": "Delicious fasting recipes for the festival",
+    "categories": "Recipe Categories",
+    "makeItAMeal": "Make it a Meal"
+  },
+  "festival": {
+    "title": "About Navratri Festival",
+    "subtitle": "Learn about the nine forms of Goddess Durga",
+    "durgaForms": "Nine Forms of Durga"
+  },
+  "dates": {
+    "title": "Navratri 2025 Dates",
+    "subtitle": "Important dates and celebrations",
+    "calendar": "Festival Calendar"
+  },
+  "fasting": {
+    "title": "About Navratri Fasting",
+    "subtitle": "Guidelines and significance of fasting",
+    "rules": "Fasting Rules",
+    "significance": "Spiritual Significance"
+  },
+  "more": {
+    "title": "More Information",
+    "subtitle": "Additional resources and content",
+    "sections": "Content Sections"
+  }
+}

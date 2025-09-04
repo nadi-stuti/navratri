@@ -1,7 +1,7 @@
 .recipe-card {
     border-radius: 0.6rem;
     display: flex;
-    background-color: light-dark(#e0e0e0, #444);
+    background-color: var(--card-bg);
     padding: 0.5rem;
     gap: 1rem;
     cursor: pointer;

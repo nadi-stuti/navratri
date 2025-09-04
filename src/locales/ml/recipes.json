@@ -1,0 +1,22 @@
+{
+  "categories": {
+    "southIndianSundal": "ദക്ഷിണേന്ത്യൻ സുണ്ടൽ",
+    "lunchDinner": "ഉച്ചഭക്ഷണവും അത്താഴവും",
+    "breakfastSnacks": "പ്രാതൽ, ലഘുഭക്ഷണം",
+    "chutneyRaita": "ചട്നിയും റായിതയും",
+    "sweetsDeserts": "മധുരപലഹാരങ്ങൾ",
+    "beverages": "പാനീയങ്ങൾ"
+  },
+  "ingredients": {
+    "title": "ചേരുവകൾ",
+    "servings": "സെർവിംഗുകൾ",
+    "prepTime": "തയ്യാറാക്കാനുള്ള സമയം",
+    "cookTime": "പാചക സമയം"
+  },
+  "instructions": {
+    "title": "നിർദ്ദേശങ്ങൾ",
+    "step": "ഘട്ടം",
+    "tips": "നുറുങ്ങുകൾ",
+    "variations": "വ്യതിയാനങ്ങൾ"
+  }
+}

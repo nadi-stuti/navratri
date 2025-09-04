@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "home": "হোম",
+    "recipes": "রেসিপি",
+    "festival": "উৎসব সম্পর্কে",
+    "dates": "তারিখ",
+    "fasting": "উপবাস সম্পর্কে",
+    "more": "আরও"
+  },
+  "actions": {
+    "back": "পিছনে",
+    "next": "পরবর্তী",
+    "select": "নির্বাচন করুন",
+    "toggle": "পরিবর্তন করুন",
+    "search": "খুঁজুন",
+    "filter": "ফিল্টার"
+  },
+  "labels": {
+    "language": "ভাষা",
+    "theme": "থিম",
+    "lightMode": "লাইট মোড",
+    "darkMode": "ডার্ক মোড",
+    "loading": "লোড হচ্ছে...",
+    "error": "ত্রুটি",
+    "notFound": "পাওয়া যায়নি"
+  }
+}

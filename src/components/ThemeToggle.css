@@ -1,0 +1,113 @@
+.theme-toggle {
+  position: relative;
+  background: transparent;
+  border: 2px solid var(--border-color);
+  border-radius: 50px;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 60px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.theme-toggle:hover {
+  border-color: var(--accent-color);
+  background-color: var(--secondary-bg);
+  transform: scale(1.05);
+}
+
+.theme-toggle:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.theme-toggle-track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle-thumb {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+.theme-toggle-thumb.light {
+  transform: translateX(0);
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+}
+
+.theme-toggle-thumb.dark {
+  transform: translateX(28px);
+  background: linear-gradient(135deg, #4a5568, #2d3748);
+}
+
+.theme-icon {
+  width: 14px;
+  height: 14px;
+  color: var(--primary-bg);
+  transition: color 0.3s ease;
+}
+
+.theme-toggle-thumb.light .theme-icon {
+  color: #333;
+}
+
+.theme-toggle-thumb.dark .theme-icon {
+  color: #fff;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  .theme-toggle {
+    width: 50px;
+    height: 28px;
+  }
+  
+  .theme-toggle-thumb {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .theme-toggle-thumb.dark {
+    transform: translateX(22px);
+  }
+  
+  .theme-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Animation for smooth transitions */
+@media (prefers-reduced-motion: no-preference) {
+  .theme-toggle-thumb {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                background 0.3s ease,
+                box-shadow 0.3s ease;
+  }
+}
+
+/* High contrast support */
+@media (prefers-contrast: high) {
+  .theme-toggle {
+    border-width: 3px;
+  }
+  
+  .theme-toggle-thumb {
+    box-shadow: 0 0 0 2px var(--primary-bg);
+  }
+}

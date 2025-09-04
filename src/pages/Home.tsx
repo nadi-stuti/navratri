@@ -6,6 +6,7 @@ import Bg4 from "../assets/tile-bg4.jpg";
 import Bg5 from "../assets/tile-bg5.jpg";
 import Bg6 from "../assets/tile-bg6.jpg";
 import { useNavigate } from "react-router";
+import ThemeToggle from "../components/ThemeToggle";
 
 type GridTileProp = {
   title: string;
@@ -25,7 +26,10 @@ const tiles: GridTileProp[] = [
 function Home() {
   return (
     <div className="home-page">
-      <h2>Celebrate Navratri</h2>
+      <div className="home-header">
+        <h2>Celebrate Navratri</h2>
+        <ThemeToggle />
+      </div>
       <div className="grid-container">
         {tiles.map((tile) => (
           <GridTile {...tile} key={tile.title} />

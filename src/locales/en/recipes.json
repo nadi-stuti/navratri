@@ -1,0 +1,22 @@
+{
+  "categories": {
+    "southIndianSundal": "South Indian Sundal",
+    "lunchDinner": "Lunch & Dinner",
+    "breakfastSnacks": "Breakfast & Snacks",
+    "chutneyRaita": "Chutney & Raita",
+    "sweetsDeserts": "Sweets & Desserts",
+    "beverages": "Beverages"
+  },
+  "ingredients": {
+    "title": "Ingredients",
+    "servings": "Servings",
+    "prepTime": "Preparation Time",
+    "cookTime": "Cooking Time"
+  },
+  "instructions": {
+    "title": "Instructions",
+    "step": "Step",
+    "tips": "Tips",
+    "variations": "Variations"
+  }
+}

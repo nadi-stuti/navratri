@@ -1,0 +1,139 @@
+.language-selector {
+  position: relative;
+  display: inline-block;
+}
+
+.language-selector-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg-secondary, #f5f5f5);
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  min-width: 120px;
+}
+
+.language-selector-button:hover {
+  background: var(--bg-hover, #e9e9e9);
+  border-color: var(--border-hover, #ccc);
+}
+
+.language-selector-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.language-flag {
+  font-size: 16px;
+}
+
+.language-name {
+  flex: 1;
+  text-align: left;
+}
+
+.language-arrow {
+  font-size: 12px;
+  transition: transform 0.2s ease;
+}
+
+.language-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-primary, white);
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 4px;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  transition: background-color 0.2s ease;
+}
+
+.language-option:hover {
+  background: var(--bg-hover, #f0f0f0);
+}
+
+.language-option.active {
+  background: var(--bg-active, #e3f2fd);
+  font-weight: 500;
+}
+
+.language-native {
+  font-weight: 500;
+}
+
+.language-english {
+  color: var(--text-secondary, #666);
+  font-size: 12px;
+  margin-left: auto;
+}
+
+.language-loading {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-primary, white);
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--text-secondary, #666);
+  text-align: center;
+  margin-top: 4px;
+  z-index: 1001;
+}
+
+/* Dark theme support */
+@media (prefers-color-scheme: dark) {
+  .language-selector-button {
+    --bg-secondary: #2a2a2a;
+    --border-color: #444;
+    --bg-hover: #333;
+    --border-hover: #555;
+  }
+
+  .language-dropdown {
+    --bg-primary: #1e1e1e;
+    --border-color: #444;
+  }
+
+  .language-option:hover {
+    --bg-hover: #333;
+  }
+
+  .language-option.active {
+    --bg-active: #1a365d;
+  }
+
+  .language-english {
+    --text-secondary: #aaa;
+  }
+
+  .language-loading {
+    --bg-primary: #1e1e1e;
+    --border-color: #444;
+    --text-secondary: #aaa;
+  }
+}
