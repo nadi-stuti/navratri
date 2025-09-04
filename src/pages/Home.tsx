@@ -19,7 +19,7 @@ const tiles: GridTileProp[] = [
   { title: "Navratri in India", bg: Bg3, location: "/locations" },
   { title: "About Fastings", bg: Bg4, location: "/about-fast" },
   { title: "More on Navratri Fasting", bg: Bg5, location: "more-fast" },
-  { title: "Navratri Dates", bg: Bg6, location: "/locations" },
+  { title: "Navratri Dates", bg: Bg6, location: "/dates" },
 ];
 
 function Home() {

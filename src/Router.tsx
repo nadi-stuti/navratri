@@ -9,6 +9,7 @@ import HomeLayout from "./pages/layout/HomeLayout.tsx";
 import RecipeLayout from "./pages/layout/RecipeLayout.tsx";
 import RecipeList from "./pages/recipe/RecipeList.tsx";
 import Recipe from "./pages/recipe/Recipe.tsx";
+import Dates from "./pages/Dates.tsx";
 
 const Router = () => {
   return (
@@ -20,6 +21,7 @@ const Router = () => {
           <Route path="/recipes" element={<RecipeCategories />} />
           <Route path="/about-navratri" element={<AboutFestival />} />
           <Route path="/locations" element={<Location />} />
+          <Route path="/dates" element={<Dates />} />
           <Route path="/about-fast" element={<AboutFast />} />
           <Route path="/more-fast" element={<More />} />
         </Route>
