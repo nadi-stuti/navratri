@@ -1,14 +1,45 @@
 {
   "home": {
-    "title": "Navratri Festival App",
-    "subtitle": "Celebrate the divine nine nights",
-    "welcome": "Welcome to your complete Navratri companion"
+    "title": "Celebrate Navratri",
+    "tiles": {
+      "fastingRecipes": "Fasting Recipes",
+      "aboutNavratri": "About Navratri",
+      "navratriInIndia": "Navratri in India",
+      "aboutFastings": "About Fastings",
+      "moreOnNavratriFasting": "More on Navratri Fasting",
+      "navratriDates": "Navratri Dates"
+    }
+  },
+  "welcome": {
+    "title": "Navratri",
+    "description": "Navratri translating to 'nine nights' (nava + ratri), Navratri is observed to honor Goddess Durga or Ambe Maa, and is one of the most cherished Hindu festivals.",
+    "enterApp": "Enter App",
+    "ourWebsite": "Our Website",
+    "joinWhatsApp": "Join WhatsApp",
+    "logoAlt": "Navratri Festival Logo"
   },
   "recipes": {
-    "title": "Navratri Recipes",
-    "subtitle": "Delicious fasting recipes for the festival",
-    "categories": "Recipe Categories",
-    "makeItAMeal": "Make it a Meal"
+    "title": "Navratri Fasting Recipes",
+    "description": "Listed below are best Navratri Fast Recipes, ranging from meals that can be served for lunch or dinner to snacks and sweets. Some of these snacks can also be made for breakfast. Do eat light if possible and drink lots of water to stay hydrated. If possible, also include fruits or fruit juices in your fasting diet.",
+    "makeItAMeal": "Complete Your Thali",
+    "categories": {
+      "lunchDinner": "Lunch & Dinner",
+      "breakfastSnacks": "Breakfast or Snacks",
+      "chutneyRaita": "Chutney & Raita",
+      "sweetsDeserts": "Sweets & Desserts",
+      "beverages": "Beverages",
+      "southIndian": "South Indian Recipes",
+      "sundal": "Sundal Recipes"
+    },
+    "descriptions": {
+      "lunchDinner": "I have categorized the lunch and dinner meals into various breads or grain-based dishes as well as curries, gravies and sides. The breads' list consists both of flatbreads and fried breads.",
+      "breakfastSnacks": "Here I have listed recipes that you can make for breakfast or snacks. Some of them are fried. For healthier versions, use an appe (paniyaram) pan to make these or air-fry or bake these.",
+      "chutneyRaita": "These chutneys and raitas not only act as the perfect accompaniment with the main course or snacks, but also suffice as topping or dipping sauces. Listed below are such Navratri Fast Recipes.",
+      "sweetsDeserts": "Can an Indian meal be ever complete without a sweet? Not really. So, in this section, you will find some easy-peasy sweets and desserts that can be made during Navratri festival, and can also be offered to Goddess Durga. This list is categorized into kheer, halwa, ladoo and fruit-based recipes.",
+      "beverages": "All fruits can be consumed during fasting in Navratri festival. So, use any fruit or a combination of fruits to prepare juices, smoothies or shakes. Milk and milk products can also be considered as Navratri Recipes.",
+      "southIndian": "When compared to North Indian Navratri Fast Recipes, fasting food that is made in South India is quite different. Usually all grains, vegetables and cereals are used to make it. But they still don't have any onion or garlic in them. \n These are some no onion, no garlic recipes which are popular during Navratri festival in southern parts of India. However, a crucial point to remember here is, you should not consider these as true vrat or fasting recipes. Avoid making these if you want to observe a North Indian style of fast.",
+      "sundal": "South Indian sundals are dry preparations made with a variety of legumes, lentils or pulses like moong beans, Bengal gram, black eyed beans, peanuts, sweet corn, etc. \nBoth common during Navratri as well as Ganesh Chaturthi. Each type of sundal is more or less prepared in the same way. They might just have some minor variations in the recipes."
+    }
   },
   "festival": {
     "title": "About Navratri Festival",
@@ -16,19 +47,303 @@
     "durgaForms": "Nine Forms of Durga"
   },
   "dates": {
-    "title": "Navratri 2025 Dates",
+    "title": "Navratri Calendar",
+    "festivalPeriod": "September 22 - September 30, 2025",
     "subtitle": "Important dates and celebrations",
-    "calendar": "Festival Calendar"
+    "calendar": "Festival Calendar",
+    "dayLabel": "Day",
+    "labels": {
+      "day": "Day",
+      "date": "Date",
+      "goddess": "Goddess",
+      "colors": "Recommended Colors"
+    },
+    "navigation": {
+      "previous": "Previous Navratri",
+      "next": "Next Navratri"
+    },
+    "seasons": {
+      "autumn": "Autumn Season",
+      "spring": "Spring Season",
+      "winter": "Winter Season",
+      "monsoon": "Monsoon Season"
+    },
+    "seasonalInfo": {
+      "sharadautumn": "Sharad Navratri is the most celebrated Navratri, occurring during the harvest season when nature transitions from monsoon to winter. This autumn festival symbolizes the victory of good over evil and is marked by vibrant celebrations, Durga Puja pandals, and the famous Garba and Dandiya dances in Gujarat. The cool autumn breeze and clear skies make it perfect for outdoor celebrations and community gatherings.",
+      "chaitraspring": "Chaitra Navratri marks the beginning of the Hindu New Year and celebrates the arrival of spring. This festival occurs when nature awakens from winter slumber, trees bloom with fresh leaves, and flowers carpet the earth. It's considered highly auspicious for new beginnings, marriages, and starting new ventures. The pleasant spring weather makes it ideal for outdoor prayers and community celebrations.",
+      "maghawinter": "Magha Navratri occurs during the peak winter season, also known as Gupt Navratri. This is considered the most spiritually intense period for deep meditation and inner purification. The cold winter nights are perfect for extended prayer sessions and spiritual practices. Devotees often observe strict fasting and engage in intensive worship to seek the Goddess's blessings for spiritual growth and protection from negative energies.",
+      "ashadmonsoon": "Ashad Navratri takes place during the monsoon season when the earth is rejuvenated by life-giving rains. This unique Navratri celebrates the nurturing aspect of the Divine Mother, as nature becomes lush and green. The rhythmic sound of rain creates a perfect ambiance for meditation and prayer. Devotees seek blessings for fertility, abundance, and protection from natural calamities during this water-blessed season."
+    },
+    "popup": {
+      "goddess": "Goddess Information",
+      "symbolism": "Symbolism",
+      "blessings": "Blessings",
+      "auspiciousTimes": "Auspicious Times",
+      "sunrise": "Sunrise",
+      "sunset": "Sunset",
+      "pujaTime": "Puja Time",
+      "preparations": "Preparations",
+      "observances": "Observances",
+      "specialRituals": "Special Rituals",
+      "fastingRules": "Fasting Rules",
+      "mantras": "Sacred Mantras",
+      "transliteration": "Transliteration",
+      "meaning": "Meaning"
+    }
   },
   "fasting": {
     "title": "About Navratri Fasting",
     "subtitle": "Guidelines and significance of fasting",
     "rules": "Fasting Rules",
-    "significance": "Spiritual Significance"
+    "significance": "Spiritual Significance",
+    "reasons": {
+      "spiritualTitle": "🕉️ Spiritual Benefits",
+      "physicalTitle": "💪 Physical Benefits",
+      "mentalTitle": "🧠 Mental Benefits",
+      "culturalTitle": "🏛️ Cultural Benefits"
+    },
+    "significance": {
+      "purposeTitle": "🎯 Purpose",
+      "benefitsTitle": "🌟 Benefits",
+      "spiritualAspectsTitle": "🔮 Spiritual Aspects"
+    },
+    "scripturesIntro": "References about fasting in Hindu scriptures:",
+    "scripture": {
+      "sanskritTitle": "Sanskrit Text:",
+      "transliterationTitle": "Transliteration:",
+      "translationTitle": "Translation:"
+    },
+    "health": {
+      "healthBenefitsTitle": "💚 Health Benefits",
+      "precautionsTitle": "⚠️ Precautions",
+      "whoShouldAvoidTitle": "🚫 Who Should Avoid Strict Fasting"
+    },
+    "modernAdaptations": {
+      "workingProfessionalsTitle": "💼 Working Professionals",
+      "studentsTitle": "📚 Students",
+      "elderlyTitle": "👴 Elderly",
+      "childrenTitle": "👶 Children"
+    }
+  },
+  "location": {
+    "title": "Navratri Festival in India",
+    "introduction": "From North to South and East to West, here's how Navratri festival is celebrated pan India:",
+    "regions": {
+      "westBengal": {
+        "title": "West Bengal, Orissa, Assam:",
+        "description": "The most popular festival, Durga Puja (celebrating victory of Durga over demon Mahishasura) officially begins on the 6th day of Navratri and is observed with full fervour in the last 4 days in these regions. Glittering pandals, dhunuchi naach by the dhakis and delicious bhog are some of the common sightings during these days. Shindur khaila by married women on the day of idol immersion marks the end."
+      },
+      "maharashtra": {
+        "title": "Maharashtra:",
+        "description": "Navratri signifies 'new beginnings' for Maharashtrians. So, this is the time when property is purchased and business deals are made. Married women apply haldi and kumkum on the foreheads of their female friends in a ceremony called 'saumangalyam' and gift them betel nuts, betel leaves and coconut."
+      },
+      "gujarat": {
+        "title": "Gujarat:",
+        "description": "Devotees worship Maa Ambe and fast for these 9 days. Evenings are marked by an aarti with a garbi (an earthen pot with diyas signifying source of life), following which traditional dance forms like dandiya and garba are performed by men and women."
+      },
+      "northIndia": {
+        "title": "Punjab, Uttar Pradesh, Bihar:",
+        "description": "Fasting for first 7 days with jagrans or singing religious songs every night. Fasts are broken on the 8th or 9th day in a ceremony called 'kanjika' where 9 young girls (representing Goddess Durga's 9 forms) and a boy (representing Bhairav God) are worshipped. They are honoured with gifts, food – halwa, chana, puri and money."
+      },
+      "himachalPradesh": {
+        "title": "Himachal Pradesh:",
+        "description": "Here, the 10th day as 'Kullu Dussehra' marks the beginning of the celebration, when the festival ends in other states. This day signifies the return of Lord Rama to Ayodhya. Nati (a form of dance), food and music mark the festivities."
+      },
+      "karnataka": {
+        "title": "Karnataka:",
+        "description": "Known as 'nadahabba,' Navratri in Karnataka till today is celebrated in the same way it used to be, back in 1610 in the Vijayanagara dynasty. The final day is marked by rituals that include procession of elephants on streets, fairs and exhibitions all over the state."
+      },
+      "tamilNadu": {
+        "title": "Tamil Nadu:",
+        "description": "Goddesses Durga, Saraswati and Laxmi are worshipped during these 9 days. Evenings are reserved for friends and family with exchange of gifts. The exciting ritual is that of Bomma Golu/Bommai Kolu – a temporary staircase of 9 stairs representing 9 nights which is decorated with dolls/idols of goddesses, that are passed on from generation to generation!"
+      },
+      "andhraPradesh": {
+        "title": "Andhra Pradesh:",
+        "description": "Here, the 9 days are celebrated as 'Bathukamma Panduga,' dedicated to Maa Gauri, the goddess of womanhood. Women adorning new sarees and jewellery make a flower stack with seasonal flowers and perform a puja. This stack is then immersed on the last day."
+      },
+      "kerala": {
+        "title": "Kerala:",
+        "description": "Navratri in Kerala is dedicated to education and new beginnings. Books and musical instruments are placed in front of Maa Saraswati during the last 3 days and are worshipped."
+      }
+    }
+  },
+  "aboutFestival": {
+    "title": "About Navratri Festival",
+    "personalIntroduction": "Navratri is one of the most celebrated festivals at my home as well. As a devi bhakt myself, I not only spend these 9 days and nights offering my prayers in the worship of Maa Durga, but also observe the ritual of fasting. And it is not just during these 9 days, for me, not a single day goes without remembering the Mother Goddess.",
+    "celebrationDescription": "Navratri festival is celebrated with the same joy, enthusiasm and adoration all over India. Although, people belonging to different parts of the country have their own special way of paying homage to the divine powers of Goddess Durga.",
+    "fastingDescription": "Another important feature of Navratri festival are the fasts or vrats that comes along. The Navratri Recipes that I have shared in this post are definitely a must try. If fasting, this complied list of Navratri Fast Recipes will be of great help to you."
   },
   "more": {
-    "title": "More Information",
+    "title": "More on Navratri",
+    "headerSubtitle": "Discover the rich traditions, cultural significance, and practical wisdom of one of Hinduism's most celebrated festivals.",
+    "fastingTraditions": {
+      "traditionalIngredients": {
+        "title": "Traditional North Indian Fasting Ingredients",
+        "introduction": "Navratri Recipes, especially the Navratri Fast Recipes are not only quick to prepare, but also easy to digest. Hence, this festival is a good time to purify or detoxify your body and mind, and get connected to Durga Maa and your inner conscience, through the route of divinity.",
+        "northIndianNote": "A thing particular to North India is that people in that side of the country only consume certain ingredients comprising of flours and grains during these 9 days of fasting. These are:",
+        "ingredients": {
+          "floursAndGrains": "Flours and grains: Kuttu ka atta (buckwheat flour), rajgira atta (amaranth flour) and rajgira (amaranth grains), sama ke chawal ka atta (barnyard millet flour) and vrat ke chawal (barnyard millet), singhare ka atta (water chestnut flour) and arrowroot flour",
+          "sabudana": "Sabudana (sago)",
+          "peanuts": "Peanuts",
+          "nutsAndDryFruits": "Nuts and dry fruits",
+          "rockSalt": "Rock salt (sendha namak)",
+          "spicesAndHerbs": "Spice and herbs may vary. Some that are generally used are black pepper, green chilies and ginger."
+        },
+        "conclusion": "My list of Navratri Recipes or Navratri Fast Recipes has North Indian as well as South Indian recipes in it. It is divided course wise with the mention of flours, cereals or grains as well. I am sure that with this list, you can easily prep and plan your fasting menu for the Navratri festival season."
+      }
+    },
+    "sections": {
+      "historicalContext": {
+        "title": "Historical Context and Origins",
+        "content": {
+          "paragraph1": "Navratri, meaning \"nine nights\" in Sanskrit, is one of the most ancient and significant festivals in Hindu tradition. The festival dates back to the Vedic period, with references found in ancient texts like the Devi Mahatmya and Markandeya Purana.",
+          "paragraph2": "The festival celebrates the victory of Goddess Durga over the demon Mahishasura, symbolizing the triumph of good over evil. This nine-day celebration has been observed for over 3,000 years, evolving through different dynasties and regions while maintaining its core spiritual essence.",
+          "ancientTraditions": {
+            "subtitle": "Ancient Traditions",
+            "content": "Archaeological evidence suggests that goddess worship during autumn months was prevalent in the Indus Valley Civilization. The tradition of fasting and feasting during Navratri was established to align human consciousness with the changing seasons and cosmic energies."
+          }
+        }
+      },
+      "culturalSignificance": {
+        "title": "Cultural and Spiritual Significance",
+        "content": {
+          "paragraph1": "Navratri represents the divine feminine energy (Shakti) in its various forms. Each of the nine days is dedicated to a different aspect of the Divine Mother, representing different qualities and powers that devotees seek to cultivate within themselves.",
+          "threePhases": {
+            "subtitle": "The Three Phases of Navratri",
+            "phase1": "Days 1-3: Durga - Destruction of negative qualities and ego",
+            "phase2": "Days 4-6: Lakshmi - Cultivation of positive qualities and abundance",
+            "phase3": "Days 7-9: Saraswati - Attainment of wisdom and spiritual knowledge"
+          },
+          "quote": "\"Navratri is not just a festival; it is a spiritual journey that transforms the devotee from within, purifying the mind, body, and soul.\" - Ancient Vedic Teaching"
+        }
+      },
+      "regionalVariations": {
+        "title": "Regional Variations and Practices",
+        "content": {
+          "gujarat": {
+            "subtitle": "Gujarat - Garba and Dandiya",
+            "content": "In Gujarat, Navratri is celebrated with vibrant Garba and Dandiya Raas dances. The circular dance represents the cycle of time and life, while the colorful attire reflects the joy and devotion of the participants."
+          },
+          "westBengal": {
+            "subtitle": "West Bengal - Durga Puja",
+            "content": "Bengal celebrates Navratri as Durga Puja with elaborate pandals (temporary structures) housing beautiful clay idols of Goddess Durga. The festival culminates with the immersion of idols in rivers, symbolizing the return of the goddess to her celestial abode."
+          },
+          "southIndia": {
+            "subtitle": "South India - Golu and Bombe Habba",
+            "content": "Southern states celebrate with Golu (Tamil Nadu) and Bombe Habba (Karnataka), displaying elaborate doll arrangements that depict mythological stories and cultural themes. Each display tells a story and serves as a medium for cultural education."
+          },
+          "northIndia": {
+            "subtitle": "North India - Ramlila and Kanya Puja",
+            "content": "Northern regions often combine Navratri with Ramlila performances and conclude with Kanya Puja, where young girls are worshipped as embodiments of the divine feminine energy."
+          },
+          "regionalFasting": {
+            "subtitle": "Regional Fasting Variations",
+            "northIndia": "North India: Emphasis on sattvic foods like kuttu, singhara, and sabudana",
+            "southIndia": "South India: Focus on sundal varieties and coconut-based preparations",
+            "maharashtra": "Maharashtra: Special preparations like sabudana khichdi and vrat ke chawal",
+            "rajasthan": "Rajasthan: Unique dishes like rajgira paratha and sama rice preparations"
+          }
+        }
+      },
+      "fastingTraditions": {
+        "title": "Traditional Fasting Practices",
+        "content": {
+          "paragraph1": "Navratri fasting is more than dietary restriction; it is a comprehensive spiritual practice that includes physical purification, mental discipline, and spiritual elevation. The practice varies across regions but maintains common principles.",
+          "guidelines": {
+            "subtitle": "Traditional Fasting Guidelines",
+            "guideline1": "Consume only sattvic (pure) foods that promote clarity and peace",
+            "guideline2": "Avoid tamasic foods like onion, garlic, and non-vegetarian items",
+            "guideline3": "Use rock salt (sendha namak) instead of regular salt",
+            "guideline4": "Eat fresh, seasonal ingredients to align with natural cycles",
+            "guideline5": "Maintain regular meal times to support digestive health"
+          },
+          "permittedIngredients": {
+            "subtitle": "Permitted Ingredients",
+            "content": "Traditional fasting allows specific grains and ingredients: buckwheat (kuttu), water chestnut flour (singhara), amaranth (rajgira), barnyard millet (sama), sago (sabudana), nuts, dairy products, and seasonal fruits."
+          }
+        }
+      },
+      "modernAdaptations": {
+        "title": "Modern Adaptations and Practical Tips",
+        "content": {
+          "paragraph1": "Contemporary lifestyles have led to thoughtful adaptations of traditional Navratri practices while maintaining their spiritual essence. Modern devotees balance ancient wisdom with current nutritional understanding and lifestyle demands.",
+          "approaches": {
+            "subtitle": "Modern Fasting Approaches",
+            "approach1": "Intermittent fasting combined with traditional ingredients",
+            "approach2": "Balanced nutrition using permitted foods to meet dietary needs",
+            "approach3": "Hydration focus with coconut water, herbal teas, and fresh juices",
+            "approach4": "Portion control and mindful eating practices",
+            "approach5": "Incorporation of superfoods like quinoa (where culturally accepted)"
+          },
+          "tip1": "For working professionals: Prepare fasting meals in advance, carry healthy snacks like roasted makhana or fruits, and maintain regular meal schedules to sustain energy levels throughout the day.",
+          "tip2": "For families with children: Involve kids in meal preparation, explain the significance of ingredients, and create fun, nutritious versions of traditional recipes to make fasting enjoyable and educational."
+        }
+      },
+      "healthBenefits": {
+        "title": "Health and Wellness Benefits",
+        "content": {
+          "paragraph1": "Modern nutritional science validates many traditional Navratri fasting practices. The emphasis on whole grains, seasonal foods, and mindful eating aligns with contemporary wellness principles.",
+          "benefits": {
+            "subtitle": "Nutritional Benefits",
+            "benefit1": "Digestive rest and detoxification through simplified diet",
+            "benefit2": "Increased fiber intake from whole grains and vegetables",
+            "benefit3": "Natural weight management through portion control",
+            "benefit4": "Enhanced mental clarity through sattvic food choices",
+            "benefit5": "Improved insulin sensitivity through reduced processed food intake"
+          },
+          "mindfulEating": {
+            "subtitle": "Mindful Eating Practices",
+            "content": "Navratri fasting encourages mindful consumption, gratitude for food, and awareness of eating habits. This practice often leads to long-term positive changes in dietary choices and relationship with food."
+          }
+        }
+      },
+      "contemporaryCelebrations": {
+        "title": "Contemporary Celebrations Worldwide",
+        "content": {
+          "paragraph1": "Navratri celebrations have transcended geographical boundaries, with Hindu communities worldwide adapting the festival to local contexts while preserving its spiritual core. These global celebrations showcase the universal appeal of the festival's message.",
+          "global": {
+            "subtitle": "Global Navratri Celebrations",
+            "usa": "United States: Community centers organize Garba nights and cultural programs",
+            "uk": "United Kingdom: Large-scale Navratri events in cities like London and Leicester",
+            "canada": "Canada: Multicultural celebrations incorporating local community participation",
+            "australia": "Australia: Fusion celebrations blending traditional and contemporary elements",
+            "middleEast": "Middle East: Expatriate communities maintain traditions in diverse cultural settings"
+          },
+          "tip": "For diaspora communities: Connect with local Hindu organizations, participate in community celebrations, and use technology to join virtual celebrations with family back home."
+        }
+      },
+      "practicalPlanning": {
+        "title": "Practical Planning and Preparation",
+        "content": {
+          "preNavratri": {
+            "subtitle": "Pre-Navratri Preparation",
+            "prep1": "Stock up on fasting ingredients: kuttu flour, sabudana, rock salt, and seasonal fruits",
+            "prep2": "Plan weekly menus to ensure variety and nutritional balance",
+            "prep3": "Prepare spice mixes and chutneys in advance for convenience",
+            "prep4": "Set up a dedicated prayer space for daily worship",
+            "prep5": "Coordinate with family members for shared meal preparation"
+          },
+          "dailyRoutine": {
+            "subtitle": "Daily Routine Tips",
+            "routine1": "Start the day with meditation or prayer for spiritual grounding",
+            "routine2": "Maintain consistent meal times to support energy levels",
+            "routine3": "Stay hydrated with water, coconut water, and herbal teas",
+            "routine4": "Include light physical activity like walking or yoga",
+            "routine5": "End the day with gratitude and reflection"
+          },
+          "tip": "Meal prep strategy: Prepare base ingredients like boiled potatoes, soaked sabudana, and chopped vegetables in advance. This saves time during busy weekdays while maintaining fresh, nutritious meals."
+        }
+      }
+    },
     "subtitle": "Additional resources and content",
-    "sections": "Content Sections"
+    "sectionsLabel": "Content Sections"
+  },
+  "errors": {
+    "recipeNotFound": {
+      "title": "Recipe Not Found",
+      "message": "Sorry, the recipe you're looking for doesn't exist or may have been moved.",
+      "goBack": "Go Back",
+      "browseAll": "Browse All Recipes"
+    }
   }
 }

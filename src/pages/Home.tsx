@@ -7,40 +7,50 @@ import Bg5 from "../assets/tile-bg5.jpg";
 import Bg6 from "../assets/tile-bg6.jpg";
 import { useNavigate } from "react-router";
 import ThemeToggle from "../components/ThemeToggle";
+import { LanguageSelector } from "../components/LanguageSelector";
+import { useLanguage } from "../contexts/LanguageContext";
 
 type GridTileProp = {
-  title: string;
+  titleKey: string;
   bg: string;
   location: string;
 };
 
 const tiles: GridTileProp[] = [
-  { title: "Fasting Recipes", bg: Bg1, location: "/recipes" },
-  { title: "About Navratri", bg: Bg2, location: "/about-navratri" },
-  { title: "Navratri in India", bg: Bg3, location: "/locations" },
-  { title: "About Fastings", bg: Bg4, location: "/about-fast" },
-  { title: "More on Navratri Fasting", bg: Bg5, location: "more-fast" },
-  { title: "Navratri Dates", bg: Bg6, location: "/dates" },
+  { titleKey: "pages.home.tiles.fastingRecipes", bg: Bg1, location: "/recipes" },
+  { titleKey: "pages.home.tiles.aboutNavratri", bg: Bg2, location: "/about-navratri" },
+  { titleKey: "pages.home.tiles.navratriInIndia", bg: Bg3, location: "/locations" },
+  { titleKey: "pages.home.tiles.aboutFastings", bg: Bg4, location: "/about-fast" },
+  { titleKey: "pages.home.tiles.moreOnNavratriFasting", bg: Bg5, location: "/more-fast" },
+  { titleKey: "pages.home.tiles.navratriDates", bg: Bg6, location: "/dates" },
 ];
 
 function Home() {
+  const { t } = useLanguage();
+
   return (
     <div className="home-page">
-      <div className="home-header">
-        <h2>Celebrate Navratri</h2>
-        <ThemeToggle />
-      </div>
-      <div className="grid-container">
-        {tiles.map((tile) => (
-          <GridTile {...tile} key={tile.title} />
-        ))}
-      </div>
+      <header className="home-header">
+        <h2>{t("pages.home.title")}</h2>
+        <nav className="home-controls" aria-label={t('accessibility:landmarks.navigation', 'Site navigation')}>
+          <LanguageSelector className="home-language-selector" />
+          <ThemeToggle />
+        </nav>
+      </header>
+      <main role="main" aria-label={t('accessibility:landmarks.mainContent', 'Main content')}>
+        <div className="grid-container" role="navigation" aria-label="Main navigation menu">
+          {tiles.map((tile) => (
+            <GridTile {...tile} key={tile.titleKey} />
+          ))}
+        </div>
+      </main>
     </div>
   );
 }
 
 const GridTile = (prop: GridTileProp) => {
   const navigate = useNavigate();
+  const { t } = useLanguage();
 
   return (
     <div
@@ -51,8 +61,19 @@ const GridTile = (prop: GridTileProp) => {
           navigate(prop.location);
         }, 500);
       }}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          setTimeout(() => {
+            navigate(prop.location);
+          }, 500);
+        }
+      }}
+      aria-label={t('accessibility:ariaLabels.navigation.navigateTo', 'Navigate to {{destination}}', { destination: t(prop.titleKey) })}
     >
-      <div className="content card-grad">{prop.title}</div>
+      <div className="content card-grad">{t(prop.titleKey)}</div>
     </div>
   );
 };

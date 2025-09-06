@@ -1,0 +1,84 @@
+{
+  "ariaLabels": {
+    "themeToggle": {
+      "switchTo": "Switch to {{mode}} mode",
+      "currentTheme": "Current theme: {{theme}}. Click to switch to {{nextTheme}} mode."
+    },
+    "languageSelector": {
+      "selectLanguage": "Select Language",
+      "availableLanguages": "Available Languages",
+      "currentLanguage": "Current language: {{language}}"
+    },
+    "navigation": {
+      "navigateTo": "Navigate to {{destination}}",
+      "goBack": "Go back to previous page",
+      "openMenu": "Open navigation menu",
+      "closeMenu": "Close navigation menu"
+    },
+    "viewControls": {
+      "gridView": "Switch to grid view",
+      "listView": "Switch to list view",
+      "sortBy": "Sort recipes by {{criteria}}",
+      "scrollToTop": "Scroll to top"
+    },
+    "search": {
+      "searchInput": "Search recipes, ingredients, or tags",
+      "clearSearch": "Clear search input",
+      "filterToggle": "Toggle advanced filters",
+      "applyFilters": "Apply selected filters"
+    },
+    "recipe": {
+      "viewRecipe": "View {{recipeName}} recipe details",
+      "recipeImage": "Image of {{recipeName}}",
+      "watchVideo": "Watch cooking video for {{recipeName}}",
+      "similarRecipe": "Similar recipe: {{recipeName}}"
+    }
+  },
+  "imageAlt": {
+    "logo": "Navratri Festival Logo - Swastik symbol",
+    "recipeImage": "{{recipeName}} - Traditional Navratri recipe",
+    "goddessImage": "Goddess {{goddessName}} - Day {{day}} of Navratri",
+    "festivalImage": "Navratri festival celebration",
+    "decorativeImage": "Decorative element"
+  },
+  "loadingStates": {
+    "loadingRecipes": "Loading recipes...",
+    "loadingTranslations": "Loading translations...",
+    "loadingPage": "Loading page content...",
+    "searchingRecipes": "Searching recipes...",
+    "applyingFilters": "Applying filters...",
+    "changingLanguage": "Changing language to {{language}}...",
+    "switchingTheme": "Switching to {{theme}} theme..."
+  },
+  "errorAnnouncements": {
+    "recipeNotFound": "Recipe not found. Please try a different search.",
+    "translationError": "Translation failed to load. Using default language.",
+    "networkError": "Network error occurred. Please check your connection.",
+    "searchError": "Search failed. Please try again.",
+    "filterError": "Filter application failed. Please reset filters.",
+    "generalError": "An error occurred. Please refresh the page."
+  },
+  "statusAnnouncements": {
+    "recipeLoaded": "Recipe {{recipeName}} loaded successfully",
+    "searchCompleted": "Search completed. {{count}} recipes found.",
+    "filtersApplied": "Filters applied. {{count}} recipes match your criteria.",
+    "languageChanged": "Language changed to {{language}}",
+    "themeChanged": "Theme changed to {{theme}} mode",
+    "pageLoaded": "{{pageName}} page loaded"
+  },
+  "instructions": {
+    "keyboardNavigation": "Use arrow keys to navigate, Enter to select, Escape to close",
+    "screenReaderHelp": "This is a Navratri recipe application. Use tab to navigate between elements.",
+    "searchHelp": "Type to search recipes. Use filters to narrow results.",
+    "languageHelp": "Select your preferred language from the dropdown menu",
+    "skipToMain": "Skip to main content"
+  },
+  "landmarks": {
+    "mainContent": "Main content",
+    "navigation": "Site navigation",
+    "search": "Recipe search",
+    "filters": "Recipe filters",
+    "results": "Search results",
+    "recipeDetails": "Recipe details"
+  }
+}

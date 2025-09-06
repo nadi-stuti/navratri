@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,11 +16,11 @@
   --primary-bg: #ffffff;
   --secondary-bg: #f5f5f5;
   --primary-text: #213547;
-  --secondary-text: #c2c2c2;
-  --accent-color: #646cff;
+  --secondary-text: #646464;
+  --accent-color: #22c55e;
   --button-bg: #e0e0e0;
   --button-hover: #d0d0d0;
-  --card-gradient: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9));
+  --card-gradient: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9));
   --card-bg: #e0e0e0;
   --link-color: rgb(64, 78, 1);
   --link-hover: green;
@@ -33,9 +35,9 @@
   --secondary-bg: #1a1a1a;
   --primary-text: rgba(255, 255, 255, 0.87);
   --secondary-text: rgba(255, 255, 255, 0.6);
-  --accent-color: #646cff;
-  --button-bg: chocolate;
-  --button-hover: #d2691e;
+  --accent-color: #adff2f;
+  --button-bg: #2d5016;
+  --button-hover: #3d6b1f;
   --card-gradient: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9));
   --card-bg: #444;
   --link-color: greenyellow;
@@ -93,7 +95,7 @@ button {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
+  font-family: 'Inter', inherit;
   background-color: var(--button-bg);
   color: var(--primary-text);
   cursor: pointer;

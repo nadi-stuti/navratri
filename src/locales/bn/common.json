@@ -13,7 +13,13 @@
     "select": "নির্বাচন করুন",
     "toggle": "পরিবর্তন করুন",
     "search": "খুঁজুন",
-    "filter": "ফিল্টার"
+    "filter": "ফিল্টার",
+    "enterApp": "অ্যাপে প্রবেশ করুন",
+    "goBack": "ফিরে যান",
+    "browseAll": "সব রেসিপি দেখুন",
+    "watchVideo": "ভিডিও দেখুন",
+    "backToTop": "[TODO] Back to top",
+    "close": "[TODO] Close"
   },
   "labels": {
     "language": "ভাষা",
@@ -22,6 +28,139 @@
     "darkMode": "ডার্ক মোড",
     "loading": "লোড হচ্ছে...",
     "error": "ত্রুটি",
-    "notFound": "পাওয়া যায়নি"
+    "notFound": "পাওয়া যায়নি",
+    "selectLanguage": "ভাষা নির্বাচন করুন",
+    "availableLanguages": "উপলব্ধ ভাষা",
+    "loadingTranslations": "অনুবাদ লোড হচ্ছে...",
+    "translationError": "অনুবাদ লোড করতে ব্যর্থ",
+    "noRecipesFound": "আপনার মানদণ্ডের সাথে মিলে এমন কোনো রেসিপি পাওয়া যায়নি।",
+    "recipe": "রেসিপি",
+    "navigateTo": "যান",
+    "time": "সময়",
+    "mins": "মিনিট",
+    "skill": "দক্ষতা",
+    "minutes": "মিনিট",
+    "calories": "ক্যালোরি",
+    "protein": "প্রোটিন",
+    "recipesAvailable": "রেসিপি উপলব্ধ",
+    "goalMet": "লক্ষ্য অর্জিত!",
+    "sortBy": "এই অনুযায়ী সাজান:",
+    "gridView": "গ্রিড ভিউ",
+    "listView": "তালিকা ভিউ",
+    "switchToClassicView": "ক্লাসিক ভিউতে পরিবর্তন করুন",
+    "switchToEnhancedView": "উন্নত অনুসন্ধান ও ফিল্টার চেষ্টা করুন",
+    "tryDifferentFilters": "আপনার অনুসন্ধানের মানদণ্ড বা ফিল্টার সমন্বয় করার চেষ্টা করুন।"
+  },
+  "filters": {
+    "skill": "দক্ষতা",
+    "time": "সময়",
+    "easy": "সহজ",
+    "moderate": "মাঝারি",
+    "difficult": "কঠিন",
+    "short": "কম",
+    "medium": "মাঝারি",
+    "long": "বেশি",
+    "difficulty": "কঠিনতা",
+    "diet": "খাদ্যের পছন্দ",
+    "cuisine": "রান্নার ধরন",
+    "maxTime": "সর্বোচ্চ রান্নার সময়",
+    "ingredients": "অবশ্যই অন্তর্ভুক্ত উপাদান"
+  },
+  "cuisine": {
+    "indian": "ভারতীয়",
+    "southindian": "দক্ষিণ ভারতীয়",
+    "northindian": "উত্তর ভারতীয়",
+    "gujarati": "গুজরাতি",
+    "maharashtrian": "মহারাষ্ট্রীয়",
+    "punjabi": "পাঞ্জাবি",
+    "bengali": "বাঙালি",
+    "tamil": "তামিল",
+    "sindhi": "সিন্ধি",
+    "udupi": "উডুপি",
+    "world": "বিশ্ব"
+  },
+  "diet": {
+    "glutenfree": "গ্লুটেন মুক্ত",
+    "vegetarian": "নিরামিষ",
+    "vegan": "ভেগান"
+  },
+  "difficulty": {
+    "easy": "সহজ",
+    "moderate": "মাঝারি",
+    "difficult": "কঠিন"
+  },
+  "search": {
+    "placeholder": "রেসিপি, উপাদান বা ট্যাগ খুঁজুন...",
+    "advancedFilters": "উন্নত ফিল্টার",
+    "resultsCount": "রেসিপি পাওয়া গেছে",
+    "clearFilters": "সব পরিষ্কার করুন",
+    "noLimit": "কোনো সীমা নেই"
+  },
+  "sort": {
+    "relevance": "প্রাসঙ্গিকতা",
+    "name": "নাম",
+    "time": "রান্নার সময়",
+    "difficulty": "কঠিনতা",
+    "popularity": "জনপ্রিয়তা"
+  },
+  "recommendations": {
+    "similarRecipes": "আপনার এটাও পছন্দ হতে পারে",
+    "recommendedForYou": "আপনার জন্য সুপারিশকৃত",
+    "similarCuisine": "অনুরূপ রান্নার ধরন",
+    "similarDifficulty": "অনুরূপ কঠিনতা",
+    "similarTime": "অনুরূপ রান্নার সময়",
+    "dietaryMatch": "খাদ্যের পছন্দের সাথে মিলে",
+    "preferredCuisine": "পছন্দের রান্নার ধরন",
+    "preferredDifficulty": "পছন্দের কঠিনতা",
+    "favoriteIngredients": "প্রিয় উপাদান রয়েছে",
+    "similarTags": "অনুরূপ রেসিপির ধরন",
+    "popular": "জনপ্রিয় রেসিপি",
+    "quick": "দ্রুত তৈরি করার জন্য",
+    "festivalAppropriate": "নবরাত্রির জন্য উপযুক্ত",
+    "highProtein": "উচ্চ প্রোটিন",
+    "highFiber": "উচ্চ ফাইবার",
+    "glutenFree": "গ্লুটেন মুক্ত",
+    "vegan": "ভেগান"
+  },
+  "tags": {
+    "navratri": "নবরাত্রি",
+    "fasting": "উপবাস",
+    "traditional": "ঐতিহ্যবাহী",
+    "quick": "দ্রুত",
+    "easy": "সহজ",
+    "popular": "জনপ্রিয়",
+    "breakfast": "নাস্তা",
+    "snacks": "স্ন্যাকস",
+    "main-course": "প্রধান খাবার",
+    "filling": "ভরাট",
+    "accompaniment": "সাথে",
+    "side-dish": "সাইড ডিশ",
+    "condiment": "চাটনি"
+  },
+  "ui": {
+    "expand": "+",
+    "collapse": "−",
+    "tip": "টিপ:",
+    "transliteration": "প্রতিবর্ণীকরণ:",
+    "meaning": "অর্থ:",
+    "day": "দিন"
+  },
+  "errors": {
+    "formNotFound": "রূপ পাওয়া যায়নি"
+  },
+  "components": {
+    "durgaForms": {
+      "title": "দেবী দুর্গার নয়টি রূপ",
+      "sections": {
+        "significance": "তাৎপর্য",
+        "symbolism": "প্রতীকবাদ",
+        "blessings": "আশীর্বাদ",
+        "iconography": "মূর্তিতত্ত্ব",
+        "sacredColors": "পবিত্র রং",
+        "offerings": "নৈবেদ্য",
+        "celebrations": "উৎসব",
+        "sacredMantras": "পবিত্র মন্ত্র"
+      }
+    }
   }
 }

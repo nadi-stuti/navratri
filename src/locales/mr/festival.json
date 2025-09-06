@@ -15,11 +15,11 @@
     "offerings": "प्रसाद",
     "mantras": "मंत्र",
     "colors": "रंग",
-    "significance": "महत्व"
+    "significance": "महत्त्व"
   },
   "rituals": {
-    "morning": "सकाळचे विधी",
-    "evening": "संध्याकाळचे विधी",
+    "morning": "सकाळची विधी",
+    "evening": "संध्याकाळची विधी",
     "preparations": "तयारी",
     "observances": "पालन"
   }

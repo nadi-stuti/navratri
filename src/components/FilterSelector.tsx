@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router";
 import "./FilterSelector.css";
-import { filterValues } from "../model/recipeData";
+import { filterValues } from "../model/recipe-data/recipeData";
+import { useLanguage } from "../contexts/LanguageContext";
 
 type Filter = {
   [key: string]: string;
@@ -14,7 +15,7 @@ for (const keys in filterValues) {
 
 export const FilterSelector = () => {
   const [filter, setFilter] = useState(defaultFilter);
-
+  const { t } = useLanguage();
   const [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
@@ -35,9 +36,17 @@ export const FilterSelector = () => {
     });
   };
 
+  const getFilterLabel = (key: string): string => {
+    return t(`common.filters.${key.toLowerCase()}`);
+  };
+
+  const getFilterValue = (value: string): string => {
+    return t(`common.filters.${value.toLowerCase()}`);
+  };
+
   return Object.keys(filterValues).map((key) => (
     <div className="filter" key={key}>
-      <p id="label">{key}:</p>
+      <p id="label">{getFilterLabel(key)}:</p>
       {filterValues[key as keyof typeof filterValues].map((v) => (
         <p
           id="option"
@@ -45,7 +54,7 @@ export const FilterSelector = () => {
           onClick={() => setSearch(key, v)}
           key={v}
         >
-          {v}
+          {getFilterValue(v)}
         </p>
       ))}
     </div>

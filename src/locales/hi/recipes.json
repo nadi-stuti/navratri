@@ -4,12 +4,12 @@
     "lunchDinner": "दोपहर और रात का खाना",
     "breakfastSnacks": "नाश्ता और स्नैक्स",
     "chutneyRaita": "चटनी और रायता",
-    "sweetsDeserts": "मिठाई और डेसर्ट",
+    "sweetsDeserts": "मिठाई और डेजर्ट",
     "beverages": "पेय पदार्थ"
   },
   "ingredients": {
     "title": "सामग्री",
-    "servings": "परोसने की मात्रा",
+    "servings": "सर्विंग्स",
     "prepTime": "तैयारी का समय",
     "cookTime": "पकाने का समय"
   },

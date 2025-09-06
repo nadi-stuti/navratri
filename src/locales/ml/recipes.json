@@ -2,9 +2,9 @@
   "categories": {
     "southIndianSundal": "ദക്ഷിണേന്ത്യൻ സുണ്ടൽ",
     "lunchDinner": "ഉച്ചഭക്ഷണവും അത്താഴവും",
-    "breakfastSnacks": "പ്രാതൽ, ലഘുഭക്ഷണം",
-    "chutneyRaita": "ചട്നിയും റായിതയും",
-    "sweetsDeserts": "മധുരപലഹാരങ്ങൾ",
+    "breakfastSnacks": "പ്രാതൽ മറ്റും ലഘുഭക്ഷണങ്ങൾ",
+    "chutneyRaita": "ചട്നിയും രൈതയും",
+    "sweetsDeserts": "മധുരപലഹാരങ്ങളും ഡെസേർട്ടുകളും",
     "beverages": "പാനീയങ്ങൾ"
   },
   "ingredients": {

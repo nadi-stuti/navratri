@@ -13,7 +13,13 @@
     "select": "தேர்ந்தெடு",
     "toggle": "மாற்று",
     "search": "தேடு",
-    "filter": "வடிகட்டு"
+    "filter": "வடிகட்டு",
+    "enterApp": "செயலியில் நுழைக",
+    "goBack": "திரும்பிச் செல்",
+    "browseAll": "அனைத்து சமையல் குறிப்புகளையும் பார்க்க",
+    "watchVideo": "வீடியோ பார்க்க",
+    "backToTop": "[TODO] Back to top",
+    "close": "[TODO] Close"
   },
   "labels": {
     "language": "மொழி",
@@ -22,6 +28,139 @@
     "darkMode": "இருள் பயன்முறை",
     "loading": "ஏற்றுகிறது...",
     "error": "பிழை",
-    "notFound": "கிடைக்கவில்லை"
+    "notFound": "கிடைக்கவில்லை",
+    "selectLanguage": "மொழியைத் தேர்ந்தெடுக்கவும்",
+    "availableLanguages": "கிடைக்கும் மொழிகள்",
+    "loadingTranslations": "மொழிபெயர்ப்புகள் ஏற்றப்படுகின்றன...",
+    "translationError": "மொழிபெயர்ப்புகளை ஏற்ற முடியவில்லை",
+    "noRecipesFound": "உங்கள் அளவுகோல்களுக்கு பொருந்தும் சமையல் குறிப்புகள் எதுவும் கிடைக்கவில்லை।",
+    "recipe": "சமையல் குறிப்பு",
+    "navigateTo": "செல்க",
+    "time": "நேரம்",
+    "mins": "நிமிடங்கள்",
+    "skill": "திறமை",
+    "minutes": "நிமிடங்கள்",
+    "calories": "கலோரி",
+    "protein": "புரதம்",
+    "recipesAvailable": "சமையல் குறிப்புகள் கிடைக்கின்றன",
+    "goalMet": "இலக்கு அடைந்தது!",
+    "sortBy": "இதன் அடிப்படையில் வரிசைப்படுத்து:",
+    "gridView": "கட்டம் காட்சி",
+    "listView": "பட்டியல் காட்சி",
+    "switchToClassicView": "பாரம்பரிய காட்சிக்கு மாறு",
+    "switchToEnhancedView": "மேம்பட்ட தேடல் மற்றும் வடிகட்டிகளை முயற்சிக்கவும்",
+    "tryDifferentFilters": "உங்கள் தேடல் அளவுகோல்கள் அல்லது வடிகட்டிகளை சரிசெய்ய முயற்சிக்கவும்।"
+  },
+  "filters": {
+    "skill": "திறமை",
+    "time": "நேரம்",
+    "easy": "எளிது",
+    "moderate": "மிதமான",
+    "difficult": "கடினம்",
+    "short": "குறுகிய",
+    "medium": "நடுத்தர",
+    "long": "நீண்ட",
+    "difficulty": "கடினத்தன்மை",
+    "diet": "உணவு விருப்பத்தேர்வுகள்",
+    "cuisine": "சமையல்",
+    "maxTime": "அதிகபட்ச சமையல் நேரம்",
+    "ingredients": "அவசியம் சேர்க்க வேண்டிய பொருட்கள்"
+  },
+  "cuisine": {
+    "indian": "இந்திய",
+    "southindian": "தென்னிந்திய",
+    "northindian": "வட இந்திய",
+    "gujarati": "குஜராத்தி",
+    "maharashtrian": "மகாராஷ்டிரியன்",
+    "punjabi": "பஞ்சாபி",
+    "bengali": "வங்காளி",
+    "tamil": "தமிழ்",
+    "sindhi": "சிந்தி",
+    "udupi": "உடுப்பி",
+    "world": "உலக"
+  },
+  "tags": {
+    "navratri": "நவராத்திரி",
+    "fasting": "நோன்பு",
+    "traditional": "பாரம்பரிய",
+    "quick": "விரைவான",
+    "easy": "எளிது",
+    "popular": "பிரபலமான",
+    "breakfast": "காலை உணவு",
+    "snacks": "தின்பண்டங்கள்",
+    "main-course": "முக்கிய உணவு",
+    "filling": "நிரப்புதல்",
+    "accompaniment": "துணை",
+    "side-dish": "பக்க உணவு",
+    "condiment": "சட்னி"
+  },
+  "ui": {
+    "expand": "+",
+    "collapse": "−",
+    "tip": "குறிப்பு:",
+    "transliteration": "ஒலிபெயர்ப்பு:",
+    "meaning": "பொருள்:",
+    "day": "நாள்"
+  },
+  "errors": {
+    "formNotFound": "வடிவம் கிடைக்கவில்லை"
+  },
+  "diet": {
+    "glutenfree": "பசையம் இல்லாத",
+    "vegetarian": "சைவ",
+    "vegan": "வீகன்"
+  },
+  "difficulty": {
+    "easy": "எளிது",
+    "moderate": "மிதமான",
+    "difficult": "கடினம்"
+  },
+  "search": {
+    "placeholder": "சமையல் குறிப்புகள், பொருட்கள் அல்லது குறிச்சொற்களைத் தேடுங்கள்...",
+    "advancedFilters": "மேம்பட்ட வடிகட்டிகள்",
+    "resultsCount": "சமையல் குறிப்புகள் கிடைத்தன",
+    "clearFilters": "அனைத்தையும் அழிக்கவும்",
+    "noLimit": "வரம்பு இல்லை"
+  },
+  "sort": {
+    "relevance": "பொருத்தம்",
+    "name": "பெயர்",
+    "time": "சமையல் நேரம்",
+    "difficulty": "கடினத்தன்மை",
+    "popularity": "பிரபலம்"
+  },
+  "recommendations": {
+    "similarRecipes": "உங்களுக்கு இதுவும் பிடிக்கலாம்",
+    "recommendedForYou": "உங்களுக்கு பரிந்துரைக்கப்பட்டது",
+    "similarCuisine": "ஒத்த சமையல்",
+    "similarDifficulty": "ஒத்த கடினத்தன்மை",
+    "similarTime": "ஒத்த சமையல் நேரம்",
+    "dietaryMatch": "உணவு விருப்பத்தேர்வுகளுடன் பொருந்துகிறது",
+    "preferredCuisine": "விருப்பமான சமையல்",
+    "preferredDifficulty": "விருப்பமான கடினத்தன்மை",
+    "favoriteIngredients": "விருப்பமான பொருட்கள் உள்ளன",
+    "similarTags": "ஒத்த சமையல் வகை",
+    "popular": "பிரபலமான சமையல் குறிப்பு",
+    "quick": "விரைவாக செய்ய",
+    "festivalAppropriate": "நவராத்திரிக்கு ஏற்றது",
+    "highProtein": "அதிக புரதம்",
+    "highFiber": "அதிக நார்ச்சத்து",
+    "glutenFree": "பசையம் இல்லாத",
+    "vegan": "வீகன்"
+  },
+  "components": {
+    "durgaForms": {
+      "title": "தேவி துர்காவின் ஒன்பது வடிவங்கள்",
+      "sections": {
+        "significance": "முக்கியத்துவம்",
+        "symbolism": "குறியீட்டுவாதம்",
+        "blessings": "ஆசீர்வாதங்கள்",
+        "iconography": "சிலை வடிவம்",
+        "sacredColors": "புனித நிறங்கள்",
+        "offerings": "காணிக்கைகள்",
+        "celebrations": "கொண்டாட்டங்கள்",
+        "sacredMantras": "புனித மந்திரங்கள்"
+      }
+    }
   }
 }

@@ -1,0 +1,388 @@
+.durga-forms-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.durga-forms-container h2 {
+  text-align: center;
+  color: var(--text-color, #333);
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Day Navigation */
+.day-navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.day-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-color, #28a745);
+  background: var(--card-bg, #fff);
+  color: var(--primary-color, #28a745);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  min-width: 60px;
+  font-size: 0.9rem;
+}
+
+.day-button:hover {
+  background: var(--primary-color, #28a745);
+  color: white;
+}
+
+.day-button.active {
+  background: var(--primary-color, #28a745);
+  color: white;
+}
+
+/* Form Display */
+.form-display {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color, #e0e0e0);
+}
+
+.form-name {
+  font-size: 1.8rem;
+  color: var(--text-color, #333);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.sanskrit-name {
+  font-size: 1.3rem;
+  color: var(--text-secondary, #666);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.transliteration {
+  font-size: 1rem;
+  color: var(--text-secondary, #666);
+  font-style: italic;
+}
+
+/* Content Sections */
+.form-content {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.significance-section,
+.symbolism-section,
+.blessings-section,
+.iconography-section {
+  background: var(--section-bg, #f8f9fa);
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--primary-color, #28a745);
+}
+
+.significance-section h4,
+.symbolism-section h4,
+.blessings-section h4,
+.iconography-section h4 {
+  color: var(--text-color, #333);
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.significance-section p,
+.symbolism-section p,
+.blessings-section p,
+.iconography-section p {
+  line-height: 1.6;
+  color: var(--text-color, #333);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Details Grid */
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.colors-section,
+.offerings-section,
+.celebrations-section {
+  background: var(--section-bg, #f8f9fa);
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--secondary-color, #34ce57);
+}
+
+.colors-section h4,
+.offerings-section h4,
+.celebrations-section h4 {
+  color: var(--text-color, #333);
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Colors */
+.colors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.color-tag {
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border: 1px solid var(--border-color, #e0e0e0);
+  background: var(--card-bg, #fff);
+  color: var(--text-color, #333);
+}
+
+/* Lists */
+.offerings-section ul,
+.celebrations-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.offerings-section li,
+.celebrations-section li {
+  padding: 0.25rem 0;
+  color: var(--text-color, #333);
+  font-size: 0.9rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.offerings-section li:before,
+.celebrations-section li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color, #28a745);
+}
+
+/* Mantras Section */
+.mantras-section {
+  background: var(--section-bg, #f8f9fa);
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--primary-color, #28a745);
+  margin-top: 1rem;
+}
+
+.mantras-section h4 {
+  color: var(--text-color, #333);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.mantra-card {
+  background: var(--card-bg, #fff);
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color, #e0e0e0);
+  margin-bottom: 1rem;
+}
+
+.sanskrit-text {
+  font-size: 1rem;
+  color: var(--text-color, #333);
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem;
+  background: var(--section-bg, #f8f9fa);
+  border-radius: 4px;
+  line-height: 1.6;
+}
+
+.transliteration-text,
+.meaning-text {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  color: var(--text-color, #333);
+}
+
+.transliteration-text strong,
+.meaning-text strong {
+  color: var(--primary-color, #28a745);
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .durga-forms-container {
+    padding: 0.5rem;
+  }
+  
+  .form-display {
+    padding: 1rem;
+  }
+  
+  .form-name {
+    font-size: 1.5rem;
+  }
+  
+  .sanskrit-name {
+    font-size: 1.1rem;
+  }
+  
+  .day-navigation {
+    gap: 0.25rem;
+  }
+  
+  .day-button {
+    padding: 0.4rem 0.8rem;
+    min-width: 50px;
+    font-size: 0.8rem;
+  }
+  
+  .details-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .significance-section,
+  .symbolism-section,
+  .blessings-section,
+  .iconography-section,
+  .colors-section,
+  .offerings-section,
+  .celebrations-section,
+  .mantras-section {
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-name {
+    font-size: 1.3rem;
+  }
+  
+  .sanskrit-name {
+    font-size: 1rem;
+  }
+  
+  .day-button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    min-width: 45px;
+  }
+  
+  .durga-forms-container h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Light theme (default) */
+.durga-forms-container {
+  --text-color: #333;
+  --text-secondary: #666;
+  --card-bg: #fff;
+  --section-bg: #f8f9fa;
+  --border-color: #e0e0e0;
+  --primary-color: #28a745; /* Green primary */
+  --secondary-color: #34ce57; /* Green-yellow secondary */
+}
+
+.form-display {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mantra-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.day-button:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.day-button.active {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Dark theme */
+:root[data-theme="dark"] .durga-forms-container {
+  --text-color: var(--primary-text);
+  --text-secondary: var(--secondary-text);
+  --card-bg: var(--primary-bg);
+  --section-bg: var(--secondary-bg);
+  --border-color: var(--border-color);
+  --primary-color: #34ce57; /* Green-yellow for dark theme */
+  --secondary-color: #28a745; /* Green secondary for dark theme */
+}
+
+:root[data-theme="dark"] .form-display {
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+:root[data-theme="dark"] .mantra-card {
+  box-shadow: 0 1px 3px var(--shadow);
+}
+
+:root[data-theme="dark"] .day-button:hover {
+  background: var(--primary-color);
+  color: var(--primary-bg);
+}
+
+:root[data-theme="dark"] .day-button.active {
+  background: var(--primary-color);
+  color: var(--primary-bg);
+}
+
+/* Light theme explicit */
+:root[data-theme="light"] .durga-forms-container {
+  --text-color: var(--primary-text);
+  --text-secondary: var(--secondary-text);
+  --card-bg: var(--primary-bg);
+  --section-bg: var(--secondary-bg);
+  --border-color: var(--border-color);
+  --primary-color: #28a745; /* Green primary */
+  --secondary-color: #34ce57; /* Green-yellow secondary */
+}
+
+:root[data-theme="light"] .form-display {
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+:root[data-theme="light"] .mantra-card {
+  box-shadow: 0 1px 3px var(--shadow);
+}
+
+:root[data-theme="light"] .day-button:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+:root[data-theme="light"] .day-button.active {
+  background: var(--primary-color);
+  color: white;
+}

@@ -2,9 +2,9 @@
   "durgaForms": {
     "shailaputri": "ಶೈಲಪುತ್ರಿ",
     "brahmacharini": "ಬ್ರಹ್ಮಚಾರಿಣಿ",
-    "chandraghanta": "ಚಂದ್ರಘಂಟ",
-    "kushmanda": "ಕುಷ್ಮಾಂಡ",
-    "skandamata": "ಸ್ಕಂದಮಾತ",
+    "chandraghanta": "ಚಂದ್ರಘಂಟಾ",
+    "kushmanda": "ಕುಷ್ಮಾಂಡಾ",
+    "skandamata": "ಸ್ಕಂದಮಾತಾ",
     "katyayani": "ಕಾತ್ಯಾಯನಿ",
     "kalaratri": "ಕಾಲರಾತ್ರಿ",
     "mahagauri": "ಮಹಾಗೌರಿ",
@@ -21,6 +21,6 @@
     "morning": "ಬೆಳಗಿನ ಆಚರಣೆಗಳು",
     "evening": "ಸಂಜೆಯ ಆಚರಣೆಗಳು",
     "preparations": "ತಯಾರಿಕೆಗಳು",
-    "observances": "ಪಾಲನೆಗಳು"
+    "observances": "ಆಚರಣೆಗಳು"
   }
 }

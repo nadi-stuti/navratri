@@ -18,42 +18,42 @@ export const supportedLanguages: Language[] = [
     nativeName: 'हिन्दी',
     flag: '🇮🇳'
   },
-  {
-    code: 'ta',
-    name: 'Tamil',
-    nativeName: 'தமிழ்',
-    flag: '🇮🇳'
-  },
+  // {
+  //   code: 'ta',
+  //   name: 'Tamil',
+  //   nativeName: 'தமிழ்',
+  //   flag: '🇮🇳'
+  // },
   {
     code: 'mr',
     name: 'Marathi',
     nativeName: 'मराठी',
     flag: '🇮🇳'
   },
-  {
-    code: 'te',
-    name: 'Telugu',
-    nativeName: 'తెలుగు',
-    flag: '🇮🇳'
-  },
-  {
-    code: 'ml',
-    name: 'Malayalam',
-    nativeName: 'മലയാളം',
-    flag: '🇮🇳'
-  },
+  // {
+  //   code: 'te',
+  //   name: 'Telugu',
+  //   nativeName: 'తెలుగు',
+  //   flag: '🇮🇳'
+  // },
+  // {
+  //   code: 'ml',
+  //   name: 'Malayalam',
+  //   nativeName: 'മലയാളം',
+  //   flag: '🇮🇳'
+  // },
   {
     code: 'bn',
     name: 'Bengali',
     nativeName: 'বাংলা',
     flag: '🇮🇳'
   },
-  {
-    code: 'kn',
-    name: 'Kannada',
-    nativeName: 'ಕನ್ನಡ',
-    flag: '🇮🇳'
-  }
+  // {
+  //   code: 'kn',
+  //   name: 'Kannada',
+  //   nativeName: 'ಕನ್ನಡ',
+  //   flag: '🇮🇳'
+  // }
 ];
 
 export const defaultLanguage = 'en';

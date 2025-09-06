@@ -1,0 +1,84 @@
+{
+  "ariaLabels": {
+    "themeToggle": {
+      "switchTo": "{{mode}} মোডে পরিবর্তন করুন",
+      "currentTheme": "বর্তমান থিম: {{theme}}। {{nextTheme}} মোডে পরিবর্তন করতে ক্লিক করুন।"
+    },
+    "languageSelector": {
+      "selectLanguage": "ভাষা নির্বাচন করুন",
+      "availableLanguages": "উপলব্ধ ভাষাসমূহ",
+      "currentLanguage": "বর্তমান ভাষা: {{language}}"
+    },
+    "navigation": {
+      "navigateTo": "{{destination}} এ যান",
+      "goBack": "পূর্ববর্তী পৃষ্ঠায় ফিরে যান",
+      "openMenu": "নেভিগেশন মেনু খুলুন",
+      "closeMenu": "নেভিগেশন মেনু বন্ধ করুন"
+    },
+    "viewControls": {
+      "gridView": "গ্রিড ভিউতে পরিবর্তন করুন",
+      "listView": "তালিকা ভিউতে পরিবর্তন করুন",
+      "sortBy": "{{criteria}} অনুসারে রেসিপি সাজান",
+      "scrollToTop": "[TODO] Scroll to top"
+    },
+    "search": {
+      "searchInput": "রেসিপি, উপাদান বা ট্যাগ খুঁজুন",
+      "clearSearch": "অনুসন্ধান ইনপুট পরিষ্কার করুন",
+      "filterToggle": "উন্নত ফিল্টার টগল করুন",
+      "applyFilters": "নির্বাচিত ফিল্টার প্রয়োগ করুন"
+    },
+    "recipe": {
+      "viewRecipe": "{{recipeName}} রেসিপির বিস্তারিত দেখুন",
+      "recipeImage": "{{recipeName}} এর ছবি",
+      "watchVideo": "{{recipeName}} রান্নার ভিডিও দেখুন",
+      "similarRecipe": "অনুরূপ রেসিপি: {{recipeName}}"
+    }
+  },
+  "imageAlt": {
+    "logo": "নবরাত্রি উৎসবের লোগো - স্বস্তিক চিহ্ন",
+    "recipeImage": "{{recipeName}} - ঐতিহ্যবাহী নবরাত্রি রেসিপি",
+    "goddessImage": "দেবী {{goddessName}} - নবরাত্রির {{day}} দিন",
+    "festivalImage": "নবরাত্রি উৎসব উদযাপন",
+    "decorativeImage": "সাজসজ্জার উপাদান"
+  },
+  "loadingStates": {
+    "loadingRecipes": "রেসিপি লোড হচ্ছে...",
+    "loadingTranslations": "অনুবাদ লোড হচ্ছে...",
+    "loadingPage": "পৃষ্ঠার বিষয়বস্তু লোড হচ্ছে...",
+    "searchingRecipes": "রেসিপি খোঁজা হচ্ছে...",
+    "applyingFilters": "ফিল্টার প্রয়োগ করা হচ্ছে...",
+    "changingLanguage": "ভাষা {{language}} এ পরিবর্তন করা হচ্ছে...",
+    "switchingTheme": "{{theme}} থিমে পরিবর্তন করা হচ্ছে..."
+  },
+  "errorAnnouncements": {
+    "recipeNotFound": "রেসিপি পাওয়া যায়নি। দয়া করে ভিন্ন অনুসন্ধান চেষ্টা করুন।",
+    "translationError": "অনুবাদ লোড করতে ব্যর্থ। ডিফল্ট ভাষা ব্যবহার করা হচ্ছে।",
+    "networkError": "নেটওয়ার্ক ত্রুটি ঘটেছে। দয়া করে আপনার সংযোগ পরীক্ষা করুন।",
+    "searchError": "অনুসন্ধান ব্যর্থ। দয়া করে আবার চেষ্টা করুন।",
+    "filterError": "ফিল্টার প্রয়োগ ব্যর্থ। দয়া করে ফিল্টার রিসেট করুন।",
+    "generalError": "একটি ত্রুটি ঘটেছে। দয়া করে পৃষ্ঠা রিফ্রেশ করুন।"
+  },
+  "statusAnnouncements": {
+    "recipeLoaded": "রেসিপি {{recipeName}} সফলভাবে লোড হয়েছে",
+    "searchCompleted": "অনুসন্ধান সম্পূর্ণ। {{count}}টি রেসিপি পাওয়া গেছে।",
+    "filtersApplied": "ফিল্টার প্রয়োগ করা হয়েছে। {{count}}টি রেসিপি আপনার মানদণ্ডের সাথে মিলেছে।",
+    "languageChanged": "ভাষা {{language}} এ পরিবর্তিত হয়েছে",
+    "themeChanged": "থিম {{theme}} মোডে পরিবর্তিত হয়েছে",
+    "pageLoaded": "{{pageName}} পৃষ্ঠা লোড হয়েছে"
+  },
+  "instructions": {
+    "keyboardNavigation": "নেভিগেট করতে তীর কী ব্যবহার করুন, নির্বাচন করতে Enter, বন্ধ করতে Escape",
+    "screenReaderHelp": "এটি একটি নবরাত্রি রেসিপি অ্যাপ্লিকেশন। উপাদানগুলির মধ্যে নেভিগেট করতে Tab ব্যবহার করুন।",
+    "searchHelp": "রেসিপি খুঁজতে টাইপ করুন। ফলাফল সীমিত করতে ফিল্টার ব্যবহার করুন।",
+    "languageHelp": "ড্রপডাউন মেনু থেকে আপনার পছন্দের ভাষা নির্বাচন করুন",
+    "skipToMain": "মূল বিষয়বস্তুতে যান"
+  },
+  "landmarks": {
+    "mainContent": "মূল বিষয়বস্তু",
+    "navigation": "সাইট নেভিগেশন",
+    "search": "রেসিপি অনুসন্ধান",
+    "filters": "রেসিপি ফিল্টার",
+    "results": "অনুসন্ধানের ফলাফল",
+    "recipeDetails": "রেসিপির বিস্তারিত"
+  }
+}

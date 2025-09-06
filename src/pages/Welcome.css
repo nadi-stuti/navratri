@@ -1,17 +1,20 @@
 .welcome-page {
     display: flex;
-
+    position: relative;
     width: 100vw;
     height: 100vh;
     background: url('../assets/itl.cat_fall-wallpaper-hd_323495.png') no-repeat center center/cover;
     background-size: cover;
+    color: white;
 
     .logo {
-        position: absolute;
+        position: fixed;
         left: 50%;
         top: 40%;
-        height: 20em;
-        padding: 1.5em;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        margin: 0;
+        box-sizing: border-box;
     }
 
     .content {
@@ -21,8 +24,38 @@
         padding-bottom: 3rem;
         text-align: center;
 
-        button {
+        .main-button {
             width: 100%;
+            margin-bottom: 1rem;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        .link-buttons {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+
+            .link-button {
+                flex: 1;
+                font-size: 0.9em;
+                font-weight: 500;
+                padding: 0.5em 0.8em;
+                background-color: var(--button-bg);
+                color: var(--primary-text);
+                text-decoration: none;
+                border-radius: 8px;
+                border: 1px solid transparent;
+                transition: border-color 0.25s, background-color 0.3s ease, color 0.3s ease;
+                display: inline-block;
+                text-align: center;
+            }
+
+            .link-button:hover {
+                border-color: var(--accent-color);
+                background-color: var(--button-hover);
+                color: var(--primary-text);
+            }
         }
     }
 }
@@ -41,5 +74,78 @@
 @media (prefers-reduced-motion: no-preference) {
     .logo {
         animation: logo-spin infinite 20s linear;
+    }
+}
+
+/* 
+Mobile responsive styles */
+@media screen and (max-width: 599px) {
+    .welcome-page {
+        .logo {
+            height: 15em;
+            top: 35%;
+        }
+
+        .content {
+            .main-button {
+                font-size: 1em;
+                padding: 0.8em 1.2em;
+            }
+
+            .link-buttons {
+                flex-direction: column;
+                gap: 0.75rem;
+
+                .link-button {
+                    font-size: 0.85em;
+                    padding: 0.6em 1em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .welcome-page {
+        .logo {
+            height: 22em;
+        }
+
+        .content {
+            .main-button {
+                font-size: 1.2em;
+                max-width: 400px;
+                margin: 0 auto 1rem auto;
+            }
+
+            .link-buttons {
+                max-width: 400px;
+                margin: 1rem auto 0 auto;
+
+                .link-button {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .welcome-page {
+        .logo {
+            height: 25em;
+        }
+
+        .content {
+            .main-button {
+                font-size: 1.4em;
+            }
+
+            .link-buttons {
+                .link-button {
+                    font-size: 1.1em;
+                }
+            }
+        }
     }
 }

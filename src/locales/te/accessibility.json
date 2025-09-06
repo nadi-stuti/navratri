@@ -1,0 +1,84 @@
+{
+  "ariaLabels": {
+    "themeToggle": {
+      "switchTo": "{{mode}} మోడ్‌కు మారండి",
+      "currentTheme": "ప్రస్తుత థీమ్: {{theme}}. {{nextTheme}} మోడ్‌కు మారడానికి క్లిక్ చేయండి."
+    },
+    "languageSelector": {
+      "selectLanguage": "భాషను ఎంచుకోండి",
+      "availableLanguages": "అందుబాటులో ఉన్న భాషలు",
+      "currentLanguage": "ప్రస్తుత భాష: {{language}}"
+    },
+    "navigation": {
+      "navigateTo": "{{destination}}కు వెళ్లండి",
+      "goBack": "మునుపటి పేజీకి తిరిగి వెళ్లండి",
+      "openMenu": "నావిగేషన్ మెనూను తెరవండి",
+      "closeMenu": "నావిగేషన్ మెనూను మూసివేయండి"
+    },
+    "viewControls": {
+      "gridView": "గ్రిడ్ వ్యూకు మారండి",
+      "listView": "లిస్ట్ వ్యూకు మారండి",
+      "sortBy": "{{criteria}} ప్రకారం వంటకాలను క్రమబద్ధీకరించండి",
+      "scrollToTop": "[TODO] Scroll to top"
+    },
+    "search": {
+      "searchInput": "వంటకాలు, పదార్థాలు లేదా ట్యాగ్‌లను వెతకండి",
+      "clearSearch": "వెతుకులాట ఇన్‌పుట్‌ను క్లియర్ చేయండి",
+      "filterToggle": "అధునాతన ఫిల్టర్‌లను టోగుల్ చేయండి",
+      "applyFilters": "ఎంచుకున్న ఫిల్టర్‌లను వర్తింపజేయండి"
+    },
+    "recipe": {
+      "viewRecipe": "{{recipeName}} వంటకం వివరాలను చూడండి",
+      "recipeImage": "{{recipeName}} చిత్రం",
+      "watchVideo": "{{recipeName}} వంట వీడియోను చూడండి",
+      "similarRecipe": "సమాన వంటకం: {{recipeName}}"
+    }
+  },
+  "imageAlt": {
+    "logo": "నవరాత్రి పండుగ లోగో - స్వస్తిక చిహ్నం",
+    "recipeImage": "{{recipeName}} - సాంప్రదాయ నవరాత్రి వంటకం",
+    "goddessImage": "దేవి {{goddessName}} - నవరాత్రి {{day}} రోజు",
+    "festivalImage": "నవరాత్రి పండుగ వేడుకలు",
+    "decorativeImage": "అలంకార మూలకం"
+  },
+  "loadingStates": {
+    "loadingRecipes": "వంటకాలు లోడ్ అవుతున్నాయి...",
+    "loadingTranslations": "అనువాదాలు లోడ్ అవుతున్నాయి...",
+    "loadingPage": "పేజీ కంటెంట్ లోడ్ అవుతుంది...",
+    "searchingRecipes": "వంటకాలు వెతుకుతున్నాం...",
+    "applyingFilters": "ఫిల్టర్‌లు వర్తింపజేస్తున్నాం...",
+    "changingLanguage": "భాష {{language}}కు మార్చబడుతోంది...",
+    "switchingTheme": "{{theme}} థీమ్‌కు మారుతోంది..."
+  },
+  "errorAnnouncements": {
+    "recipeNotFound": "వంటకం దొరకలేదు. దయచేసి వేరే వెతుకులాట ప్రయత్నించండి.",
+    "translationError": "అనువాదం లోడ్ చేయడంలో విఫలమైంది. డిఫాల్ట్ భాషను ఉపయోగిస్తున్నాం.",
+    "networkError": "నెట్‌వర్క్ లోపం సంభవించింది. దయచేసి మీ కనెక్షన్‌ను తనిఖీ చేయండి.",
+    "searchError": "వెతుకులాట విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+    "filterError": "ఫిల్టర్ వర్తింపజేయడం విఫలమైంది. దయచేసి ఫిల్టర్‌లను రీసెట్ చేయండి.",
+    "generalError": "లోపం సంభవించింది. దయచేసి పేజీని రిఫ్రెష్ చేయండి."
+  },
+  "statusAnnouncements": {
+    "recipeLoaded": "వంటకం {{recipeName}} విజయవంతంగా లోడ్ అయింది",
+    "searchCompleted": "వెతుకులాట పూర్తయింది. {{count}} వంటకాలు దొరికాయి.",
+    "filtersApplied": "ఫిల్టర్‌లు వర్తింపజేయబడ్డాయి. {{count}} వంటకాలు మీ ప్రమాణాలకు సరిపోతాయి.",
+    "languageChanged": "భాష {{language}}కు మార్చబడింది",
+    "themeChanged": "థీమ్ {{theme}} మోడ్‌కు మార్చబడింది",
+    "pageLoaded": "{{pageName}} పేజీ లోడ్ అయింది"
+  },
+  "instructions": {
+    "keyboardNavigation": "నావిగేట్ చేయడానికి బాణం కీలను ఉపయోగించండి, ఎంచుకోవడానికి Enter, మూసివేయడానికి Escape",
+    "screenReaderHelp": "ఇది నవరాత్రి వంటకాల అప్లికేషన్. మూలకాల మధ్య నావిగేట్ చేయడానికి Tab ఉపయోగించండి.",
+    "searchHelp": "వంటకాలను వెతకడానికి టైప్ చేయండి. ఫలితాలను పరిమితం చేయడానికి ఫిల్టర్‌లను ఉపయోగించండి.",
+    "languageHelp": "డ్రాప్‌డౌన్ మెనూ నుండి మీ ఇష్టమైన భాషను ఎంచుకోండి",
+    "skipToMain": "ప్రధాన కంటెంట్‌కు వెళ్లండి"
+  },
+  "landmarks": {
+    "mainContent": "ప్రధాన కంటెంట్",
+    "navigation": "సైట్ నావిగేషన్",
+    "search": "వంటకం వెతుకులాట",
+    "filters": "వంటకం ఫిల్టర్‌లు",
+    "results": "వెతుకులాట ఫలితాలు",
+    "recipeDetails": "వంటకం వివరాలు"
+  }
+}

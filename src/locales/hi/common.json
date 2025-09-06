@@ -13,7 +13,11 @@
     "select": "चुनें",
     "toggle": "बदलें",
     "search": "खोजें",
-    "filter": "फिल्टर"
+    "filter": "फिल्टर",
+    "enterApp": "ऐप में प्रवेश करें",
+    "goBack": "वापस जाएं",
+    "browseAll": "सभी व्यंजन देखें",
+    "watchVideo": "वीडियो देखें"
   },
   "labels": {
     "language": "भाषा",
@@ -22,6 +26,139 @@
     "darkMode": "डार्क मोड",
     "loading": "लोड हो रहा है...",
     "error": "त्रुटि",
-    "notFound": "नहीं मिला"
+    "notFound": "नहीं मिला",
+    "selectLanguage": "भाषा चुनें",
+    "availableLanguages": "उपलब्ध भाषाएं",
+    "loadingTranslations": "अनुवाद लोड हो रहे हैं...",
+    "translationError": "अनुवाद लोड करने में विफल",
+    "noRecipesFound": "आपके मानदंडों से मेल खाने वाले कोई व्यंजन नहीं मिले।",
+    "recipe": "व्यंजन",
+    "navigateTo": "जाएं",
+    "time": "समय",
+    "mins": "मिनट",
+    "skill": "कौशल",
+    "minutes": "मिनट",
+    "calories": "कैलोरी",
+    "protein": "प्रोटीन",
+    "recipesAvailable": "व्यंजन उपलब्ध",
+    "goalMet": "लक्ष्य पूरा!",
+    "sortBy": "इसके अनुसार क्रमबद्ध करें:",
+    "gridView": "ग्रिड दृश्य",
+    "listView": "सूची दृश्य",
+    "switchToClassicView": "क्लासिक दृश्य पर स्विच करें",
+    "switchToEnhancedView": "उन्नत खोज और फिल्टर आज़माएं",
+    "tryDifferentFilters": "अपने खोज मानदंड या फिल्टर को समायोजित करने का प्रयास करें।"
+  },
+  "filters": {
+    "skill": "कौशल",
+    "time": "समय",
+    "easy": "आसान",
+    "moderate": "मध्यम",
+    "difficult": "कठिन",
+    "short": "कम",
+    "medium": "मध्यम",
+    "long": "अधिक",
+    "difficulty": "कठिनाई",
+    "diet": "आहार प्राथमिकताएं",
+    "cuisine": "व्यंजन",
+    "maxTime": "अधिकतम खाना पकाने का समय",
+    "ingredients": "आवश्यक सामग्री शामिल करनी चाहिए"
+  },
+  "cuisine": {
+    "indian": "भारतीय",
+    "southindian": "दक्षिण भारतीय",
+    "northindian": "उत्तर भारतीय",
+    "gujarati": "गुजराती",
+    "maharashtrian": "महाराष्ट्रीयन",
+    "punjabi": "पंजाबी",
+    "bengali": "बंगाली",
+    "tamil": "तमिल",
+    "sindhi": "सिंधी",
+    "udupi": "उडुपी",
+    "world": "विश्व"
+  },
+  "tags": {
+    "navratri": "नवरात्रि",
+    "fasting": "व्रत",
+    "traditional": "पारंपरिक",
+    "quick": "त्वरित",
+    "easy": "आसान",
+    "popular": "लोकप्रिय",
+    "breakfast": "नाश्ता",
+    "snacks": "स्नैक्स",
+    "main-course": "मुख्य व्यंजन",
+    "filling": "भरपेट",
+    "accompaniment": "साथ में",
+    "side-dish": "साइड डिश",
+    "condiment": "चटनी"
+  },
+  "ui": {
+    "expand": "+",
+    "collapse": "−",
+    "tip": "सुझाव:",
+    "transliteration": "लिप्यंतरण:",
+    "meaning": "अर्थ:",
+    "day": "दिन"
+  },
+  "errors": {
+    "formNotFound": "रूप नहीं मिला"
+  },
+  "diet": {
+    "glutenfree": "ग्लूटेन मुक्त",
+    "vegetarian": "शाकाहारी",
+    "vegan": "वीगन"
+  },
+  "difficulty": {
+    "easy": "आसान",
+    "moderate": "मध्यम",
+    "difficult": "कठिन"
+  },
+  "search": {
+    "placeholder": "व्यंजन, सामग्री या टैग खोजें...",
+    "advancedFilters": "उन्नत फिल्टर",
+    "resultsCount": "व्यंजन मिले",
+    "clearFilters": "सभी साफ़ करें",
+    "noLimit": "कोई सीमा नहीं"
+  },
+  "sort": {
+    "relevance": "प्रासंगिकता",
+    "name": "नाम",
+    "time": "खाना पकाने का समय",
+    "difficulty": "कठिनाई",
+    "popularity": "लोकप्रियता"
+  },
+  "recommendations": {
+    "similarRecipes": "आपको यह भी पसंद आ सकता है",
+    "recommendedForYou": "आपके लिए अनुशंसित",
+    "similarCuisine": "समान व्यंजन",
+    "similarDifficulty": "समान कठिनाई",
+    "similarTime": "समान खाना पकाने का समय",
+    "dietaryMatch": "आहार प्राथमिकताओं से मेल खाता है",
+    "preferredCuisine": "पसंदीदा व्यंजन",
+    "preferredDifficulty": "पसंदीदा कठिनाई",
+    "favoriteIngredients": "पसंदीदा सामग्री शामिल है",
+    "similarTags": "समान व्यंजन प्रकार",
+    "popular": "लोकप्रिय व्यंजन",
+    "quick": "जल्दी बनने वाला",
+    "festivalAppropriate": "नवरात्रि के लिए उपयुक्त",
+    "highProtein": "उच्च प्रोटीन",
+    "highFiber": "उच्च फाइबर",
+    "glutenFree": "ग्लूटेन मुक्त",
+    "vegan": "वीगन"
+  },
+  "components": {
+    "durgaForms": {
+      "title": "देवी दुर्गा के नौ रूप",
+      "sections": {
+        "significance": "महत्व",
+        "symbolism": "प्रतीकवाद",
+        "blessings": "आशीर्वाद",
+        "iconography": "मूर्तिकला",
+        "sacredColors": "पवित्र रंग",
+        "offerings": "प्रसाद",
+        "celebrations": "उत्सव",
+        "sacredMantras": "पवित्र मंत्र"
+      }
+    }
   }
 }

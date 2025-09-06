@@ -1,0 +1,84 @@
+{
+  "ariaLabels": {
+    "themeToggle": {
+      "switchTo": "{{mode}} मोडवर स्विच करा",
+      "currentTheme": "सध्याची थीम: {{theme}}। {{nextTheme}} मोडवर स्विच करण्यासाठी क्लिक करा।"
+    },
+    "languageSelector": {
+      "selectLanguage": "भाषा निवडा",
+      "availableLanguages": "उपलब्ध भाषा",
+      "currentLanguage": "सध्याची भाषा: {{language}}"
+    },
+    "navigation": {
+      "navigateTo": "{{destination}} वर जा",
+      "goBack": "मागील पानावर परत जा",
+      "openMenu": "नेव्हिगेशन मेनू उघडा",
+      "closeMenu": "नेव्हिगेशन मेनू बंद करा"
+    },
+    "viewControls": {
+      "gridView": "ग्रिड व्ह्यूवर स्विच करा",
+      "listView": "लिस्ट व्ह्यूवर स्विच करा",
+      "sortBy": "{{criteria}} नुसार रेसिपी क्रमित करा",
+      "scrollToTop": "[TODO] Scroll to top"
+    },
+    "search": {
+      "searchInput": "रेसिपी, साहित्य किंवा टॅग शोधा",
+      "clearSearch": "शोध इनपुट साफ करा",
+      "filterToggle": "प्रगत फिल्टर टॉगल करा",
+      "applyFilters": "निवडलेले फिल्टर लागू करा"
+    },
+    "recipe": {
+      "viewRecipe": "{{recipeName}} रेसिपी तपशील पहा",
+      "recipeImage": "{{recipeName}} ची प्रतिमा",
+      "watchVideo": "{{recipeName}} चा स्वयंपाक व्हिडिओ पहा",
+      "similarRecipe": "समान रेसिपी: {{recipeName}}"
+    }
+  },
+  "imageAlt": {
+    "logo": "नवरात्री सण लोगो - स्वस्तिक चिन्ह",
+    "recipeImage": "{{recipeName}} - पारंपरिक नवरात्री रेसिपी",
+    "goddessImage": "देवी {{goddessName}} - नवरात्रीचा {{day}} दिवस",
+    "festivalImage": "नवरात्री सण साजरा",
+    "decorativeImage": "सजावटीचा घटक"
+  },
+  "loadingStates": {
+    "loadingRecipes": "रेसिपी लोड होत आहेत...",
+    "loadingTranslations": "भाषांतर लोड होत आहेत...",
+    "loadingPage": "पान सामग्री लोड होत आहे...",
+    "searchingRecipes": "रेसिपी शोधल्या जात आहेत...",
+    "applyingFilters": "फिल्टर लागू केले जात आहेत...",
+    "changingLanguage": "भाषा {{language}} मध्ये बदलली जात आहे...",
+    "switchingTheme": "{{theme}} थीमवर स्विच होत आहे..."
+  },
+  "errorAnnouncements": {
+    "recipeNotFound": "रेसिपी सापडली नाही. कृपया वेगळा शोध घ्या.",
+    "translationError": "भाषांतर लोड झाले नाही. मूळ भाषा वापरत आहे.",
+    "networkError": "नेटवर्क त्रुटी झाली. कृपया आपले कनेक्शन तपासा.",
+    "searchError": "शोध अयशस्वी. कृपया पुन्हा प्रयत्न करा.",
+    "filterError": "फिल्टर लागू करणे अयशस्वी. कृपया फिल्टर रीसेट करा.",
+    "generalError": "एक त्रुटी झाली. कृपया पान रीफ्रेश करा."
+  },
+  "statusAnnouncements": {
+    "recipeLoaded": "रेसिपी {{recipeName}} यशस्वीरित्या लोड झाली",
+    "searchCompleted": "शोध पूर्ण. {{count}} रेसिपी सापडल्या.",
+    "filtersApplied": "फिल्टर लागू. {{count}} रेसिपी आपल्या निकषांशी जुळतात.",
+    "languageChanged": "भाषा {{language}} मध्ये बदलली",
+    "themeChanged": "थीम {{theme}} मोडमध्ये बदलली",
+    "pageLoaded": "{{pageName}} पान लोड झाले"
+  },
+  "instructions": {
+    "keyboardNavigation": "नेव्हिगेट करण्यासाठी अॅरो की वापरा, निवडण्यासाठी Enter, बंद करण्यासाठी Escape",
+    "screenReaderHelp": "हे एक नवरात्री रेसिपी अॅप्लिकेशन आहे. घटकांमध्ये नेव्हिगेट करण्यासाठी Tab वापरा.",
+    "searchHelp": "रेसिपी शोधण्यासाठी टाइप करा. परिणाम मर्यादित करण्यासाठी फिल्टर वापरा.",
+    "languageHelp": "ड्रॉपडाउन मेनूमधून आपली पसंतीची भाषा निवडा",
+    "skipToMain": "मुख्य सामग्रीवर जा"
+  },
+  "landmarks": {
+    "mainContent": "मुख्य सामग्री",
+    "navigation": "साइट नेव्हिगेशन",
+    "search": "रेसिपी शोध",
+    "filters": "रेसिपी फिल्टर",
+    "results": "शोध परिणाम",
+    "recipeDetails": "रेसिपी तपशील"
+  }
+}

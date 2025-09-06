@@ -13,7 +13,13 @@
     "select": "ಆಯ್ಕೆಮಾಡಿ",
     "toggle": "ಬದಲಾಯಿಸಿ",
     "search": "ಹುಡುಕಿ",
-    "filter": "ಫಿಲ್ಟರ್"
+    "filter": "ಫಿಲ್ಟರ್",
+    "enterApp": "ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಪ್ರವೇಶಿಸಿ",
+    "goBack": "ಹಿಂದೆ ಹೋಗಿ",
+    "browseAll": "ಎಲ್ಲಾ ಪಾಕವಿಧಾನಗಳನ್ನು ನೋಡಿ",
+    "watchVideo": "ವೀಡಿಯೊ ನೋಡಿ",
+    "backToTop": "[TODO] Back to top",
+    "close": "[TODO] Close"
   },
   "labels": {
     "language": "ಭಾಷೆ",
@@ -22,6 +28,139 @@
     "darkMode": "ಡಾರ್ಕ್ ಮೋಡ್",
     "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
     "error": "ದೋಷ",
-    "notFound": "ಸಿಗಲಿಲ್ಲ"
+    "notFound": "ಸಿಗಲಿಲ್ಲ",
+    "selectLanguage": "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "availableLanguages": "ಲಭ್ಯವಿರುವ ಭಾಷೆಗಳು",
+    "loadingTranslations": "ಅನುವಾದಗಳು ಲೋಡ್ ಆಗುತ್ತಿವೆ...",
+    "translationError": "ಅನುವಾದಗಳನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ",
+    "noRecipesFound": "ನಿಮ್ಮ ಮಾನದಣ್ಡಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗುವ ಪಾಕವಿಧಾನಗಳು ಸಿಗಲಿಲ್ಲ.",
+    "recipe": "ಪಾಕವಿಧಾನ",
+    "navigateTo": "ಹೋಗಿ",
+    "time": "ಸಮಯ",
+    "mins": "ನಿಮಿಷಗಳು",
+    "skill": "ಕೌಶಲ್ಯ",
+    "minutes": "ನಿಮಿಷಗಳು",
+    "calories": "ಕ್ಯಾಲೋರಿಗಳು",
+    "protein": "ಪ್ರೋಟೀನ್",
+    "recipesAvailable": "ಪಾಕವಿಧಾನಗಳು ಲಭ್ಯವಿದೆ",
+    "goalMet": "ಗುರಿ ಸಾಧಿಸಲಾಗಿದೆ!",
+    "sortBy": "ಇದರ ಆಧಾರದ ಮೇಲೆ ವಿಂಗಡಿಸಿ:",
+    "gridView": "ಗ್ರಿಡ್ ವ್ಯೂ",
+    "listView": "ಪಟ್ಟಿ ವ್ಯೂ",
+    "switchToClassicView": "ಕ್ಲಾಸಿಕ್ ವ್ಯೂಗೆ ಬದಲಾಯಿಸಿ",
+    "switchToEnhancedView": "ಸುಧಾರಿತ ಹುಡುಕಾಟ ಮತ್ತು ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ",
+    "tryDifferentFilters": "ನಿಮ್ಮ ಹುಡುಕಾಟ ಮಾನದಣ್ಡಗಳು ಅಥವಾ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಸರಿಹೊಂದಿಸಲು ಪ್ರಯತ್ನಿಸಿ."
+  },
+  "filters": {
+    "skill": "ಕೌಶಲ್ಯ",
+    "time": "ಸಮಯ",
+    "easy": "ಸುಲಭ",
+    "moderate": "ಮಧ್ಯಮ",
+    "difficult": "ಕಷ್ಟ",
+    "short": "ಕಡಿಮೆ",
+    "medium": "ಮಧ್ಯಮ",
+    "long": "ಹೆಚ್ಚು",
+    "difficulty": "ಕಷ್ಟತೆ",
+    "diet": "ಆಹಾರ ಆದ್ಯತೆಗಳು",
+    "cuisine": "ಪಾಕಶೈಲಿ",
+    "maxTime": "ಗರಿಷ್ಠ ಅಡುಗೆ ಸಮಯ",
+    "ingredients": "ಅಗತ್ಯವಾಗಿ ಸೇರಿಸಬೇಕಾದ ಪದಾರ್ಥಗಳು"
+  },
+  "cuisine": {
+    "indian": "ಭಾರತೀಯ",
+    "southindian": "ದಕ್ಷಿಣ ಭಾರತೀಯ",
+    "northindian": "ಉತ್ತರ ಭಾರತೀಯ",
+    "gujarati": "ಗುಜರಾತಿ",
+    "maharashtrian": "ಮಹಾರಾಷ್ಟ್ರೀಯ",
+    "punjabi": "ಪಂಜಾಬಿ",
+    "bengali": "ಬಂಗಾಳಿ",
+    "tamil": "ತಮಿಳು",
+    "sindhi": "ಸಿಂಧಿ",
+    "udupi": "ಉಡುಪಿ",
+    "world": "ವಿಶ್ವ"
+  },
+  "diet": {
+    "glutenfree": "ಗ್ಲೂಟೆನ್ ಮುಕ್ತ",
+    "vegetarian": "ಸಸ್ಯಾಹಾರಿ",
+    "vegan": "ವೀಗನ್"
+  },
+  "difficulty": {
+    "easy": "ಸುಲಭ",
+    "moderate": "ಮಧ್ಯಮ",
+    "difficult": "ಕಷ್ಟ"
+  },
+  "search": {
+    "placeholder": "ಪಾಕವಿಧಾನಗಳು, ಪದಾರ್ಥಗಳು ಅಥವಾ ಟ್ಯಾಗ್‌ಗಳನ್ನು ಹುಡುಕಿ...",
+    "advancedFilters": "ಸುಧಾರಿತ ಫಿಲ್ಟರ್‌ಗಳು",
+    "resultsCount": "ಪಾಕವಿಧಾನಗಳು ಸಿಕ್ಕಿವೆ",
+    "clearFilters": "ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ",
+    "noLimit": "ಯಾವುದೇ ಮಿತಿಯಿಲ್ಲ"
+  },
+  "sort": {
+    "relevance": "ಪ್ರಸ್ತುತತೆ",
+    "name": "ಹೆಸರು",
+    "time": "ಅಡುಗೆ ಸಮಯ",
+    "difficulty": "ಕಷ್ಟತೆ",
+    "popularity": "ಜನಪ್ರಿಯತೆ"
+  },
+  "recommendations": {
+    "similarRecipes": "ನಿಮಗೆ ಇದು ಕೂಡ ಇಷ್ಟವಾಗಬಹುದು",
+    "recommendedForYou": "ನಿಮಗಾಗಿ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ",
+    "similarCuisine": "ಸಮಾನ ಪಾಕಶೈಲಿ",
+    "similarDifficulty": "ಸಮಾನ ಕಷ್ಟತೆ",
+    "similarTime": "ಸಮಾನ ಅಡುಗೆ ಸಮಯ",
+    "dietaryMatch": "ಆಹಾರ ಆದ್ಯತೆಗಳೊಂದಿಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ",
+    "preferredCuisine": "ಆದ್ಯತೆಯ ಪಾಕಶೈಲಿ",
+    "preferredDifficulty": "ಆದ್ಯತೆಯ ಕಷ್ಟತೆ",
+    "favoriteIngredients": "ಮೆಚ್ಚಿನ ಪದಾರ್ಥಗಳನ್ನು ಒಳಗೊಂಡಿದೆ",
+    "similarTags": "ಸಮಾನ ಪಾಕವಿಧಾನ ಪ್ರಕಾರ",
+    "popular": "ಜನಪ್ರಿಯ ಪಾಕವಿಧಾನ",
+    "quick": "ಬೇಗನೆ ಮಾಡಲು",
+    "festivalAppropriate": "ನವರಾತ್ರಿಗೆ ಸೂಕ್ತ",
+    "highProtein": "ಹೆಚ್ಚಿನ ಪ್ರೋಟೀನ್",
+    "highFiber": "ಹೆಚ್ಚಿನ ಫೈಬರ್",
+    "glutenFree": "ಗ್ಲೂಟೆನ್ ಮುಕ್ತ",
+    "vegan": "ವೀಗನ್"
+  },
+  "tags": {
+    "navratri": "ನವರಾತ್ರಿ",
+    "fasting": "ಉಪವಾಸ",
+    "traditional": "ಸಾಂಪ್ರದಾಯಿಕ",
+    "quick": "ತ್ವರಿತ",
+    "easy": "ಸುಲಭ",
+    "popular": "ಜನಪ್ರಿಯ",
+    "breakfast": "ಬೆಳಗಿನ ಊಟ",
+    "snacks": "ತಿಂಡಿಗಳು",
+    "main-course": "ಮುಖ್ಯ ಊಟ",
+    "filling": "ತುಂಬುವುದು",
+    "accompaniment": "ಜೊತೆಗೆ",
+    "side-dish": "ಸೈಡ್ ಡಿಶ್",
+    "condiment": "ಚಟ್ನಿ"
+  },
+  "ui": {
+    "expand": "+",
+    "collapse": "−",
+    "tip": "ಸಲಹೆ:",
+    "transliteration": "ಲಿಪ್ಯಂತರ:",
+    "meaning": "ಅರ್ಥ:",
+    "day": "ದಿನ"
+  },
+  "errors": {
+    "formNotFound": "ರೂಪ ಸಿಗಲಿಲ್ಲ"
+  },
+  "components": {
+    "durgaForms": {
+      "title": "ದೇವಿ ದುರ್ಗೆಯ ಒಂಬತ್ತು ರೂಪಗಳು",
+      "sections": {
+        "significance": "ಮಹತ್ವ",
+        "symbolism": "ಸಂಕೇತವಾದ",
+        "blessings": "ಆಶೀರ್ವಾದಗಳು",
+        "iconography": "ಮೂರ್ತಿಶಾಸ್ತ್ರ",
+        "sacredColors": "ಪವಿತ್ರ ಬಣ್ಣಗಳು",
+        "offerings": "ನೈವೇದ್ಯಗಳು",
+        "celebrations": "ಆಚರಣೆಗಳು",
+        "sacredMantras": "ಪವಿತ್ರ ಮಂತ್ರಗಳು"
+      }
+    }
   }
 }

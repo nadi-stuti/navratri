@@ -13,7 +13,13 @@
     "select": "निवडा",
     "toggle": "बदला",
     "search": "शोधा",
-    "filter": "गाळा"
+    "filter": "गाळा",
+    "enterApp": "अॅपमध्ये प्रवेश करा",
+    "goBack": "परत जा",
+    "browseAll": "सर्व पाककृती पहा",
+    "watchVideo": "व्हिडिओ पहा",
+    "backToTop": "[TODO] Back to top",
+    "close": "[TODO] Close"
   },
   "labels": {
     "language": "भाषा",
@@ -22,6 +28,139 @@
     "darkMode": "गडद मोड",
     "loading": "लोड होत आहे...",
     "error": "त्रुटी",
-    "notFound": "सापडले नाही"
+    "notFound": "सापडले नाही",
+    "selectLanguage": "भाषा निवडा",
+    "availableLanguages": "उपलब्ध भाषा",
+    "loadingTranslations": "भाषांतर लोड होत आहेत...",
+    "translationError": "भाषांतर लोड करण्यात अयशस्वी",
+    "noRecipesFound": "तुमच्या निकषांशी जुळणाऱ्या पाककृती सापडल्या नाहीत.",
+    "recipe": "पाककृती",
+    "navigateTo": "जा",
+    "time": "वेळ",
+    "mins": "मिनिटे",
+    "skill": "कौशल्य",
+    "minutes": "मिनिटे",
+    "calories": "कॅलरी",
+    "protein": "प्रथिने",
+    "recipesAvailable": "पाककृती उपलब्ध",
+    "goalMet": "ध्येय पूर्ण!",
+    "sortBy": "यानुसार क्रमवारी लावा:",
+    "gridView": "ग्रिड दृश्य",
+    "listView": "यादी दृश्य",
+    "switchToClassicView": "क्लासिक दृश्यावर स्विच करा",
+    "switchToEnhancedView": "सुधारित शोध आणि फिल्टर वापरून पहा",
+    "tryDifferentFilters": "तुमचे शोध निकष किंवा फिल्टर समायोजित करण्याचा प्रयत्न करा."
+  },
+  "filters": {
+    "skill": "कौशल्य",
+    "time": "वेळ",
+    "easy": "सोपे",
+    "moderate": "मध्यम",
+    "difficult": "कठीण",
+    "short": "कमी",
+    "medium": "मध्यम",
+    "long": "जास्त",
+    "difficulty": "अडचण",
+    "diet": "आहार प्राधान्ये",
+    "cuisine": "पाककृती",
+    "maxTime": "जास्तीत जास्त स्वयंपाक वेळ",
+    "ingredients": "आवश्यक घटक समाविष्ट करावेत"
+  },
+  "cuisine": {
+    "indian": "भारतीय",
+    "southindian": "दक्षिण भारतीय",
+    "northindian": "उत्तर भारतीय",
+    "gujarati": "गुजराती",
+    "maharashtrian": "महाराष्ट्रीयन",
+    "punjabi": "पंजाबी",
+    "bengali": "बंगाली",
+    "tamil": "तमिळ",
+    "sindhi": "सिंधी",
+    "udupi": "उडुपी",
+    "world": "जागतिक"
+  },
+  "tags": {
+    "navratri": "नवरात्री",
+    "fasting": "उपवास",
+    "traditional": "पारंपरिक",
+    "quick": "जलद",
+    "easy": "सोपे",
+    "popular": "लोकप्रिय",
+    "breakfast": "नाश्ता",
+    "snacks": "स्नॅक्स",
+    "main-course": "मुख्य जेवण",
+    "filling": "भरपूर",
+    "accompaniment": "सोबत",
+    "side-dish": "साइड डिश",
+    "condiment": "चटणी"
+  },
+  "ui": {
+    "expand": "+",
+    "collapse": "−",
+    "tip": "टीप:",
+    "transliteration": "लिप्यंतरण:",
+    "meaning": "अर्थ:",
+    "day": "दिवस"
+  },
+  "errors": {
+    "formNotFound": "रूप सापडले नाही"
+  },
+  "diet": {
+    "glutenfree": "ग्लूटेन मुक्त",
+    "vegetarian": "शाकाहारी",
+    "vegan": "व्हीगन"
+  },
+  "difficulty": {
+    "easy": "सोपे",
+    "moderate": "मध्यम",
+    "difficult": "कठीण"
+  },
+  "search": {
+    "placeholder": "पाककृती, घटक किंवा टॅग शोधा...",
+    "advancedFilters": "प्रगत फिल्टर",
+    "resultsCount": "पाककृती सापडल्या",
+    "clearFilters": "सर्व साफ करा",
+    "noLimit": "मर्यादा नाही"
+  },
+  "sort": {
+    "relevance": "प्रासंगिकता",
+    "name": "नाव",
+    "time": "स्वयंपाक वेळ",
+    "difficulty": "अडचण",
+    "popularity": "लोकप्रियता"
+  },
+  "recommendations": {
+    "similarRecipes": "तुम्हाला हे देखील आवडू शकते",
+    "recommendedForYou": "तुमच्यासाठी शिफारसीत",
+    "similarCuisine": "समान पाककृती",
+    "similarDifficulty": "समान अडचण",
+    "similarTime": "समान स्वयंपाक वेळ",
+    "dietaryMatch": "आहार प्राधान्यांशी जुळते",
+    "preferredCuisine": "पसंतीची पाककृती",
+    "preferredDifficulty": "पसंतीची अडचण",
+    "favoriteIngredients": "आवडते घटक समाविष्ट आहेत",
+    "similarTags": "समान पाककृती प्रकार",
+    "popular": "लोकप्रिय पाककृती",
+    "quick": "लवकर बनवण्यासाठी",
+    "festivalAppropriate": "नवरात्रीसाठी योग्य",
+    "highProtein": "उच्च प्रथिने",
+    "highFiber": "उच्च फायबर",
+    "glutenFree": "ग्लूटेन मुक्त",
+    "vegan": "व्हीगन"
+  },
+  "components": {
+    "durgaForms": {
+      "title": "देवी दुर्गाचे नऊ रूप",
+      "sections": {
+        "significance": "महत्त्व",
+        "symbolism": "प्रतीकवाद",
+        "blessings": "आशीर्वाद",
+        "iconography": "मूर्तिकला",
+        "sacredColors": "पवित्र रंग",
+        "offerings": "अर्पण",
+        "celebrations": "उत्सव",
+        "sacredMantras": "पवित्र मंत्र"
+      }
+    }
   }
 }

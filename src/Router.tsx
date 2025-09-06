@@ -10,10 +10,14 @@ import RecipeLayout from "./pages/layout/RecipeLayout.tsx";
 import RecipeList from "./pages/recipe/RecipeList.tsx";
 import Recipe from "./pages/recipe/Recipe.tsx";
 import Dates from "./pages/Dates.tsx";
+import RecipeNotFound from "./pages/recipe/RecipeNotFound.tsx";
+import ScrollToTop from "./components/ScrollToTop.tsx";
+import BackToTopButton from "./components/BackToTopButton.tsx";
 
 const Router = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
 
@@ -27,11 +31,13 @@ const Router = () => {
         </Route>
 
         <Route path="/recipe-list" element={<RecipeLayout />}>
-          <Route path="*" element={<RecipeList />} />
+          <Route path="/recipe-list/:category" element={<RecipeList />} />
         </Route>
 
-        <Route path="/recipe" element={<Recipe />} />
+        <Route path="/recipe/:recipeName" element={<Recipe />} />
+        <Route path="/recipe-not-found" element={<RecipeNotFound />} />
       </Routes>
+      <BackToTopButton />
     </BrowserRouter>
   );
 };

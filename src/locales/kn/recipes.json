@@ -1,9 +1,9 @@
 {
   "categories": {
     "southIndianSundal": "ದಕ್ಷಿಣ ಭಾರತೀಯ ಸುಂಡಲ್",
-    "lunchDinner": "ಮಧ್ಯಾಹ್ನ ಮತ್ತು ರಾತ್ರಿ ಊಟ",
+    "lunchDinner": "ಮಧ್ಯಾಹ್ನ ಮತ್ತು ರಾತ್ರಿಯ ಊಟ",
     "breakfastSnacks": "ಬೆಳಗಿನ ಉಪಾಹಾರ ಮತ್ತು ತಿಂಡಿಗಳು",
-    "chutneyRaita": "ಚಟ್ನಿ ಮತ್ತು ರಾಯಿತ",
+    "chutneyRaita": "ಚಟ್ನಿ ಮತ್ತು ರೈತಾ",
     "sweetsDeserts": "ಸಿಹಿತಿಂಡಿಗಳು ಮತ್ತು ಡೆಸರ್ಟ್‌ಗಳು",
     "beverages": "ಪಾನೀಯಗಳು"
   },
@@ -17,6 +17,6 @@
     "title": "ಸೂಚನೆಗಳು",
     "step": "ಹಂತ",
     "tips": "ಸಲಹೆಗಳು",
-    "variations": "ವೈವಿಧ್ಯತೆಗಳು"
+    "variations": "ವ್ಯತ್ಯಾಸಗಳು"
   }
 }

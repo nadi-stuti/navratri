@@ -13,7 +13,13 @@
     "select": "Select",
     "toggle": "Toggle",
     "search": "Search",
-    "filter": "Filter"
+    "filter": "Filter",
+    "enterApp": "Enter App",
+    "goBack": "Go Back",
+    "browseAll": "Browse All Recipes",
+    "watchVideo": "Watch video",
+    "backToTop": "Back to top",
+    "close": "Close"
   },
   "labels": {
     "language": "Language",
@@ -22,6 +28,139 @@
     "darkMode": "Dark Mode",
     "loading": "Loading...",
     "error": "Error",
-    "notFound": "Not Found"
+    "notFound": "Not Found",
+    "selectLanguage": "Select Language",
+    "availableLanguages": "Available Languages",
+    "loadingTranslations": "Loading translations...",
+    "translationError": "Failed to load translations",
+    "noRecipesFound": "No recipes found matching your criteria.",
+    "recipe": "recipe",
+    "navigateTo": "Navigate to",
+    "time": "Time",
+    "mins": "mins",
+    "skill": "Skill",
+    "minutes": "minutes",
+    "calories": "cal",
+    "protein": "protein",
+    "recipesAvailable": "recipes available",
+    "goalMet": "Goal met!",
+    "sortBy": "Sort by:",
+    "gridView": "Grid view",
+    "listView": "List view",
+    "switchToClassicView": "Switch to Classic View",
+    "switchToEnhancedView": "Try Enhanced Search & Filters",
+    "tryDifferentFilters": "Try adjusting your search criteria or filters."
+  },
+  "filters": {
+    "skill": "Skill",
+    "time": "Time",
+    "easy": "Easy",
+    "moderate": "Moderate",
+    "difficult": "Difficult",
+    "short": "Short",
+    "medium": "Medium",
+    "long": "Long",
+    "difficulty": "Difficulty",
+    "diet": "Dietary Preferences",
+    "cuisine": "Cuisine",
+    "maxTime": "Maximum Cooking Time",
+    "ingredients": "Must Include Ingredients"
+  },
+  "cuisine": {
+    "indian": "Indian",
+    "southindian": "South Indian",
+    "northindian": "North Indian",
+    "gujarati": "Gujarati",
+    "maharashtrian": "Maharashtrian",
+    "punjabi": "Punjabi",
+    "bengali": "Bengali",
+    "tamil": "Tamil",
+    "sindhi": "Sindhi",
+    "udupi": "Udupi",
+    "world": "World"
+  },
+  "diet": {
+    "glutenfree": "Gluten Free",
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan"
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "moderate": "Moderate",
+    "difficult": "Difficult"
+  },
+  "search": {
+    "placeholder": "Search recipes, ingredients, or tags...",
+    "advancedFilters": "Advanced Filters",
+    "resultsCount": "recipes found",
+    "clearFilters": "Clear All",
+    "noLimit": "No Limit"
+  },
+  "sort": {
+    "relevance": "Relevance",
+    "name": "Name",
+    "time": "Cooking Time",
+    "difficulty": "Difficulty",
+    "popularity": "Popularity"
+  },
+  "recommendations": {
+    "similarRecipes": "You might also like",
+    "recommendedForYou": "Recommended for you",
+    "similarCuisine": "Similar cuisine",
+    "similarDifficulty": "Similar difficulty",
+    "similarTime": "Similar cooking time",
+    "dietaryMatch": "Matches dietary preferences",
+    "preferredCuisine": "Preferred cuisine",
+    "preferredDifficulty": "Preferred difficulty",
+    "favoriteIngredients": "Contains favorite ingredients",
+    "similarTags": "Similar recipe type",
+    "popular": "Popular recipe",
+    "quick": "Quick to make",
+    "festivalAppropriate": "Perfect for Navratri",
+    "highProtein": "High protein",
+    "highFiber": "High fiber",
+    "glutenFree": "Gluten-free",
+    "vegan": "Vegan"
+  },
+  "tags": {
+    "navratri": "Navratri",
+    "fasting": "Fasting",
+    "traditional": "Traditional",
+    "quick": "Quick",
+    "easy": "Easy",
+    "popular": "Popular",
+    "breakfast": "Breakfast",
+    "snacks": "Snacks",
+    "main-course": "Main Course",
+    "filling": "Filling",
+    "accompaniment": "Accompaniment",
+    "side-dish": "Side Dish",
+    "condiment": "Condiment"
+  },
+  "ui": {
+    "expand": "+",
+    "collapse": "−",
+    "tip": "Tip:",
+    "transliteration": "Transliteration:",
+    "meaning": "Meaning:",
+    "day": "Day"
+  },
+  "errors": {
+    "formNotFound": "Form not found"
+  },
+  "components": {
+    "durgaForms": {
+      "title": "Nine Forms of Goddess Durga",
+      "sections": {
+        "significance": "Significance",
+        "symbolism": "Symbolism",
+        "blessings": "Blessings",
+        "iconography": "Iconography",
+        "sacredColors": "Sacred Colors",
+        "offerings": "Offerings",
+        "celebrations": "Celebrations",
+        "sacredMantras": "Sacred Mantras"
+      }
+    }
   }
 }

@@ -1,14 +1,95 @@
 {
   "home": {
-    "title": "నవరాత్రి పండుగ యాప్",
-    "subtitle": "దివ్య తొమ్మిది రాత్రులను జరుపుకోండి",
-    "welcome": "మీ పూర్తి నవరాత్రి సహచరుడికి స్వాగతం"
+    "title": "నవరాత్రి జరుపుకోండి",
+    "tiles": {
+      "fastingRecipes": "ఉపవాస వంటకాలు",
+      "aboutNavratri": "నవరాత్రి గురించి",
+      "navratriInIndia": "భారతదేశంలో నవరాత్రి",
+      "aboutFastings": "ఉపవాసాల గురించి",
+      "moreOnNavratriFasting": "నవరాత్రి ఉపవాసంపై మరిన్ని",
+      "navratriDates": "నవరాత్రి తేదీలు"
+    }
+  },
+  "welcome": {
+    "title": "నవరాత్రి",
+    "description": "నవరాత్రి అంటే 'తొమ్మిది రాత్రులు' (నవ + రాత్రి), నవరాత్రి దేవి దుర్గా లేదా అంబే మాను గౌరవించడానికి జరుపుకుంటారు, మరియు ఇది అత్యంత ప్రియమైన హిందూ పండుగలలో ఒకటి.",
+    "enterApp": "యాప్‌లోకి ప్రవేశించండి",
+    "ourWebsite": "మా వెబ్‌సైట్",
+    "joinWhatsApp": "వాట్సాప్‌లో చేరండి",
+    "logoAlt": "నవరాత్రి పండుగ లోగో"
   },
   "recipes": {
-    "title": "నవరాత్రి వంటకాలు",
-    "subtitle": "పండుగ కోసం రుచికరమైన ఉపవాస వంటకాలు",
-    "categories": "వంటకాల వర్గాలు",
-    "makeItAMeal": "దీన్ని భోజనంగా చేయండి"
+    "title": "నవరాత్రి ఉపవాస వంటకాలు",
+    "description": "కింద జాబితా చేయబడినవి ఉత్తమ నవరాత్రి ఉపవాస వంటకాలు, మధ్యాహ్న లేదా రాత్రి భోజనానికి వడ్డించే భోజనం నుండి స్నాక్స్ మరియు స్వీట్స్ వరకు. వీటిలో కొన్నింటిని అల్పాహారానికి కూడా చేయవచ్చు. వీలైతే తేలికగా తినండి మరియు హైడ్రేటెడ్‌గా ఉండటానికి చాలా నీరు త్రాగండి. వీలైతే, మీ ఉపవాస ఆహారంలో పండ్లు లేదా పండ్ల రసాలను కూడా చేర్చండి.",
+    "makeItAMeal": "మీ థాలీని పూర్తి చేయండి",
+    "significance": "ఆధ్యాత్మిక ప్రాముఖ్యత",
+    "lunchDinner": "మధ్యాహ్న మరియు రాత్రి భోజనం",
+    "breakfastSnacks": "అల్పాహారం లేదా స్నాక్స్",
+    "chutneyRaita": "చట్నీ మరియు రైతా",
+    "sweetsDeserts": "స్వీట్స్ మరియు డెజర్ట్స్",
+    "beverages": "పానీయాలు",
+    "southIndian": "దక్షిణ భారతీయ వంటకాలు",
+    "sundal": "సుండల్ వంటకాలు",
+    "categories": {
+      "lunchDinner": "दुपार आणि रात्रीचे जेवण",
+      "breakfastSnacks": "नाश्ता किंवा स्नॅक्स",
+      "chutneyRaita": "चटणी आणि रायता",
+      "sweetsDeserts": "मिठाई आणि डेझर्ट",
+      "beverages": "पेये",
+      "southIndian": "दक्षिण भारतीय पाककृती",
+      "sundal": "सुंडल पाककृती"
+    },
+    "descriptions": {
+      "lunchDinner": "నేను మధ్యాహ్న మరియు రాత్రి భోజనాలను వివిధ రొట్టె లేదా ధాన్యం ఆధారిత వంటకాలు అలాగే కర్రీలు, గ్రేవీలు మరియు సైడ్ డిష్‌లుగా వర్గీకరించాను. రొట్టె జాబితాలో ఫ్లాట్‌బ్రెడ్ మరియు వేయించిన రొట్టె రెండూ ఉన్నాయి.",
+      "breakfastSnacks": "ఇక్కడ మీరు అల్పాహారం లేదా స్నాక్స్ కోసం చేయగల వంటకాలను జాబితా చేశాను. వీటిలో కొన్ని వేయించినవి. ఆరోగ్యకరమైన వెర్షన్‌ల కోసం, వీటిని చేయడానికి అప్పే (పణియారం) పాన్ ఉపయోగించండి లేదా ఎయిర్-ఫ్రై లేదా బేక్ చేయండి.",
+      "chutneyRaita": "ఈ చట్నీలు మరియు రైతాలు ప్రధాన కోర్స్ లేదా స్నాక్స్‌తో పరిపూర్ణ తోడుగా పనిచేయడమే కాకుండా, టాపింగ్ లేదా డిప్పింగ్ సాస్‌లుగా కూడా సరిపోతాయి. కింద అటువంటి నవరాత్రి ఉపవాస వంటకాలు జాబితా చేయబడ్డాయి.",
+      "sweetsDeserts": "భారతీయ భోజనం స్వీట్ లేకుండా ఎప్పుడైనా పూర్తి కాగలదా? నిజంగా కాదు. కాబట్టి, ఈ విభాగంలో, మీరు నవరాత్రి పండుగ సమయంలో చేయగల మరియు దేవి దుర్గకు కూడా అర్పించగల కొన్ని సులభమైన స్వీట్స్ మరియు డెజర్ట్‌లను కనుగొంటారు. ఈ జాబితా ఖీర్, హల్వా, లడ్డూ మరియు పండ్ల ఆధారిత వంటకాలుగా వర్గీకరించబడింది.",
+      "beverages": "నవరాత్రి పండుగలో ఉపవాస సమయంలో అన్ని పండ్లను తినవచ్చు. కాబట్టి, జ్యూస్‌లు, స్మూతీలు లేదా షేక్‌లు తయారు చేయడానికి ఏదైనా పండు లేదా పండ్ల కలయికను ఉపయోగించండి. పాలు మరియు పాల ఉత్పత్తులను కూడా నవరాత్రి వంటకాలుగా పరిగణించవచ్చు.",
+      "southIndian": "ఉత్తర భారతీయ నవరాత్రి ఉపవాస వంటకాలతో పోల్చితే, దక్షిణ భారతదేశంలో చేయబడే ఉపవాస ఆహారం చాలా భిన్నంగా ఉంటుంది. సాధారణంగా అన్ని ధాన్యాలు, కూరగాయలు మరియు తృణధాన్యాలు దీన్ని చేయడానికి ఉపయోగిస్తారు. కానీ వాటిలో ఇప్పటికీ ఉల్లిపాయలు లేదా వెల్లుల్లి లేవు. \n ఇవి ఉల్లిపాయలు లేని, వెల్లుల్లి లేని కొన్ని వంటకాలు, ఇవి భారతదేశంలోని దక్షిణ ప్రాంతాలలో నవరాత్రి పండుగ సమయంలో ప్రసిద్ధి చెందాయి. అయితే, ఇక్కడ గుర్తుంచుకోవాల్సిన ముఖ్యమైన విషయం ఏమిటంటే, మీరు వీటిని నిజమైన వ్రతం లేదా ఉపవాస వంటకాలుగా పరిగణించకూడదు. మీరు ఉత్తర భారతీయ శైలి ఉపవాసం పాటించాలనుకుంటే వీటిని చేయడం మానుకోండి.",
+      "sundal": "దక్షిణ భారతీయ సుండల్‌లు వివిధ రకాల పప్పులు, పప్పులు లేదా పప్పుధాన్యాలు అయిన మూంగ్ బీన్స్, బెంగాల్ గ్రామ్, బ్లాక్ ఐడ్ బీన్స్, వేరుశెనగలు, స్వీట్ కార్న్ మొదలైనవాటితో చేసే పొడి తయారీలు. \nనవరాత్రి అలాగే గణేశ చతుర్థి సమయంలో సాధారణం. ప్రతి రకమైన సుండల్ ఎక్కువ లేదా తక్కువ అదే విధంగా తయారు చేయబడుతుంది. వాటిలో వంటకాలలో కొన్ని చిన్న వైవిధ్యాలు మాత్రమే ఉండవచ్చు."
+    }
+  },
+  "location": {
+    "title": "భారతదేశంలో నవరాత్రి పండుగ",
+    "introduction": "ఉత్తరం నుండి దక్షిణం వరకు మరియు తూర్పు నుండి పడమర వరకు, భారతదేశం అంతటా నవరాత్రి పండుగ ఎలా జరుపుకుంటారో ఇక్కడ ఉంది:",
+    "regions": {
+      "westBengal": {
+        "title": "పశ్చిమ బెంగాల్, ఒడిశా, అస్సాం:",
+        "description": "అత్యంత ప్రసిద్ధ పండుగ, దుర్గా పూజ (రాక్షసుడు మహిషాసురుడిపై దుర్గ విజయాన్ని జరుపుకోవడం) అధికారికంగా నవరాత్రి 6వ రోజున ప్రారంభమై ఈ ప్రాంతాలలో చివరి 4 రోజులలో పూర్ణ ఉత్సాహంతో జరుపుకుంటారు. మెరుస్తున్న పండాల్స్, ఢాకీల ధునుచి నాచ్ మరియు రుచికరమైన భోగ్ ఈ రోజుల్లో సాధారణ దృశ్యాలు. విగ్రహ నిమజ్జన రోజున వివాహిత మహిళల సింధూర్ ఖైలా ముగింపును సూచిస్తుంది."
+      },
+      "maharashtra": {
+        "title": "మహారాష్ట్ర:",
+        "description": "నవరాత్రి మహారాష్ట్రియన్లకు 'కొత్త ప్రారంభాలను' సూచిస్తుంది. కాబట్టి, ఇది ఆస్తి కొనుగోలు చేయబడే మరియు వ్యాపార ఒప్పందాలు చేయబడే సమయం. వివాహిత మహిళలు 'సౌమంగల్యం' అనే వేడుకలో తమ మహిళా స్నేహితుల నుదిటిపై పసుపు మరియు కుంకుమ రాసి, వారికి సుపారి, తాంబూలం మరియు కొబ్బరికాయ బహుమతిగా ఇస్తారు."
+      },
+      "gujarat": {
+        "title": "గుజరాత్:",
+        "description": "భక్తులు మా అంబేను పూజిస్తారు మరియు ఈ 9 రోజులు ఉపవాసం ఉంటారు. సాయంత్రం గర్బీ (జీవిత మూలాన్ని సూచించే దీపాలతో మట్టి కుండ) తో ఆరతి చేస్తారు, దాని తర్వాత పురుషులు మరియు మహిళలు డాండియా మరియు గర్బా వంటి సాంప్రదాయ నృత్య రూపాలను ప్రదర్శిస్తారు."
+      },
+      "northIndia": {
+        "title": "పంజాబ్, ఉత్తర ప్రదేశ్, బీహార్:",
+        "description": "మొదటి 7 రోజులు ఉపవాసం మరియు ప్రతి రాత్రి జాగరణలు లేదా మతపరమైన పాటలు పాడడం. 8వ లేదా 9వ రోజున 'కంజికా' అనే వేడుకలో ఉపవాసం విరిగిపోతుంది, అక్కడ 9 యువతులు (దేవి దుర్గ యొక్క 9 రూపాలను సూచిస్తుంది) మరియు ఒక అబ్బాయి (భైరవ దేవుడిని సూచిస్తుంది) పూజించబడతారు. వారు బహుమతులు, ఆహారం - హల్వా, చనా, పూరీ మరియు డబ్బుతో గౌరవించబడతారు."
+      },
+      "himachalPradesh": {
+        "title": "హిమాచల్ ప్రదేశ్:",
+        "description": "ఇక్కడ, 10వ రోజు 'కుల్లు దశరా' వేడుకల ప్రారంభాన్ని సూచిస్తుంది, ఇతర రాష్ట్రాలలో పండుగ ముగిసినప్పుడు. ఈ రోజు భగవాన్ రాముడు అయోధ్యకు తిరిగి రావడాన్ని సూచిస్తుంది. నాటీ (నృత్యం యొక్క ఒక రూపం), ఆహారం మరియు సంగీతం వేడుకలను సూచిస్తాయి."
+      },
+      "karnataka": {
+        "title": "కర్ణాటక:",
+        "description": "'నడహబ్బా' అని పిలువబడే, కర్ణాటకలో నవరాత్రి నేటికీ 1610లో విజయనగర రాజవంశంలో జరుపుకునే విధంగానే జరుపుకుంటారు. చివరి రోజు వీధుల్లో ఏనుగుల ఊరేగింపు, రాష్ట్రం అంతటా జాతరలు మరియు ప్రదర్శనలతో కూడిన ఆచారాలతో గుర్తించబడుతుంది."
+      },
+      "tamilNadu": {
+        "title": "తమిళనాడు:",
+        "description": "ఈ 9 రోజులలో దేవి దుర్గ, సరస్వతి మరియు లక్ష్మి పూజించబడతారు. సాయంత్రం స్నేహితులు మరియు కుటుంబంతో బహుమతుల మార్పిడికి కేటాయించబడుతుంది. ఉత్తేజకరమైన ఆచారం బొమ్మ గోలు/బొమ్మై కోలు - 9 రాత్రులను సూచించే 9 మెట్లతో కూడిన తాత్కాలిక మెట్లు, ఇది తరం నుండి తరానికి అందించబడే దేవతల బొమ్మలు/విగ్రహాలతో అలంకరించబడుతుంది!"
+      },
+      "andhraPradesh": {
+        "title": "ఆంధ్ర ప్రదేశ్:",
+        "description": "ఇక్కడ, 9 రోజులు 'బతుకమ్మ పండుగ'గా జరుపుకుంటారు, ఇది స్త్రీత్వ దేవత మా గౌరికి అంకితం చేయబడింది. కొత్త చీరలు మరియు ఆభరణాలు ధరించిన మహిళలు కాలానుగుణ పువ్వులతో పూల స్టాక్ చేసి పూజ చేస్తారు. ఈ స్టాక్ చివరి రోజున నిమజ్జనం చేయబడుతుంది."
+      },
+      "kerala": {
+        "title": "కేరళ:",
+        "description": "కేరళలో నవరాత్రి విద్య మరియు కొత్త ప్రారంభాలకు అంకితం చేయబడింది. చివరి 3 రోజులలో మా సరస్వతి ముందు పుస్తకాలు మరియు సంగీత వాయిద్యాలు ఉంచబడి పూజించబడతాయి."
+      }
+    }
   },
   "festival": {
     "title": "నవరాత్రి పండుగ గురించి",
@@ -16,19 +97,261 @@
     "durgaForms": "దుర్గ యొక్క తొమ్మిది రూపాలు"
   },
   "dates": {
-    "title": "నవరాత్రి 2025 తేదీలు",
+    "title": "నవరాత్రి తేదీలు",
+    "festivalPeriod": "సెప్టెంబర్ 22 - సెప్టెంబర్ 30, 2025",
+    "navigation": {
+      "previous": "మునుపటి నవరాత్రి",
+      "next": "తదుపరి నవరాత్రి"
+    },
+    "seasons": {
+      "autumn": "శరదృతువు",
+      "spring": "వసంతృతువు",
+      "winter": "శీతృతువు",
+      "monsoon": "వర్షాకాలం"
+    },
     "subtitle": "ముఖ్యమైన తేదీలు మరియు వేడుకలు",
-    "calendar": "పండుగ క్యాలెండర్"
+    "calendar": "పండుగ క్యాలెండర్",
+    "dayLabel": "రోజు",
+    "labels": {
+      "day": "రోజు",
+      "date": "తేదీ",
+      "goddess": "దేవత",
+      "colors": "సిఫార్సు చేయబడిన రంగులు"
+    },
+    "seasonalInfo": {
+      "sharadautumn": "  Sharad Navratri is the most celebrated Navratri, occurring during the harvest season when nature transitions from monsoon to winter. This autumn festival symbolizes the victory of good over evil and is marked by vibrant celebrations, Durga Puja pandals, and the famous Garba and Dandiya dances in Gujarat. The cool autumn breeze and clear skies make it perfect for outdoor celebrations and community gatherings.",
+      "chaitraspring": "  Chaitra Navratri marks the beginning of the Hindu New Year and celebrates the arrival of spring. This festival occurs when nature awakens from winter slumber, trees bloom with fresh leaves, and flowers carpet the earth. It's considered highly auspicious for new beginnings, marriages, and starting new ventures. The pleasant spring weather makes it ideal for outdoor prayers and community celebrations.",
+      "maghawinter": "  Magha Navratri occurs during the peak winter season, also known as Gupt Navratri. This is considered the most spiritually intense period for deep meditation and inner purification. The cold winter nights are perfect for extended prayer sessions and spiritual practices. Devotees often observe strict fasting and engage in intensive worship to seek the Goddess's blessings for spiritual growth and protection from negative energies.",
+      "ashadmonsoon": "  Ashad Navratri takes place during the monsoon season when the earth is rejuvenated by life-giving rains. This unique Navratri celebrates the nurturing aspect of the Divine Mother, as nature becomes lush and green. The rhythmic sound of rain creates a perfect ambiance for meditation and prayer. Devotees seek blessings for fertility, abundance, and protection from natural calamities during this water-blessed season."
+    },
+    "popup": {
+      "goddess": "  Goddess Information",
+      "symbolism": "  Symbolism",
+      "blessings": "  Blessings",
+      "auspiciousTimes": "  Auspicious Times",
+      "sunrise": "  Sunrise",
+      "sunset": "  Sunset",
+      "pujaTime": "  Puja Time",
+      "preparations": "  Preparations",
+      "observances": "  Observances",
+      "specialRituals": "  Special Rituals",
+      "fastingRules": "  Fasting Rules",
+      "mantras": "  Sacred Mantras",
+      "transliteration": "  Transliteration",
+      "meaning": "  Meaning"
+    }
   },
   "fasting": {
-    "title": "నవరాత్రి ఉపవాసం గురించి",
-    "subtitle": "ఉపవాసం యొక్క మార్గదర్శకాలు మరియు ప్రాముఖ్యత",
-    "rules": "ఉపవాస నియమాలు",
-    "significance": "ఆధ్యాత్మిక ప్రాముఖ్యత"
+    "title": "About Navratri Fasting",
+    "subtitle": "Guidelines and significance of fasting",
+    "rules": "Fasting Rules",
+    "significance": "Spiritual Significance",
+    "reasons": {
+      "spiritualTitle": "🕉️ Spiritual Benefits",
+      "physicalTitle": "💪 Physical Benefits",
+      "mentalTitle": "🧠 Mental Benefits",
+      "culturalTitle": "🏛️ Cultural Benefits"
+    },
+    "significance": {
+      "purposeTitle": "🎯 Purpose",
+      "benefitsTitle": "🌟 Benefits",
+      "spiritualAspectsTitle": "🔮 Spiritual Aspects"
+    },
+    "scripturesIntro": "References about fasting in Hindu scriptures:",
+    "scripture": {
+      "sanskritTitle": "Sanskrit Text:",
+      "transliterationTitle": "Transliteration:",
+      "translationTitle": "Translation:"
+    },
+    "health": {
+      "healthBenefitsTitle": "💚 Health Benefits",
+      "precautionsTitle": "⚠️ Precautions",
+      "whoShouldAvoidTitle": "🚫 Who Should Avoid Strict Fasting"
+    },
+    "modernAdaptations": {
+      "workingProfessionalsTitle": "💼 Working Professionals",
+      "studentsTitle": "📚 Students",
+      "elderlyTitle": "👴 Elderly",
+      "childrenTitle": "👶 Children"
+    }
+  },
+  "aboutFestival": {
+    "title": "About Navratri Festival",
+    "personalIntroduction": "Navratri is one of the most celebrated festivals at my home as well. As a devi bhakt myself, I not only spend these 9 days and nights offering my prayers in the worship of Maa Durga, but also observe the ritual of fasting. And it is not just during these 9 days, for me, not a single day goes without remembering the Mother Goddess.",
+    "celebrationDescription": "Navratri festival is celebrated with the same joy, enthusiasm and adoration all over India. Although, people belonging to different parts of the country have their own special way of paying homage to the divine powers of Goddess Durga.",
+    "fastingDescription": "Another important feature of Navratri festival are the fasts or vrats that comes along. The Navratri Recipes that I have shared in this post are definitely a must try. If fasting, this complied list of Navratri Fast Recipes will be of great help to you."
   },
   "more": {
-    "title": "మరిన్ని సమాచారం",
-    "subtitle": "అదనపు వనరులు మరియు కంటెంట్",
-    "sections": "కంటెంట్ విభాగాలు"
+    "title": "More on Navratri",
+    "headerSubtitle": "Discover the rich traditions, cultural significance, and practical wisdom of one of Hinduism's most celebrated festivals.",
+    "fastingTraditions": {
+      "traditionalIngredients": {
+        "title": "Traditional North Indian Fasting Ingredients",
+        "introduction": "Navratri Recipes, especially the Navratri Fast Recipes are not only quick to prepare, but also easy to digest. Hence, this festival is a good time to purify or detoxify your body and mind, and get connected to Durga Maa and your inner conscience, through the route of divinity.",
+        "northIndianNote": "A thing particular to North India is that people in that side of the country only consume certain ingredients comprising of flours and grains during these 9 days of fasting. These are:",
+        "ingredients": {
+          "floursAndGrains": "Flours and grains: Kuttu ka atta (buckwheat flour), rajgira atta (amaranth flour) and rajgira (amaranth grains), sama ke chawal ka atta (barnyard millet flour) and vrat ke chawal (barnyard millet), singhare ka atta (water chestnut flour) and arrowroot flour",
+          "sabudana": "Sabudana (sago)",
+          "peanuts": "Peanuts",
+          "nutsAndDryFruits": "Nuts and dry fruits",
+          "rockSalt": "Rock salt (sendha namak)",
+          "spicesAndHerbs": "Spice and herbs may vary. Some that are generally used are black pepper, green chilies and ginger."
+        },
+        "conclusion": "My list of Navratri Recipes or Navratri Fast Recipes has North Indian as well as South Indian recipes in it. It is divided course wise with the mention of flours, cereals or grains as well. I am sure that with this list, you can easily prep and plan your fasting menu for the Navratri festival season."
+      }
+    },
+    "sections": {
+      "historicalContext": {
+        "title": "Historical Context and Origins",
+        "content": {
+          "paragraph1": "Navratri, meaning \"nine nights\" in Sanskrit, is one of the most ancient and significant festivals in Hindu tradition. The festival dates back to the Vedic period, with references found in ancient texts like the Devi Mahatmya and Markandeya Purana.",
+          "paragraph2": "The festival celebrates the victory of Goddess Durga over the demon Mahishasura, symbolizing the triumph of good over evil. This nine-day celebration has been observed for over 3,000 years, evolving through different dynasties and regions while maintaining its core spiritual essence.",
+          "ancientTraditions": {
+            "subtitle": "Ancient Traditions",
+            "content": "Archaeological evidence suggests that goddess worship during autumn months was prevalent in the Indus Valley Civilization. The tradition of fasting and feasting during Navratri was established to align human consciousness with the changing seasons and cosmic energies."
+          }
+        }
+      },
+      "culturalSignificance": {
+        "title": "Cultural and Spiritual Significance",
+        "content": {
+          "paragraph1": "Navratri represents the divine feminine energy (Shakti) in its various forms. Each of the nine days is dedicated to a different aspect of the Divine Mother, representing different qualities and powers that devotees seek to cultivate within themselves.",
+          "threePhases": {
+            "subtitle": "The Three Phases of Navratri",
+            "phase1": "Days 1-3: Durga - Destruction of negative qualities and ego",
+            "phase2": "Days 4-6: Lakshmi - Cultivation of positive qualities and abundance",
+            "phase3": "Days 7-9: Saraswati - Attainment of wisdom and spiritual knowledge"
+          },
+          "quote": "\"Navratri is not just a festival; it is a spiritual journey that transforms the devotee from within, purifying the mind, body, and soul.\" - Ancient Vedic Teaching"
+        }
+      },
+      "regionalVariations": {
+        "title": "Regional Variations and Practices",
+        "content": {
+          "gujarat": {
+            "subtitle": "Gujarat - Garba and Dandiya",
+            "content": "In Gujarat, Navratri is celebrated with vibrant Garba and Dandiya Raas dances. The circular dance represents the cycle of time and life, while the colorful attire reflects the joy and devotion of the participants."
+          },
+          "westBengal": {
+            "subtitle": "West Bengal - Durga Puja",
+            "content": "Bengal celebrates Navratri as Durga Puja with elaborate pandals (temporary structures) housing beautiful clay idols of Goddess Durga. The festival culminates with the immersion of idols in rivers, symbolizing the return of the goddess to her celestial abode."
+          },
+          "southIndia": {
+            "subtitle": "South India - Golu and Bombe Habba",
+            "content": "Southern states celebrate with Golu (Tamil Nadu) and Bombe Habba (Karnataka), displaying elaborate doll arrangements that depict mythological stories and cultural themes. Each display tells a story and serves as a medium for cultural education."
+          },
+          "northIndia": {
+            "subtitle": "North India - Ramlila and Kanya Puja",
+            "content": "Northern regions often combine Navratri with Ramlila performances and conclude with Kanya Puja, where young girls are worshipped as embodiments of the divine feminine energy."
+          },
+          "regionalFasting": {
+            "subtitle": "Regional Fasting Variations",
+            "northIndia": "North India: Emphasis on sattvic foods like kuttu, singhara, and sabudana",
+            "southIndia": "South India: Focus on sundal varieties and coconut-based preparations",
+            "maharashtra": "Maharashtra: Special preparations like sabudana khichdi and vrat ke chawal",
+            "rajasthan": "Rajasthan: Unique dishes like rajgira paratha and sama rice preparations"
+          }
+        }
+      },
+      "fastingTraditions": {
+        "title": "Traditional Fasting Practices",
+        "content": {
+          "paragraph1": "Navratri fasting is more than dietary restriction; it is a comprehensive spiritual practice that includes physical purification, mental discipline, and spiritual elevation. The practice varies across regions but maintains common principles.",
+          "guidelines": {
+            "subtitle": "Traditional Fasting Guidelines",
+            "guideline1": "Consume only sattvic (pure) foods that promote clarity and peace",
+            "guideline2": "Avoid tamasic foods like onion, garlic, and non-vegetarian items",
+            "guideline3": "Use rock salt (sendha namak) instead of regular salt",
+            "guideline4": "Eat fresh, seasonal ingredients to align with natural cycles",
+            "guideline5": "Maintain regular meal times to support digestive health"
+          },
+          "permittedIngredients": {
+            "subtitle": "Permitted Ingredients",
+            "content": "Traditional fasting allows specific grains and ingredients: buckwheat (kuttu), water chestnut flour (singhara), amaranth (rajgira), barnyard millet (sama), sago (sabudana), nuts, dairy products, and seasonal fruits."
+          }
+        }
+      },
+      "modernAdaptations": {
+        "title": "Modern Adaptations and Practical Tips",
+        "content": {
+          "paragraph1": "Contemporary lifestyles have led to thoughtful adaptations of traditional Navratri practices while maintaining their spiritual essence. Modern devotees balance ancient wisdom with current nutritional understanding and lifestyle demands.",
+          "approaches": {
+            "subtitle": "Modern Fasting Approaches",
+            "approach1": "Intermittent fasting combined with traditional ingredients",
+            "approach2": "Balanced nutrition using permitted foods to meet dietary needs",
+            "approach3": "Hydration focus with coconut water, herbal teas, and fresh juices",
+            "approach4": "Portion control and mindful eating practices",
+            "approach5": "Incorporation of superfoods like quinoa (where culturally accepted)"
+          },
+          "tip1": "For working professionals: Prepare fasting meals in advance, carry healthy snacks like roasted makhana or fruits, and maintain regular meal schedules to sustain energy levels throughout the day.",
+          "tip2": "For families with children: Involve kids in meal preparation, explain the significance of ingredients, and create fun, nutritious versions of traditional recipes to make fasting enjoyable and educational."
+        }
+      },
+      "healthBenefits": {
+        "title": "Health and Wellness Benefits",
+        "content": {
+          "paragraph1": "Modern nutritional science validates many traditional Navratri fasting practices. The emphasis on whole grains, seasonal foods, and mindful eating aligns with contemporary wellness principles.",
+          "benefits": {
+            "subtitle": "Nutritional Benefits",
+            "benefit1": "Digestive rest and detoxification through simplified diet",
+            "benefit2": "Increased fiber intake from whole grains and vegetables",
+            "benefit3": "Natural weight management through portion control",
+            "benefit4": "Enhanced mental clarity through sattvic food choices",
+            "benefit5": "Improved insulin sensitivity through reduced processed food intake"
+          },
+          "mindfulEating": {
+            "subtitle": "Mindful Eating Practices",
+            "content": "Navratri fasting encourages mindful consumption, gratitude for food, and awareness of eating habits. This practice often leads to long-term positive changes in dietary choices and relationship with food."
+          }
+        }
+      },
+      "contemporaryCelebrations": {
+        "title": "Contemporary Celebrations Worldwide",
+        "content": {
+          "paragraph1": "Navratri celebrations have transcended geographical boundaries, with Hindu communities worldwide adapting the festival to local contexts while preserving its spiritual core. These global celebrations showcase the universal appeal of the festival's message.",
+          "global": {
+            "subtitle": "Global Navratri Celebrations",
+            "usa": "United States: Community centers organize Garba nights and cultural programs",
+            "uk": "United Kingdom: Large-scale Navratri events in cities like London and Leicester",
+            "canada": "Canada: Multicultural celebrations incorporating local community participation",
+            "australia": "Australia: Fusion celebrations blending traditional and contemporary elements",
+            "middleEast": "Middle East: Expatriate communities maintain traditions in diverse cultural settings"
+          },
+          "tip": "For diaspora communities: Connect with local Hindu organizations, participate in community celebrations, and use technology to join virtual celebrations with family back home."
+        }
+      },
+      "practicalPlanning": {
+        "title": "Practical Planning and Preparation",
+        "content": {
+          "preNavratri": {
+            "subtitle": "Pre-Navratri Preparation",
+            "prep1": "Stock up on fasting ingredients: kuttu flour, sabudana, rock salt, and seasonal fruits",
+            "prep2": "Plan weekly menus to ensure variety and nutritional balance",
+            "prep3": "Prepare spice mixes and chutneys in advance for convenience",
+            "prep4": "Set up a dedicated prayer space for daily worship",
+            "prep5": "Coordinate with family members for shared meal preparation"
+          },
+          "dailyRoutine": {
+            "subtitle": "Daily Routine Tips",
+            "routine1": "Start the day with meditation or prayer for spiritual grounding",
+            "routine2": "Maintain consistent meal times to support energy levels",
+            "routine3": "Stay hydrated with water, coconut water, and herbal teas",
+            "routine4": "Include light physical activity like walking or yoga",
+            "routine5": "End the day with gratitude and reflection"
+          },
+          "tip": "Meal prep strategy: Prepare base ingredients like boiled potatoes, soaked sabudana, and chopped vegetables in advance. This saves time during busy weekdays while maintaining fresh, nutritious meals."
+        }
+      }
+    },
+    "subtitle": "Additional resources and content",
+    "sectionsLabel": "Content Sections"
+  },
+  "errors": {
+    "recipeNotFound": {
+      "title": "Recipe Not Found",
+      "message": "Sorry, the recipe you're looking for doesn't exist or may have been moved.",
+      "goBack": "Go Back",
+      "browseAll": "Browse All Recipes"
+    }
   }
 }

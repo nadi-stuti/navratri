@@ -1,10 +1,10 @@
 {
   "categories": {
     "southIndianSundal": "தென்னிந்திய சுண்டல்",
-    "lunchDinner": "மதிய உணவு மற்றும் இரவு உணவு",
+    "lunchDinner": "மதிய மற்றும் இரவு உணவு",
     "breakfastSnacks": "காலை உணவு மற்றும் தின்பண்டங்கள்",
     "chutneyRaita": "சட்னி மற்றும் ரைதா",
-    "sweetsDeserts": "இனிப்புகள் மற்றும் பாலகாரங்கள்",
+    "sweetsDeserts": "இனிப்புகள் மற்றும் இனிப்பு வகைகள்",
     "beverages": "பானங்கள்"
   },
   "ingredients": {
@@ -14,7 +14,7 @@
     "cookTime": "சமைக்கும் நேரம்"
   },
   "instructions": {
-    "title": "வழிமுறைகள்",
+    "title": "செய்முறை",
     "step": "படி",
     "tips": "குறிப்புகள்",
     "variations": "மாறுபாடுகள்"

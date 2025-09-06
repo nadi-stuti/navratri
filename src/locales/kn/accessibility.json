@@ -1,0 +1,84 @@
+{
+  "ariaLabels": {
+    "themeToggle": {
+      "switchTo": "{{mode}} ಮೋಡ್‌ಗೆ ಬದಲಾಯಿಸಿ",
+      "currentTheme": "ಪ್ರಸ್ತುತ ಥೀಮ್: {{theme}}. {{nextTheme}} ಮೋಡ್‌ಗೆ ಬದಲಾಯಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ."
+    },
+    "languageSelector": {
+      "selectLanguage": "ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+      "availableLanguages": "ಲಭ್ಯವಿರುವ ಭಾಷೆಗಳು",
+      "currentLanguage": "ಪ್ರಸ್ತುತ ಭಾಷೆ: {{language}}"
+    },
+    "navigation": {
+      "navigateTo": "{{destination}} ಗೆ ಹೋಗಿ",
+      "goBack": "ಹಿಂದಿನ ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+      "openMenu": "ನ್ಯಾವಿಗೇಷನ್ ಮೆನುವನ್ನು ತೆರೆಯಿರಿ",
+      "closeMenu": "ನ್ಯಾವಿಗೇಷನ್ ಮೆನುವನ್ನು ಮುಚ್ಚಿರಿ"
+    },
+    "viewControls": {
+      "gridView": "ಗ್ರಿಡ್ ವ್ಯೂಗೆ ಬದಲಾಯಿಸಿ",
+      "listView": "ಪಟ್ಟಿ ವ್ಯೂಗೆ ಬದಲಾಯಿಸಿ",
+      "sortBy": "{{criteria}} ಪ್ರಕಾರ ಪಾಕವಿಧಾನಗಳನ್ನು ವಿಂಗಡಿಸಿ",
+      "scrollToTop": "[TODO] Scroll to top"
+    },
+    "search": {
+      "searchInput": "ಪಾಕವಿಧಾನಗಳು, ಪದಾರ್ಥಗಳು ಅಥವಾ ಟ್ಯಾಗ್‌ಗಳನ್ನು ಹುಡುಕಿ",
+      "clearSearch": "ಹುಡುಕಾಟ ಇನ್‌ಪುಟ್ ಅನ್ನು ತೆರವುಗೊಳಿಸಿ",
+      "filterToggle": "ಸುಧಾರಿತ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಟಾಗಲ್ ಮಾಡಿ",
+      "applyFilters": "ಆಯ್ಕೆಮಾಡಿದ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಿ"
+    },
+    "recipe": {
+      "viewRecipe": "{{recipeName}} ಪಾಕವಿಧಾನದ ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+      "recipeImage": "{{recipeName}} ನ ಚಿತ್ರ",
+      "watchVideo": "{{recipeName}} ಅಡುಗೆ ವೀಡಿಯೊವನ್ನು ವೀಕ್ಷಿಸಿ",
+      "similarRecipe": "ಸಮಾನ ಪಾಕವಿಧಾನ: {{recipeName}}"
+    }
+  },
+  "imageAlt": {
+    "logo": "ನವರಾತ್ರಿ ಹಬ್ಬದ ಲೋಗೋ - ಸ್ವಸ್ತಿಕ ಚಿಹ್ನೆ",
+    "recipeImage": "{{recipeName}} - ಸಾಂಪ್ರದಾಯಿಕ ನವರಾತ್ರಿ ಪಾಕವಿಧಾನ",
+    "goddessImage": "ದೇವಿ {{goddessName}} - ನವರಾತ್ರಿಯ {{day}} ದಿನ",
+    "festivalImage": "ನವರಾತ್ರಿ ಹಬ್ಬದ ಆಚರಣೆ",
+    "decorativeImage": "ಅಲಂಕಾರಿಕ ಅಂಶ"
+  },
+  "loadingStates": {
+    "loadingRecipes": "ಪಾಕವಿಧಾನಗಳು ಲೋಡ್ ಆಗುತ್ತಿವೆ...",
+    "loadingTranslations": "ಅನುವಾದಗಳು ಲೋಡ್ ಆಗುತ್ತಿವೆ...",
+    "loadingPage": "ಪುಟದ ವಿಷಯ ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+    "searchingRecipes": "ಪಾಕವಿಧಾನಗಳನ್ನು ಹುಡುಕುತ್ತಿದೆ...",
+    "applyingFilters": "ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಅನ್ವಯಿಸುತ್ತಿದೆ...",
+    "changingLanguage": "ಭಾಷೆಯನ್ನು {{language}} ಗೆ ಬದಲಾಯಿಸುತ್ತಿದೆ...",
+    "switchingTheme": "{{theme}} ಥೀಮ್‌ಗೆ ಬದಲಾಯಿಸುತ್ತಿದೆ..."
+  },
+  "errorAnnouncements": {
+    "recipeNotFound": "ಪಾಕವಿಧಾನ ಸಿಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಬೇರೆ ಹುಡುಕಾಟವನ್ನು ಪ್ರಯತ್ನಿಸಿ.",
+    "translationError": "ಅನುವಾದ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ಡಿಫಾಲ್ಟ್ ಭಾಷೆಯನ್ನು ಬಳಸುತ್ತಿದೆ.",
+    "networkError": "ನೆಟ್‌ವರ್ಕ್ ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ.",
+    "searchError": "ಹುಡುಕಾಟ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "filterError": "ಫಿಲ್ಟರ್ ಅನ್ವಯ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಿ.",
+    "generalError": "ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ."
+  },
+  "statusAnnouncements": {
+    "recipeLoaded": "ಪಾಕವಿಧಾನ {{recipeName}} ಯಶಸ್ವಿಯಾಗಿ ಲೋಡ್ ಆಗಿದೆ",
+    "searchCompleted": "ಹುಡುಕಾಟ ಪೂರ್ಣಗೊಂಡಿದೆ. {{count}} ಪಾಕವಿಧಾನಗಳು ಸಿಕ್ಕಿವೆ.",
+    "filtersApplied": "ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಅನ್ವಯಿಸಲಾಗಿದೆ. {{count}} ಪಾಕವಿಧಾನಗಳು ನಿಮ್ಮ ಮಾನದಂಡಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ.",
+    "languageChanged": "ಭಾಷೆಯನ್ನು {{language}} ಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ",
+    "themeChanged": "ಥೀಮ್ ಅನ್ನು {{theme}} ಮೋಡ್‌ಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ",
+    "pageLoaded": "{{pageName}} ಪುಟ ಲೋಡ್ ಆಗಿದೆ"
+  },
+  "instructions": {
+    "keyboardNavigation": "ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು ಬಾಣದ ಕೀಗಳನ್ನು ಬಳಸಿ, ಆಯ್ಕೆಮಾಡಲು Enter, ಮುಚ್ಚಲು Escape",
+    "screenReaderHelp": "ಇದು ನವರಾತ್ರಿ ಪಾಕವಿಧಾನ ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದೆ. ಅಂಶಗಳ ನಡುವೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಲು Tab ಬಳಸಿ.",
+    "searchHelp": "ಪಾಕವಿಧಾನಗಳನ್ನು ಹುಡುಕಲು ಟೈಪ್ ಮಾಡಿ. ಫಲಿತಾಂಶಗಳನ್ನು ಸೀಮಿತಗೊಳಿಸಲು ಫಿಲ್ಟರ್‌ಗಳನ್ನು ಬಳಸಿ.",
+    "languageHelp": "ಡ್ರಾಪ್‌ಡೌನ್ ಮೆನುವಿನಿಂದ ನಿಮ್ಮ ಆದ್ಯತೆಯ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "skipToMain": "ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ಹೋಗಿ"
+  },
+  "landmarks": {
+    "mainContent": "ಮುಖ್ಯ ವಿಷಯ",
+    "navigation": "ಸೈಟ್ ನ್ಯಾವಿಗೇಷನ್",
+    "search": "ಪಾಕವಿಧಾನ ಹುಡುಕಾಟ",
+    "filters": "ಪಾಕವಿಧಾನ ಫಿಲ್ಟರ್‌ಗಳು",
+    "results": "ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು",
+    "recipeDetails": "ಪಾಕವಿಧಾನ ವಿವರಗಳು"
+  }
+}

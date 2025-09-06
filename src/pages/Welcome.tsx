@@ -2,6 +2,7 @@ import "./Welcome.css";
 import reactLogo from "../assets/swastik.png";
 import { useState } from "react";
 import Router from "../Router";
+import { useLanguage } from "../contexts/LanguageContext";
 
 function Welcome() {
   const [startApp, setStartApp] = useState(false);
@@ -14,18 +15,39 @@ function Welcome() {
 }
 
 const WelcomeScreen = ({ onStart }: { onStart: () => void }) => {
+  const { t } = useLanguage();
+
   return (
     <div className="welcome-page">
-      <img src={reactLogo} className="logo react" alt="React logo" />
+      <img src={reactLogo} className="logo react" alt={t("accessibility:imageAlt.logo", "Navratri Festival Logo - Swastik symbol")} />
       <div className="content card-grad">
-        <h1>Navratri</h1>
+        <h1>{t("pages.welcome.title")}</h1>
         <p>
-          Navratri translating to ‘nine nights’ (nava + ratri), Navratri is
-          observed to honor Goddess Durga or Ambe Maa, and is one of the most
-          cherished Hindu festivals.
+          {t("pages.welcome.description")}
         </p>
 
-        <button onClick={onStart}>Enter App</button>
+        <button className="main-button" onClick={onStart}>
+          {t("pages.welcome.enterApp")}
+        </button>
+
+        <div className="link-buttons">
+          <a 
+            href="https://nadistuti.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="link-button"
+          >
+            {t("pages.welcome.ourWebsite")}
+          </a>
+          <a 
+            href="https://chat.whatsapp.com/KNCtYWiR6D856Yaup7iRZ9" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="link-button"
+          >
+            {t("pages.welcome.joinWhatsApp")}
+          </a>
+        </div>
       </div>
     </div>
   );

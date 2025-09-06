@@ -6,6 +6,7 @@ import { App as CapacitorApp } from "@capacitor/app";
 import "./i18n/config";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { UserPreferencesProvider } from "./contexts/UserPreferencesContext";
 
 CapacitorApp.addListener("backButton", ({ canGoBack }) => {
   if (!canGoBack) {
@@ -19,7 +20,9 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider>
       <LanguageProvider>
-        <Welcome />
+        <UserPreferencesProvider>
+          <Welcome />
+        </UserPreferencesProvider>
       </LanguageProvider>
     </ThemeProvider>
   </StrictMode>

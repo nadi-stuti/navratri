@@ -1,41 +1,142 @@
+import { useState } from 'react';
+import { getMoreContentData, MoreSection, MoreContent } from '../model/more-content-data';
+import { useLanguage } from '../contexts/LanguageContext';
+import './More.css';
+
 const More = () => {
+  const { t } = useLanguage();
+  const [expandedSection, setExpandedSection] = useState<string | null>(null);
+  
+  // Get translated content data
+  const moreContentData = getMoreContentData(t);
+
+  const toggleSection = (section: string) => {
+    setExpandedSection(expandedSection === section ? null : section);
+  };
+
+  const renderContent = (content: MoreContent, index: number) => {
+    switch (content.type) {
+      case 'paragraph':
+        return (
+          <p key={index} className="content-paragraph">
+            {content.content}
+          </p>
+        );
+
+      case 'list':
+        return (
+          <div key={index} className="content-list">
+            {content.subtitle && <h4>{content.subtitle}</h4>}
+            <ul>
+              {Array.isArray(content.content) && content.content.map((item, itemIndex) => (
+                <li key={itemIndex}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        );
+
+      case 'subsection':
+        return (
+          <div key={index} className="content-subsection">
+            {content.subtitle && <h4>{content.subtitle}</h4>}
+            <p className="content-subsection-text">{content.content}</p>
+          </div>
+        );
+
+      case 'tip':
+        return (
+          <div key={index} className="content-tip">
+            <div className="tip-header">
+              <span className="tip-icon">💡</span>
+              <span className="tip-label">{t('common:ui.tip')}</span>
+            </div>
+            <p className="tip-content">{content.content}</p>
+          </div>
+        );
+
+      case 'quote':
+        return (
+          <blockquote key={index} className="content-quote">
+            {content.content}
+          </blockquote>
+        );
+
+      default:
+        return null;
+    }
+  };
+
+  const renderSection = (title: string, content: React.ReactNode, sectionKey: string) => (
+    <div className="more-section">
+      <button
+        onClick={() => toggleSection(sectionKey)}
+        className={`section-header ${expandedSection === sectionKey ? 'expanded' : ''}`}
+      >
+        <span className="section-title">{title}</span>
+        <span className="section-toggle">
+          {expandedSection === sectionKey ? t('common:ui.collapse') : t('common:ui.expand')}
+        </span>
+      </button>
+      {expandedSection === sectionKey && (
+        <div className="section-content">
+          {content}
+        </div>
+      )}
+    </div>
+  );
+
+  const renderSectionContent = (section: MoreSection) => (
+    <div>
+      {section.content.map((content, index) => renderContent(content, index))}
+
+      {/* Traditional North Indian Fasting Ingredients for fasting-traditions section */}
+      {section.id === 'fasting-traditions' && (
+        <div className="original-fasting-info">
+          <h3>{t('pages:more.fastingTraditions.traditionalIngredients.title')}</h3>
+          <p>
+            {t('pages:more.fastingTraditions.traditionalIngredients.introduction')}
+          </p>
+          <p>
+            {t('pages:more.fastingTraditions.traditionalIngredients.northIndianNote')}
+          </p>
+          <ul>
+            <li>
+              {t('pages:more.fastingTraditions.traditionalIngredients.ingredients.floursAndGrains')}
+            </li>
+            <li>{t('pages:more.fastingTraditions.traditionalIngredients.ingredients.sabudana')}</li>
+            <li>{t('pages:more.fastingTraditions.traditionalIngredients.ingredients.peanuts')}</li>
+            <li>{t('pages:more.fastingTraditions.traditionalIngredients.ingredients.nutsAndDryFruits')}</li>
+            <li>{t('pages:more.fastingTraditions.traditionalIngredients.ingredients.rockSalt')}</li>
+            <li>
+              {t('pages:more.fastingTraditions.traditionalIngredients.ingredients.spicesAndHerbs')}
+            </li>
+          </ul>
+          <p>
+            {t('pages:more.fastingTraditions.traditionalIngredients.conclusion')}
+          </p>
+        </div>
+      )}
+    </div>
+  );
+
   return (
-    <div style={{ padding: "1rem" }}>
-      <h1>More on Navratri Fasting</h1>
-      <p>
-        Navratri Recipes, especially the Navratri Fast Recipes are not only
-        quick to prepare, but also easy to digest. Hence, this festival is a
-        good time to purify or detoxify your body and mind, and get connected to
-        Durga Maa and your inner conscience, through the route of divinity.
-      </p>
-      <p>
-        A thing particular to North India is that people in that side of the
-        country only consume certain ingredients comprising of flours and grains
-        during these 9 days of fasting. These are:
-      </p>
-      <ul>
-        <li>
-          Flours and grains: Kuttu ka atta (buckwheat flour), rajgira atta
-          (amaranth flour) and rajgira (amaranth grains), sama ke chawal ka atta
-          (barnyard millet flour) and vrat ke chawal (barnyard millet), singhare
-          ka atta (water chestnut flour) and arrowroot flour
-        </li>
-        <li>Sabudana (sago)</li>
-        <li>Peanuts</li>
-        <li>Nuts and dry fruits</li>
-        <li>Rock salt (sendha namak)</li>
-        <li>
-          Spice and herbs may vary. Some that are generally used are black
-          pepper, green chilies and ginger.
-        </li>
-      </ul>
-      <p>
-        My list of Navratri Recipes or Navratri Fast Recipes has North Indian as
-        well as South Indian recipes in it. It is divided course wise with the
-        mention of flours, cereals or grains as well. I am sure that with this
-        list, you can easily prep and plan your fasting menu for the Navratri
-        festival season.
-      </p>
+    <div className="more-container">
+      <div className="more-header">
+        <h1>{t('pages:more.title')}</h1>
+        <p className="header-subtitle">
+          {t('pages:more.headerSubtitle')}
+        </p>
+      </div>
+
+      <div className="more-sections">
+        {moreContentData.map((section) =>
+          renderSection(
+            section.title,
+            renderSectionContent(section),
+            section.id
+          )
+        )}
+      </div>
     </div>
   );
 };

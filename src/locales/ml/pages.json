@@ -1,14 +1,87 @@
 {
   "home": {
-    "title": "നവരാത്രി ഉത്സവ ആപ്പ്",
-    "subtitle": "ദിവ്യമായ ഒമ്പത് രാത്രികൾ ആഘോഷിക്കുക",
-    "welcome": "നിങ്ങളുടെ സമ്പൂർണ്ണ നവരാത്രി സഹായിയിലേക്ക് സ്വാഗതം"
+    "title": "നവരാത്രി ആഘോഷിക്കുക",
+    "tiles": {
+      "fastingRecipes": "ഉപവാസ പാചകക്കുറിപ്പുകൾ",
+      "aboutNavratri": "നവരാത്രിയെക്കുറിച്ച്",
+      "navratriInIndia": "ഇന്ത്യയിൽ നവരാത്രി",
+      "aboutFastings": "ഉപവാസങ്ങളെക്കുറിച്ച്",
+      "moreOnNavratriFasting": "നവരാത്രി ഉപവാസത്തെക്കുറിച്ച് കൂടുതൽ",
+      "navratriDates": "നവരാത്രി തീയതികൾ"
+    }
+  },
+  "welcome": {
+    "title": "നവരാത്രി",
+    "description": "നവരാത്രി എന്നാൽ 'ഒമ്പത് രാത്രികൾ' (നവ + രാത്രി), നവരാത്രി ദേവി ദുർഗയെയോ അമ്പേ മാവിനെയോ ബഹുമാനിക്കാൻ ആചരിക്കുന്നു, ഇത് ഏറ്റവും പ്രിയപ്പെട്ട ഹിന്ദു ഉത്സവങ്ങളിലൊന്നാണ്.",
+    "enterApp": "ആപ്പിൽ പ്രവേശിക്കുക",
+    "ourWebsite": "ഞങ്ങളുടെ വെബ്‌സൈറ്റ്",
+    "joinWhatsApp": "വാട്ട്സാപ്പിൽ ചേരുക",
+    "logoAlt": "നവരാത്രി ഉത്സവ ലോഗോ"
   },
   "recipes": {
-    "title": "നവരാത്രി പാചകക്കുറിപ്പുകൾ",
-    "subtitle": "ഉത്സവത്തിനുള്ള രുചികരമായ ഉപവാസ ഭക്ഷണങ്ങൾ",
-    "categories": "പാചക വിഭാഗങ്ങൾ",
-    "makeItAMeal": "ഇത് ഭക്ഷണമാക്കുക"
+    "title": "നവരാത്രി ഉപവാസ പാചകക്കുറിപ്പുകൾ",
+    "description": "താഴെ പട്ടികപ്പെടുത്തിയിരിക്കുന്നത് മികച്ച നവരാത്രി ഉപവാസ പാചകക്കുറിപ്പുകളാണ്, ഉച്ചഭക്ഷണത്തിനോ അത്താഴത്തിനോ വിളമ്പാവുന്ന ഭക്ഷണം മുതൽ ലഘുഭക്ഷണങ്ങളും മധുരപലഹാരങ്ങളും വരെ. ഇവയിൽ ചിലത് പ്രാതൽക്കൂടി ഉണ്ടാക്കാം. സാധ്യമെങ്കിൽ ലഘുവായി കഴിക്കുകയും ജലാംശം നിലനിർത്താൻ ധാരാളം വെള്ളം കുടിക്കുകയും ചെയ്യുക. സാധ്യമെങ്കിൽ, നിങ്ങളുടെ ഉപവാസ ഭക്ഷണത്തിൽ പഴങ്ങളോ പഴച്ചാറുകളോ ഉൾപ്പെടുത്തുക.",
+    "makeItAMeal": "നിങ്ങളുടെ താലി പൂർത്തിയാക്കുക",
+    "categories": {
+      "lunchDinner": "ഉച്ചഭക്ഷണവും അത്താഴവും",
+      "breakfastSnacks": "പ്രാതൽ അല്ലെങ്കിൽ ലഘുഭക്ഷണങ്ങൾ",
+      "chutneyRaita": "ചട്നിയും രൈതയും",
+      "sweetsDeserts": "മധുരപലഹാരങ്ങളും ഡെസേർട്ടുകളും",
+      "beverages": "പാനീയങ്ങൾ",
+      "southIndian": "ദക്ഷിണേന്ത്യൻ പാചകക്കുറിപ്പുകൾ",
+      "sundal": "സുണ്ടൽ പാചകക്കുറിപ്പുകൾ"
+    },
+    "descriptions": {
+      "lunchDinner": "ഞാൻ ഉച്ചഭക്ഷണവും അത്താഴവും വിവിധ റൊട്ടി അല്ലെങ്കിൽ ധാന്യാധിഷ്ഠിത വിഭവങ്ങളും കറികൾ, ഗ്രേവികൾ, സൈഡ് ഡിഷുകളുമായി വർഗ്ഗീകരിച്ചിരിക്കുന്നു. റൊട്ടി പട്ടികയിൽ ഫ്ലാറ്റ്ബ്രെഡും വറുത്ത റൊട്ടിയും ഉൾപ്പെടുന്നു.",
+      "breakfastSnacks": "ഇവിടെ പ്രാതലിനോ ലഘുഭക്ഷണത്തിനോ ഉണ്ടാക്കാവുന്ന പാചകക്കുറിപ്പുകൾ ഞാൻ പട്ടികപ്പെടുത്തിയിട്ടുണ്ട്. ഇവയിൽ ചിലത് വറുത്തതാണ്. ആരോഗ്യകരമായ പതിപ്പുകൾക്കായി, ഇവ ഉണ്ടാക്കാൻ അപ്പേ (പണിയാരം) പാൻ ഉപയോഗിക്കുക അല്ലെങ്കിൽ എയർ-ഫ്രൈ അല്ലെങ്കിൽ ബേക്ക് ചെയ്യുക.",
+      "chutneyRaita": "ഈ ചട്നികളും രൈതകളും പ്രധാന കോഴ്സിനോ ലഘുഭക്ഷണത്തിനോ ഒപ്പം മികച്ച കൂട്ടുകാരനായി പ്രവർത്തിക്കുക മാത്രമല്ല, ടോപ്പിംഗ് അല്ലെങ്കിൽ ഡിപ്പിംഗ് സോസായും മതിയാകും. അത്തരം നവരാത്രി ഉപവാസ പാചകക്കുറിപ്പുകൾ താഴെ പട്ടികപ്പെടുത്തിയിരിക്കുന്നു.",
+      "sweetsDeserts": "ഒരു ഇന്ത്യൻ ഭക്ഷണം മധുരപലഹാരം ഇല്ലാതെ എപ്പോഴെങ്കിലും പൂർണ്ണമാകുമോ? ശരിക്കും ഇല്ല. അതിനാൽ, ഈ വിഭാഗത്തിൽ, നവരാത്രി ഉത്സവത്തിൽ ഉണ്ടാക്കാവുന്നതും ദേവി ദുർഗയ്ക്ക് അർപ്പിക്കാവുന്നതുമായ ചില എളുപ്പമുള്ള മധുരപലഹാരങ്ങളും ഡെസേർട്ടുകളും നിങ്ങൾ കണ്ടെത്തും. ഈ പട്ടിക പായസം, ഹൽവ, ലഡ്ഡു, പഴാധിഷ്ഠിത പാചകക്കുറിപ്പുകൾ എന്നിങ്ങനെ വർഗ്ഗീകരിച്ചിരിക്കുന്നു.",
+      "beverages": "നവരാത്രി ഉത്സവത്തിൽ ഉപവാസ സമയത്ത് എല്ലാ പഴങ്ങളും കഴിക്കാം. അതിനാൽ, ജ്യൂസുകൾ, സ്മൂത്തികൾ അല്ലെങ്കിൽ ഷേക്കുകൾ തയ്യാറാക്കാൻ ഏതെങ്കിലും പഴം അല്ലെങ്കിൽ പഴങ്ങളുടെ സംയോജനം ഉപയോഗിക്കുക. പാലും പാൽ ഉൽപ്പന്നങ്ങളും നവരാത്രി പാചകക്കുറിപ്പുകളായി കണക്കാക്കാം.",
+      "southIndian": "വടക്കേ ഇന്ത്യൻ നവരാത്രി ഉപവാസ പാചകക്കുറിപ്പുകളുമായി താരതമ്യപ്പെടുത്തുമ്പോൾ, ദക്ഷിണേന്ത്യയിൽ ഉണ്ടാക്കുന്ന ഉപവാസ ഭക്ഷണം തികച്ചും വ്യത്യസ്തമാണ്. സാധാരണയായി എല്ലാ ധാന്യങ്ങളും പച്ചക്കറികളും ധാന്യങ്ങളും ഇത് ഉണ്ടാക്കാൻ ഉപയോഗിക്കുന്നു. എന്നാൽ അവയിൽ ഇപ്പോഴും ഉള്ളിയോ വെളുത്തുള്ളിയോ ഇല്ല. \n ഇവ ഉള്ളി ഇല്ലാത്ത, വെളുത്തുള്ളി ഇല്ലാത്ത ചില പാചകക്കുറിപ്പുകളാണ്, അവ ഇന്ത്യയുടെ തെക്കൻ ഭാഗങ്ങളിൽ നവരാത്രി ഉത്സവത്തിൽ ജനപ്രിയമാണ്. എന്നിരുന്നാലും, ഇവിടെ ഓർക്കേണ്ട ഒരു പ്രധാന കാര്യം, നിങ്ങൾ ഇവയെ യഥാർത്ഥ വ്രതമോ ഉപവാസ പാചകക്കുറിപ്പുകളോ ആയി കണക്കാക്കരുത് എന്നതാണ്. നിങ്ങൾ വടക്കേ ഇന്ത്യൻ ശൈലിയിലുള്ള ഉപവാസം ആചരിക്കാൻ ആഗ്രഹിക്കുന്നുവെങ്കിൽ ഇവ ഉണ്ടാക്കുന്നത് ഒഴിവാക്കുക.",
+      "sundal": "ദക്ഷിണേന്ത്യൻ സുണ്ടലുകൾ പലതരം പയറുവർഗ്ഗങ്ങൾ, പയറുവർഗ്ഗങ്ങൾ അല്ലെങ്കിൽ പയറുവർഗ്ഗങ്ങളായ മുങ്ങ് ബീൻസ്, ബംഗാൾ ഗ്രാം, കറുത്ത കണ്ണുള്ള ബീൻസ്, നിലക്കടല, മധുര ധാന്യം മുതലായവ ഉപയോഗിച്ച് ഉണ്ടാക്കുന്ന ഉണങ്ങിയ തയ്യാറെടുപ്പുകളാണ്. \nനവരാത്രിയിലും ഗണേശ ചതുർത്ഥിയിലും സാധാരണമാണ്. ഓരോ തരം സുണ്ടലും കൂടുതലോ കുറവോ ഒരേ രീതിയിൽ തയ്യാറാക്കുന്നു. അവയിൽ പാചകക്കുറിപ്പുകളിൽ ചില ചെറിയ വ്യതിയാനങ്ങൾ മാത്രമേ ഉണ്ടാകൂ."
+    }
+  },
+  "location": {
+    "title": "ഇന്ത്യയിൽ നവരാത്രി ഉത്സവം",
+    "introduction": "വടക്ക് മുതൽ തെക്ക് വരെയും കിഴക്ക് മുതൽ പടിഞ്ഞാറ് വരെയും, ഇന്ത്യയിലുടനീളം നവരാത്രി ഉത്സവം എങ്ങനെ ആഘോഷിക്കുന്നു എന്നത് ഇവിടെയുണ്ട്:",
+    "regions": {
+      "westBengal": {
+        "title": "പശ്ചിമ ബംഗാൾ, ഒഡിശ, അസം:",
+        "description": "ഏറ്റവും ജനപ്രിയമായ ഉത്സവം, ദുർഗാ പൂജ (രാക്ഷസൻ മഹിഷാസുരനെതിരെ ദുർഗയുടെ വിജയം ആഘോഷിക്കുന്നത്) ഔദ്യോഗികമായി നവരാത്രിയുടെ ആറാം ദിവസം ആരംഭിക്കുകയും ഈ പ്രദേശങ്ങളിൽ അവസാന 4 ദിവസങ്ങളിൽ പൂർണ്ണ ഉത്സാഹത്തോടെ ആചരിക്കുകയും ചെയ്യുന്നു. തിളങ്ങുന്ന പണ്ഡാലുകൾ, ഢാക്കികളുടെ ധുനുച്ചി നാച്ച്, രുചികരമായ ഭോഗ് എന്നിവ ഈ ദിവസങ്ങളിലെ സാധാരണ കാഴ്ചകളാണ്. വിഗ്രഹ നിമജ്ജന ദിവസത്തിൽ വിവാഹിതരായ സ്ത്രീകളുടെ സിന്ദൂർ ഖൈല അവസാനത്തെ അടയാളപ്പെടുത്തുന്നു."
+      },
+      "maharashtra": {
+        "title": "മഹാരാഷ്ട്ര:",
+        "description": "നവരാത്രി മഹാരാഷ്ട്രക്കാർക്ക് 'പുതിയ തുടക്കങ്ങളെ' സൂചിപ്പിക്കുന്നു. അതിനാൽ, ഇത് സ്വത്ത് വാങ്ങുകയും ബിസിനസ്സ് ഇടപാടുകൾ നടത്തുകയും ചെയ്യുന്ന സമയമാണ്. വിവാഹിതരായ സ്ത്രീകൾ 'സൗമംഗല്യം' എന്ന ചടങ്ങിൽ തങ്ങളുടെ സ്ത്രീ സുഹൃത്തുക്കളുടെ നെറ്റിയിൽ മഞ്ഞളും കുങ്കുമവും പുരട്ടുകയും അവർക്ക് അടയ്ക്ക, വെറ്റില, തേങ്ങ എന്നിവ സമ്മാനമായി നൽകുകയും ചെയ്യുന്നു."
+      },
+      "gujarat": {
+        "title": "ഗുജറാത്ത്:",
+        "description": "ഭക്തർ മാ അംബേയെ ആരാധിക്കുകയും ഈ 9 ദിവസങ്ങൾ ഉപവസിക്കുകയും ചെയ്യുന്നു. സായാഹ്നങ്ങളിൽ ഗർബി (ജീവന്റെ ഉറവിടത്തെ സൂചിപ്പിക്കുന്ന ദീപങ്ങളുള്ള മൺപാത്രം) ഉപയോഗിച്ച് ആരതി നടത്തുന്നു, തുടർന്ന് പുരുഷന്മാരും സ്ത്രീകളും ഡാണ്ഡിയ, ഗർബ തുടങ്ങിയ പരമ്പരാഗത നൃത്തരൂപങ്ങൾ അവതരിപ്പിക്കുന്നു."
+      },
+      "northIndia": {
+        "title": "പഞ്ചാബ്, ഉത്തർപ്രദേശ്, ബിഹാർ:",
+        "description": "ആദ്യത്തെ 7 ദിവസങ്ങൾ ഉപവാസവും എല്ലാ രാത്രിയും ജാഗരണങ്ങളോ മതപരമായ പാട്ടുകളോ പാടുന്നു. 8-ാം അല്ലെങ്കിൽ 9-ാം ദിവസം 'കഞ്ജിക' എന്ന ചടങ്ങിൽ ഉപവാസം തകർക്കുന്നു, അവിടെ 9 പെൺകുട്ടികളെ (ദേവി ദുർഗയുടെ 9 രൂപങ്ങളെ പ്രതിനിധീകരിക്കുന്നു) ഒരു ആൺകുട്ടിയെയും (ഭൈരവ ദേവനെ പ്രതിനിധീകരിക്കുന്നു) ആരാധിക്കുന്നു. അവരെ സമ്മാനങ്ങൾ, ഭക്ഷണം - ഹൽവ, ചന, പൂരി, പണം എന്നിവ കൊണ്ട് ബഹുമാനിക്കുന്നു."
+      },
+      "himachalPradesh": {
+        "title": "ഹിമാചൽ പ്രദേശ്:",
+        "description": "ഇവിടെ, 10-ാം ദിവസം 'കുല്ലു ദശഹര' ആഘോഷത്തിന്റെ തുടക്കത്തെ അടയാളപ്പെടുത്തുന്നു, മറ്റ് സംസ്ഥാനങ്ങളിൽ ഉത്സവം അവസാനിക്കുമ്പോൾ. ഈ ദിവസം ഭഗവാൻ രാമന്റെ അയോധ്യയിലേക്കുള്ള തിരിച്ചുവരവിനെ സൂചിപ്പിക്കുന്നു. നാട്ടി (നൃത്തത്തിന്റെ ഒരു രൂപം), ഭക്ഷണം, സംഗീതം എന്നിവ ആഘോഷങ്ങളെ അടയാളപ്പെടുത്തുന്നു."
+      },
+      "karnataka": {
+        "title": "കർണാടക:",
+        "description": "'നടഹബ്ബ' എന്നറിയപ്പെടുന്ന, കർണാടകയിലെ നവരാത്രി ഇന്നും 1610-ൽ വിജയനഗര രാജവംശത്തിൽ ആഘോഷിച്ചിരുന്ന അതേ രീതിയിൽ ആഘോഷിക്കുന്നു. അവസാന ദിവസം തെരുവുകളിൽ ആനകളുടെ ഘോഷയാത്ര, സംസ്ഥാനത്തുടനീളം മേളകളും പ്രദർശനങ്ങളും ഉൾപ്പെടുന്ന ആചാരങ്ങളാൽ അടയാളപ്പെടുത്തുന്നു."
+      },
+      "tamilNadu": {
+        "title": "തമിഴ്നാട്:",
+        "description": "ഈ 9 ദിവസങ്ങളിൽ ദേവി ദുർഗ, സരസ്വതി, ലക്ഷ്മി എന്നിവരെ ആരാധിക്കുന്നു. സായാഹ്നങ്ങൾ സുഹൃത്തുക്കളുമായും കുടുംബത്തോടുമൊപ്പം സമ്മാനങ്ങൾ കൈമാറുന്നതിനായി നീക്കിവച്ചിരിക്കുന്നു. ആവേശകരമായ ആചാരം ബൊമ്മ ഗോലു/ബൊമ്മൈ കോലു ആണ് - 9 രാത്രികളെ പ്രതിനിധീകരിക്കുന്ന 9 പടികളുള്ള താത്കാലിക കോണിപ്പടി, തലമുറകളായി കൈമാറ്റം ചെയ്യപ്പെടുന്ന ദേവതകളുടെ പാവകൾ/വിഗ്രഹങ്ങൾ കൊണ്ട് അലങ്കരിച്ചിരിക്കുന്നു!"
+      },
+      "andhraPradesh": {
+        "title": "ആന്ധ്രപ്രദേശ്:",
+        "description": "ഇവിടെ, 9 ദിവസങ്ങൾ 'ബത്തുകമ്മ പണ്ഡുഗ' ആയി ആഘോഷിക്കുന്നു, ഇത് സ്ത്രീത്വത്തിന്റെ ദേവതയായ മാ ഗൗരിക്ക് സമർപ്പിച്ചിരിക്കുന്നു. പുതിയ സാരികളും ആഭരണങ്ങളും ധരിച്ച സ്ത്രീകൾ കാലാനുസൃത പൂക്കൾ കൊണ്ട് പൂക്കൂട്ടം ഉണ്ടാക്കി പൂജ നടത്തുന്നു. ഈ കൂട്ടം അവസാന ദിവസം നിമജ്ജനം ചെയ്യുന്നു."
+      },
+      "kerala": {
+        "title": "കേരളം:",
+        "description": "കേരളത്തിലെ നവരാത്രി വിദ്യാഭ്യാസത്തിനും പുതിയ തുടക്കങ്ങൾക്കും സമർപ്പിച്ചിരിക്കുന്നു. അവസാന 3 ദിവസങ്ങളിൽ മാ സരസ്വതിയുടെ മുന്നിൽ പുസ്തകങ്ങളും സംഗീത ഉപകരണങ്ങളും വച്ച് ആരാധിക്കുന്നു."
+      }
+    }
   },
   "festival": {
     "title": "നവരാത്രി ഉത്സവത്തെക്കുറിച്ച്",
@@ -16,19 +89,233 @@
     "durgaForms": "ദുർഗയുടെ ഒമ്പത് രൂപങ്ങൾ"
   },
   "dates": {
-    "title": "നവരാത്രി 2025 തീയതികൾ",
+    "title": "നവരാത്രി തീയതികൾ",
+    "festivalPeriod": "സെപ്റ്റംബർ 22 - സെപ്റ്റംബർ 30, 2025",
+    "navigation": {
+      "previous": "മുമ്പത്തെ നവരാത്രി",
+      "next": "അടുത്ത നവരാത്രി"
+    },
+    "seasons": {
+      "autumn": "ശരത്കാലം",
+      "spring": "വസന്തകാലം",
+      "winter": "ശീതകാലം",
+      "monsoon": "മഴക്കാലം"
+    },
     "subtitle": "പ്രധാന തീയതികളും ആഘോഷങ്ങളും",
-    "calendar": "ഉത്സവ കലണ്ടർ"
+    "calendar": "ഉത്സവ കലണ്ടർ",
+    "dayLabel": "ദിവസം",
+    "labels": {
+      "day": "ദിവസം",
+      "date": "തീയതി",
+      "goddess": "ദേവി",
+      "colors": "ശുപാർശ ചെയ്യുന്ന നിറങ്ങൾ"
+    },
+    "seasonalInfo": {
+      "sharadautumn": "  Sharad Navratri is the most celebrated Navratri, occurring during the harvest season when nature transitions from monsoon to winter. This autumn festival symbolizes the victory of good over evil and is marked by vibrant celebrations, Durga Puja pandals, and the famous Garba and Dandiya dances in Gujarat. The cool autumn breeze and clear skies make it perfect for outdoor celebrations and community gatherings.",
+      "chaitraspring": "  Chaitra Navratri marks the beginning of the Hindu New Year and celebrates the arrival of spring. This festival occurs when nature awakens from winter slumber, trees bloom with fresh leaves, and flowers carpet the earth. It's considered highly auspicious for new beginnings, marriages, and starting new ventures. The pleasant spring weather makes it ideal for outdoor prayers and community celebrations.",
+      "maghawinter": "  Magha Navratri occurs during the peak winter season, also known as Gupt Navratri. This is considered the most spiritually intense period for deep meditation and inner purification. The cold winter nights are perfect for extended prayer sessions and spiritual practices. Devotees often observe strict fasting and engage in intensive worship to seek the Goddess's blessings for spiritual growth and protection from negative energies.",
+      "ashadmonsoon": "  Ashad Navratri takes place during the monsoon season when the earth is rejuvenated by life-giving rains. This unique Navratri celebrates the nurturing aspect of the Divine Mother, as nature becomes lush and green. The rhythmic sound of rain creates a perfect ambiance for meditation and prayer. Devotees seek blessings for fertility, abundance, and protection from natural calamities during this water-blessed season."
+    },
+    "popup": {
+      "goddess": "  Goddess Information",
+      "symbolism": "  Symbolism",
+      "blessings": "  Blessings",
+      "auspiciousTimes": "  Auspicious Times",
+      "sunrise": "  Sunrise",
+      "sunset": "  Sunset",
+      "pujaTime": "  Puja Time",
+      "preparations": "  Preparations",
+      "observances": "  Observances",
+      "specialRituals": "  Special Rituals",
+      "fastingRules": "  Fasting Rules",
+      "mantras": "  Sacred Mantras",
+      "transliteration": "  Transliteration",
+      "meaning": "  Meaning"
+    }
   },
   "fasting": {
     "title": "നവരാത്രി ഉപവാസത്തെക്കുറിച്ച്",
-    "subtitle": "ഉപവാസത്തിന്റെ മാർഗ്ഗനിർദ്ദേശങ്ങളും പ്രാധാന്യതയും",
+    "subtitle": "ഉപവാസ മാർഗ്ഗനിർദ്ദേശങ്ങളും പ്രാധാന്യവും",
     "rules": "ഉപവാസ നിയമങ്ങൾ",
     "significance": "ആത്മീയ പ്രാധാന്യം"
   },
+  "aboutFestival": {
+    "title": "നവരാത്രി ഉത്സവത്തെക്കുറിച്ച്",
+    "personalIntroduction": "നവരാത്രി എന്റെ വീട്ടിലും ഏറ്റവും കൂടുതൽ ആഘോഷിക്കുന്ന ഉത്സവങ്ങളിലൊന്നാണ്. ഒരു ദേവി ഭക്തനെന്ന നിലയിൽ, ഞാൻ ഈ 9 ദിവസങ്ങളും രാത്രികളും കേവലം മാ ദുർഗയുടെ ആരാധനയിൽ എന്റെ പ്രാർത്ഥനകൾ അർപ്പിക്കുന്നതിൽ മാത്രം ചെലവഴിക്കുന്നില്ല, മറിച്ച് ഉപവാസത്തിന്റെ ആചാരവും പാലിക്കുന്നു. ഇത് ഈ 9 ദിവസങ്ങളിൽ മാത്രമല്ല, എനിക്ക്, മാതാ ദേവിയെ ഓർക്കാതെ ഒരു ദിവസം പോലും കടന്നുപോകുന്നില്ല.",
+    "celebrationDescription": "നവരാത്രി ഉത്സവം ഇന്ത്യയിലുടനീളം അതേ സന്തോഷവും ഉത്സാഹവും ആരാധനയും കൊണ്ട് ആഘോഷിക്കുന്നു. എങ്കിലും, രാജ്യത്തിന്റെ വിവിധ ഭാഗങ്ങളിലെ ആളുകൾക്ക് ദേവി ദുർഗയുടെ ദിവ്യ ശക്തികൾക്ക് ആദരാഞ്ജലി അർപ്പിക്കുന്നതിന് അവരുടേതായ പ്രത്യേക രീതിയുണ്ട്.",
+    "fastingDescription": "നവരാത്രി ഉത്സവത്തിന്റെ മറ്റൊരു പ്രധാന സവിശേഷത അതിനോടൊപ്പം വരുന്ന ഉപവാസങ്ങളോ വ്രതങ്ങളോ ആണ്. ഈ പോസ്റ്റിൽ ഞാൻ പങ്കിട്ട നവരാത്രി പാചകക്കുറിപ്പുകൾ തീർച്ചയായും പരീക്ഷിക്കേണ്ടതാണ്. ഉപവാസം ഉണ്ടെങ്കിൽ, നവരാത്രി ഉപവാസ പാചകക്കുറിപ്പുകളുടെ ഈ സമാഹരിച്ച പട്ടിക നിങ്ങൾക്ക് വളരെ സഹായകരമായിരിക്കും."
+  },
   "more": {
-    "title": "കൂടുതൽ വിവരങ്ങൾ",
+    "title": "നവരാത്രിയെക്കുറിച്ച് കൂടുതൽ",
+    "headerSubtitle": "ഹിന്ദുമതത്തിലെ ഏറ്റവും പ്രസിദ്ധമായ ഉത്സവങ്ങളിലൊന്നിന്റെ സമ്പന്നമായ പാരമ്പര്യങ്ങൾ, സാംസ്കാരിക പ്രാധാന്യം, പ്രായോഗിക ജ്ഞാനം എന്നിവ കണ്ടെത്തുക.",
+    "fastingTraditions": {
+      "traditionalIngredients": {
+        "title": "പരമ്പരാഗത വടക്കൻ ഇന്ത്യൻ ഉപവാസ സാമഗ്രികൾ",
+        "introduction": "നവരാത്രി പാചകക്കുറിപ്പുകൾ, പ്രത്യേകിച്ച് നവരാത്രി ഉപവാസ പാചകക്കുറിപ്പുകൾ തയ്യാറാക്കാൻ വേഗമേറിയതു മാത്രമല്ല, ദഹിപ്പിക്കാനും എളുപ്പമാണ്.",
+        "northIndianNote": "വടക്കൻ ഇന്ത്യയുടെ ഒരു പ്രത്യേകത എന്തെന്നാൽ, ആ രാജ്യത്തിന്റെ ആ ഭാഗത്തുള്ള ആളുകൾ ഈ 9 ദിവസത്തെ ഉപവാസത്തിൽ മാവും ധാന്യങ്ങളും അടങ്ങിയ ചില ചേരുവകൾ മാത്രമേ കഴിക്കുന്നുള്ളൂ.",
+        "ingredients": {
+          "floursAndGrains": "മാവും ധാന്യങ്ങളും: കുട്ടു മാവ്, രാജ്ഗിര മാവ്, സമ അരി മാവ്, സിംഗാരേ മാവ്, അരാരോട്ട് മാവ്",
+          "sabudana": "സബുദാന (സാഗോ)",
+          "peanuts": "നിലക്കടല",
+          "nutsAndDryFruits": "പരിപ്പുകളും ഉണക്കമേവകളും",
+          "rockSalt": "കല്ലുപ്പ് (സേന്ധാ നമക്)",
+          "spicesAndHerbs": "മസാലകളും ഔഷധസസ്യങ്ങളും വ്യത്യാസപ്പെടാം. സാധാരണയായി ഉപയോഗിക്കുന്നവ കുരുമുളക്, പച്ചമുളക്, ഇഞ്ചി എന്നിവയാണ്."
+        },
+        "conclusion": "എന്റെ നവരാത്രി പാചകക്കുറിപ്പുകളുടെ അല്ലെങ്കിൽ നവരാത്രി ഉപവാസ പാചകക്കുറിപ്പുകളുടെ പട്ടികയിൽ വടക്കൻ ഇന്ത്യൻ, ദക്ഷിണേന്ത്യൻ പാചകക്കുറിപ്പുകൾ ഉണ്ട്."
+      }
+    },
+    "sections": {
+      "historicalContext": {
+        "title": "ചരിത്രപരമായ സന്ദർഭവും ഉത്ഭവവും",
+        "content": {
+          "paragraph1": "നവരാത്രി, സംസ്കൃതത്തിൽ \"ഒമ്പത് രാത്രികൾ\" എന്നർത്ഥം, ഹിന്ദു പാരമ്പര്യത്തിലെ ഏറ്റവും പുരാതനവും പ്രധാനപ്പെട്ടതുമായ ഉത്സവങ്ങളിലൊന്നാണ്.",
+          "paragraph2": "ഈ ഉത്സവം അസുരൻ മഹിഷാസുരനെതിരെ ദേവി ദുർഗയുടെ വിജയം ആഘോഷിക്കുന്നു, ഇത് തിന്മയുടെമേൽ നന്മയുടെ വിജയത്തെ പ്രതീകപ്പെടുത്തുന്നു.",
+          "ancientTraditions": {
+            "subtitle": "പുരാതന പാരമ്പര്യങ്ങൾ",
+            "content": "സിന്ധു നദീതട സംസ്കാരത്തിൽ ശരത്കാല മാസങ്ങളിൽ ദേവി ആരാധന പ്രചാരത്തിലുണ്ടായിരുന്നുവെന്ന് പുരാവസ്തു തെളിവുകൾ സൂചിപ്പിക്കുന്നു."
+          }
+        }
+      },
+      "culturalSignificance": {
+        "title": "സാംസ്കാരികവും ആത്മീയവുമായ പ്രാധാന്യം",
+        "content": {
+          "paragraph1": "നവരാത്രി ദൈവിക സ്ത്രീശക്തിയെ (ശക്തി) അതിന്റെ വിവിധ രൂപങ്ങളിൽ പ്രതിനിധീകരിക്കുന്നു.",
+          "threePhases": {
+            "subtitle": "നവരാത്രിയുടെ മൂന്ന് ഘട്ടങ്ങൾ",
+            "phase1": "ദിവസങ്ങൾ 1-3: ദുർഗ - നെഗറ്റീവ് ഗുണങ്ങളുടെയും അഹങ്കാരത്തിന്റെയും നാശം",
+            "phase2": "ദിവസങ്ങൾ 4-6: ലക്ഷ്മി - പോസിറ്റീവ് ഗുണങ്ങളുടെയും സമൃദ്ധിയുടെയും കൃഷി",
+            "phase3": "ദിവസങ്ങൾ 7-9: സരസ്വതി - ജ്ഞാനവും ആത്മീയ അറിവും നേടൽ"
+          },
+          "quote": "\"നവരാത്രി വെറുമൊരു ഉത്സവമല്ല; ഇത് ഒരു ആത്മീയ യാത്രയാണ്, അത് ഭക്തനെ ഉള്ളിൽ നിന്ന് മാറ്റുന്നു, മനസ്സ്, ശരീരം, ആത്മാവ് എന്നിവയെ ശുദ്ധീകരിക്കുന്നു.\" - പുരാതന വേദ പഠനം"
+        }
+      },
+      "regionalVariations": {
+        "title": "  Regional Variations and Practices",
+        "content": {
+          "gujarat": {
+            "subtitle": "  Gujarat - Garba and Dandiya",
+            "content": "  In Gujarat, Navratri is celebrated with vibrant Garba and Dandiya Raas dances. The circular dance represents the cycle of time and life, while the colorful attire reflects the joy and devotion of the participants."
+          },
+          "westBengal": {
+            "subtitle": "  West Bengal - Durga Puja",
+            "content": "  Bengal celebrates Navratri as Durga Puja with elaborate pandals (temporary structures) housing beautiful clay idols of Goddess Durga. The festival culminates with the immersion of idols in rivers, symbolizing the return of the goddess to her celestial abode."
+          },
+          "southIndia": {
+            "subtitle": "  South India - Golu and Bombe Habba",
+            "content": "  Southern states celebrate with Golu (Tamil Nadu) and Bombe Habba (Karnataka), displaying elaborate doll arrangements that depict mythological stories and cultural themes. Each display tells a story and serves as a medium for cultural education."
+          },
+          "northIndia": {
+            "subtitle": "  North India - Ramlila and Kanya Puja",
+            "content": "  Northern regions often combine Navratri with Ramlila performances and conclude with Kanya Puja, where young girls are worshipped as embodiments of the divine feminine energy."
+          },
+          "regionalFasting": {
+            "subtitle": "  Regional Fasting Variations",
+            "northIndia": "  North India: Emphasis on sattvic foods like kuttu, singhara, and sabudana",
+            "southIndia": "  South India: Focus on sundal varieties and coconut-based preparations",
+            "maharashtra": "  Maharashtra: Special preparations like sabudana khichdi and vrat ke chawal",
+            "rajasthan": "  Rajasthan: Unique dishes like rajgira paratha and sama rice preparations"
+          }
+        }
+      },
+      "fastingTraditions": {
+        "title": "  Traditional Fasting Practices",
+        "content": {
+          "paragraph1": "  Navratri fasting is more than dietary restriction; it is a comprehensive spiritual practice that includes physical purification, mental discipline, and spiritual elevation. The practice varies across regions but maintains common principles.",
+          "guidelines": {
+            "subtitle": "  Traditional Fasting Guidelines",
+            "guideline1": "  Consume only sattvic (pure) foods that promote clarity and peace",
+            "guideline2": "  Avoid tamasic foods like onion, garlic, and non-vegetarian items",
+            "guideline3": "  Use rock salt (sendha namak) instead of regular salt",
+            "guideline4": "  Eat fresh, seasonal ingredients to align with natural cycles",
+            "guideline5": "  Maintain regular meal times to support digestive health"
+          },
+          "permittedIngredients": {
+            "subtitle": "  Permitted Ingredients",
+            "content": "  Traditional fasting allows specific grains and ingredients: buckwheat (kuttu), water chestnut flour (singhara), amaranth (rajgira), barnyard millet (sama), sago (sabudana), nuts, dairy products, and seasonal fruits."
+          }
+        }
+      },
+      "modernAdaptations": {
+        "title": "  Modern Adaptations and Practical Tips",
+        "content": {
+          "paragraph1": "  Contemporary lifestyles have led to thoughtful adaptations of traditional Navratri practices while maintaining their spiritual essence. Modern devotees balance ancient wisdom with current nutritional understanding and lifestyle demands.",
+          "approaches": {
+            "subtitle": "  Modern Fasting Approaches",
+            "approach1": "  Intermittent fasting combined with traditional ingredients",
+            "approach2": "  Balanced nutrition using permitted foods to meet dietary needs",
+            "approach3": "  Hydration focus with coconut water, herbal teas, and fresh juices",
+            "approach4": "  Portion control and mindful eating practices",
+            "approach5": "  Incorporation of superfoods like quinoa (where culturally accepted)"
+          },
+          "tip1": "  For working professionals: Prepare fasting meals in advance, carry healthy snacks like roasted makhana or fruits, and maintain regular meal schedules to sustain energy levels throughout the day.",
+          "tip2": "  For families with children: Involve kids in meal preparation, explain the significance of ingredients, and create fun, nutritious versions of traditional recipes to make fasting enjoyable and educational."
+        }
+      },
+      "healthBenefits": {
+        "title": "  Health and Wellness Benefits",
+        "content": {
+          "paragraph1": "  Modern nutritional science validates many traditional Navratri fasting practices. The emphasis on whole grains, seasonal foods, and mindful eating aligns with contemporary wellness principles.",
+          "benefits": {
+            "subtitle": "  Nutritional Benefits",
+            "benefit1": "  Digestive rest and detoxification through simplified diet",
+            "benefit2": "  Increased fiber intake from whole grains and vegetables",
+            "benefit3": "  Natural weight management through portion control",
+            "benefit4": "  Enhanced mental clarity through sattvic food choices",
+            "benefit5": "  Improved insulin sensitivity through reduced processed food intake"
+          },
+          "mindfulEating": {
+            "subtitle": "  Mindful Eating Practices",
+            "content": "  Navratri fasting encourages mindful consumption, gratitude for food, and awareness of eating habits. This practice often leads to long-term positive changes in dietary choices and relationship with food."
+          }
+        }
+      },
+      "contemporaryCelebrations": {
+        "title": "  Contemporary Celebrations Worldwide",
+        "content": {
+          "paragraph1": "  Navratri celebrations have transcended geographical boundaries, with Hindu communities worldwide adapting the festival to local contexts while preserving its spiritual core. These global celebrations showcase the universal appeal of the festival's message.",
+          "global": {
+            "subtitle": "  Global Navratri Celebrations",
+            "usa": "  United States: Community centers organize Garba nights and cultural programs",
+            "uk": "  United Kingdom: Large-scale Navratri events in cities like London and Leicester",
+            "canada": "  Canada: Multicultural celebrations incorporating local community participation",
+            "australia": "  Australia: Fusion celebrations blending traditional and contemporary elements",
+            "middleEast": "  Middle East: Expatriate communities maintain traditions in diverse cultural settings"
+          },
+          "tip": "  For diaspora communities: Connect with local Hindu organizations, participate in community celebrations, and use technology to join virtual celebrations with family back home."
+        }
+      },
+      "practicalPlanning": {
+        "title": "  Practical Planning and Preparation",
+        "content": {
+          "preNavratri": {
+            "subtitle": "  Pre-Navratri Preparation",
+            "prep1": "  Stock up on fasting ingredients: kuttu flour, sabudana, rock salt, and seasonal fruits",
+            "prep2": "  Plan weekly menus to ensure variety and nutritional balance",
+            "prep3": "  Prepare spice mixes and chutneys in advance for convenience",
+            "prep4": "  Set up a dedicated prayer space for daily worship",
+            "prep5": "  Coordinate with family members for shared meal preparation"
+          },
+          "dailyRoutine": {
+            "subtitle": "  Daily Routine Tips",
+            "routine1": "  Start the day with meditation or prayer for spiritual grounding",
+            "routine2": "  Maintain consistent meal times to support energy levels",
+            "routine3": "  Stay hydrated with water, coconut water, and herbal teas",
+            "routine4": "  Include light physical activity like walking or yoga",
+            "routine5": "  End the day with gratitude and reflection"
+          },
+          "tip": "  Meal prep strategy: Prepare base ingredients like boiled potatoes, soaked sabudana, and chopped vegetables in advance. This saves time during busy weekdays while maintaining fresh, nutritious meals."
+        }
+      }
+    },
     "subtitle": "അധിക വിഭവങ്ങളും ഉള്ളടക്കവും",
-    "sections": "ഉള്ളടക്ക വിഭാഗങ്ങൾ"
+    "sectionsLabel": "ഉള്ളടക്ക വിഭാഗങ്ങൾ"
+  },
+  "errors": {
+    "recipeNotFound": {
+      "title": "പാചകക്കുറിപ്പ് കണ്ടെത്തിയില്ല",
+      "message": "ക്ഷമിക്കണം, നിങ്ങൾ തിരയുന്ന പാചകക്കുറിപ്പ് നിലവിലില്ല അല്ലെങ്കിൽ നീക്കം ചെയ്തിരിക്കാം.",
+      "goBack": "തിരികെ പോകുക",
+      "browseAll": "എല്ലാ പാചകക്കുറിപ്പുകളും കാണുക"
+    }
   }
 }

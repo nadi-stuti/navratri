@@ -13,7 +13,13 @@
     "select": "ఎంచుకోండి",
     "toggle": "మార్చండి",
     "search": "వెతకండి",
-    "filter": "ఫిల్టర్"
+    "filter": "ఫిల్టర్",
+    "enterApp": "యాప్‌లోకి ప్రవేశించండి",
+    "goBack": "వెనుకకు వెళ్ళండి",
+    "browseAll": "అన్ని వంటకాలను చూడండి",
+    "watchVideo": "వీడియో చూడండి",
+    "backToTop": "[TODO] Back to top",
+    "close": "[TODO] Close"
   },
   "labels": {
     "language": "భాష",
@@ -22,6 +28,139 @@
     "darkMode": "డార్క్ మోడ్",
     "loading": "లోడ్ అవుతోంది...",
     "error": "లోపం",
-    "notFound": "కనుగొనబడలేదు"
+    "notFound": "కనుగొనబడలేదు",
+    "selectLanguage": "భాషను ఎంచుకోండి",
+    "availableLanguages": "అందుబాటులో ఉన్న భాషలు",
+    "loadingTranslations": "అనువాదాలు లోడ్ అవుతున్నాయి...",
+    "translationError": "అనువాదాలను లోడ్ చేయడంలో విఫలమైంది",
+    "noRecipesFound": "మీ ప్రమాణాలకు సరిపోయే వంటకాలు కనుగొనబడలేదు.",
+    "recipe": "వంటకం",
+    "navigateTo": "వెళ్ళండి",
+    "time": "సమయం",
+    "mins": "నిమిషాలు",
+    "skill": "నైపుణ్యం",
+    "minutes": "నిమిషాలు",
+    "calories": "కేలరీలు",
+    "protein": "ప్రోటీన్",
+    "recipesAvailable": "వంటకాలు అందుబాటులో ఉన్నాయి",
+    "goalMet": "లక్ష్యం చేరుకుంది!",
+    "sortBy": "దీని ఆధారంగా క్రమబద్ధీకరించండి:",
+    "gridView": "గ్రిడ్ వ్యూ",
+    "listView": "లిస్ట్ వ్యూ",
+    "switchToClassicView": "క్లాసిక్ వ్యూకు మారండి",
+    "switchToEnhancedView": "మెరుగైన శోధన మరియు ఫిల్టర్లను ప్రయత్నించండి",
+    "tryDifferentFilters": "మీ శోధన ప్రమాణాలు లేదా ఫిల్టర్లను సర్దుబాటు చేయడానికి ప్రయత్నించండి."
+  },
+  "filters": {
+    "skill": "నైపుణ్యం",
+    "time": "సమయం",
+    "easy": "సులభం",
+    "moderate": "మధ్యస్థం",
+    "difficult": "కష్టం",
+    "short": "తక్కువ",
+    "medium": "మధ్యస్థం",
+    "long": "ఎక్కువ",
+    "difficulty": "కష్టతనం",
+    "diet": "ఆహార ప్రాధాన్యతలు",
+    "cuisine": "వంటకాలు",
+    "maxTime": "గరిష్ట వంట సమయం",
+    "ingredients": "తప్పనిసరిగా చేర్చవలసిన పదార్థాలు"
+  },
+  "cuisine": {
+    "indian": "భారతీయ",
+    "southindian": "దక్షిణ భారతీయ",
+    "northindian": "ఉత్తర భారతీయ",
+    "gujarati": "గుజరాతీ",
+    "maharashtrian": "మహారాష్ట్రియన్",
+    "punjabi": "పంజాబీ",
+    "bengali": "బెంగాలీ",
+    "tamil": "తమిళ్",
+    "sindhi": "సింధీ",
+    "udupi": "ఉడుపి",
+    "world": "ప్రపంచ"
+  },
+  "tags": {
+    "navratri": "నవరాత్రి",
+    "fasting": "ఉపవాసం",
+    "traditional": "సాంప్రదాయిక",
+    "quick": "త్వరిత",
+    "easy": "సులభం",
+    "popular": "ప్రసిద్ధ",
+    "breakfast": "అల్పాహారం",
+    "snacks": "స్నాక్స్",
+    "main-course": "ప్రధాన వంటకం",
+    "filling": "నింపడం",
+    "accompaniment": "తోడు",
+    "side-dish": "సైడ్ డిష్",
+    "condiment": "చట్నీ"
+  },
+  "ui": {
+    "expand": "+",
+    "collapse": "−",
+    "tip": "చిట్కా:",
+    "transliteration": "లిప్యంతరీకరణ:",
+    "meaning": "అర్థం:",
+    "day": "రోజు"
+  },
+  "errors": {
+    "formNotFound": "రూపం కనుగొనబడలేదు"
+  },
+  "diet": {
+    "glutenfree": "గ్లూటెన్ రహిత",
+    "vegetarian": "శాకాహారి",
+    "vegan": "వీగన్"
+  },
+  "difficulty": {
+    "easy": "సులభం",
+    "moderate": "మధ్యస్థం",
+    "difficult": "కష్టం"
+  },
+  "search": {
+    "placeholder": "వంటకాలు, పదార్థాలు లేదా ట్యాగ్లను వెతకండి...",
+    "advancedFilters": "అధునాతన ఫిల్టర్లు",
+    "resultsCount": "వంటకాలు దొరికాయి",
+    "clearFilters": "అన్నింటినీ క్లియర్ చేయండి",
+    "noLimit": "పరిమితి లేదు"
+  },
+  "sort": {
+    "relevance": "సంబంధం",
+    "name": "పేరు",
+    "time": "వంట సమయం",
+    "difficulty": "కష్టతనం",
+    "popularity": "ప్రజాదరణ"
+  },
+  "recommendations": {
+    "similarRecipes": "మీకు ఇవి కూడా నచ్చవచ్చు",
+    "recommendedForYou": "మీ కోసం సిఫార్సు చేయబడింది",
+    "similarCuisine": "సమాన వంటకాలు",
+    "similarDifficulty": "సమాన కష్టతనం",
+    "similarTime": "సమాన వంట సమయం",
+    "dietaryMatch": "ఆహార ప్రాధాన్యతలతో సరిపోలుతుంది",
+    "preferredCuisine": "ప్రాధాన్య వంటకాలు",
+    "preferredDifficulty": "ప్రాధాన్య కష్టతనం",
+    "favoriteIngredients": "ఇష్టమైన పదార్థాలు ఉన్నాయి",
+    "similarTags": "సమాన వంటకం రకం",
+    "popular": "ప్రసిద్ధ వంటకం",
+    "quick": "త్వరగా చేయడానికి",
+    "festivalAppropriate": "నవరాత్రికి అనుకూలం",
+    "highProtein": "అధిక ప్రోటీన్",
+    "highFiber": "అధిక ఫైబర్",
+    "glutenFree": "గ్లూటెన్ రహిత",
+    "vegan": "వీగన్"
+  },
+  "components": {
+    "durgaForms": {
+      "title": "దేవి దుర్గ యొక్క తొమ్మిది రూపాలు",
+      "sections": {
+        "significance": "ప్రాముఖ్యత",
+        "symbolism": "ప్రతీకవాదం",
+        "blessings": "ఆశీర్వాదాలు",
+        "iconography": "విగ్రహ శాస్త్రం",
+        "sacredColors": "పవిత్ర రంగులు",
+        "offerings": "నైవేద్యాలు",
+        "celebrations": "వేడుకలు",
+        "sacredMantras": "పవిత్ర మంత్రాలు"
+      }
+    }
   }
 }

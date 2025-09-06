@@ -1,15 +1,15 @@
 {
   "categories": {
     "southIndianSundal": "దక్షిణ భారతీయ సుండల్",
-    "lunchDinner": "మధ్యాహ్నం మరియు రాత్రి భోజనం",
+    "lunchDinner": "మధ్యాహ్న మరియు రాత్రి భోజనం",
     "breakfastSnacks": "అల్పాహారం మరియు స్నాక్స్",
     "chutneyRaita": "చట్నీ మరియు రైతా",
-    "sweetsDeserts": "తీపిలు మరియు డెజర్ట్‌లు",
+    "sweetsDeserts": "స్వీట్స్ మరియు డెజర్ట్స్",
     "beverages": "పానీయాలు"
   },
   "ingredients": {
     "title": "పదార్థాలు",
-    "servings": "సర్వింగ్‌లు",
+    "servings": "సర్వింగ్స్",
     "prepTime": "తయారీ సమయం",
     "cookTime": "వంట సమయం"
   },

@@ -1,0 +1,84 @@
+{
+  "ariaLabels": {
+    "themeToggle": {
+      "switchTo": "{{mode}} മോഡിലേക്ക് മാറുക",
+      "currentTheme": "നിലവിലെ തീം: {{theme}}. {{nextTheme}} മോഡിലേക്ക് മാറാൻ ക്ലിക്ക് ചെയ്യുക."
+    },
+    "languageSelector": {
+      "selectLanguage": "ഭാഷ തിരഞ്ഞെടുക്കുക",
+      "availableLanguages": "ലഭ്യമായ ഭാഷകൾ",
+      "currentLanguage": "നിലവിലെ ഭാഷ: {{language}}"
+    },
+    "navigation": {
+      "navigateTo": "{{destination}} ലേക്ക് പോകുക",
+      "goBack": "മുമ്പത്തെ പേജിലേക്ക് തിരികെ പോകുക",
+      "openMenu": "നാവിഗേഷൻ മെനു തുറക്കുക",
+      "closeMenu": "നാവിഗേഷൻ മെനു അടയ്ക്കുക"
+    },
+    "viewControls": {
+      "gridView": "ഗ്രിഡ് വ്യൂവിലേക്ക് മാറുക",
+      "listView": "ലിസ്റ്റ് വ്യൂവിലേക്ക് മാറുക",
+      "sortBy": "{{criteria}} അനുസരിച്ച് പാചകക്കുറിപ്പുകൾ ക്രമീകരിക്കുക",
+      "scrollToTop": "[TODO] Scroll to top"
+    },
+    "search": {
+      "searchInput": "പാചകക്കുറിപ്പുകൾ, ചേരുവകൾ അല്ലെങ്കിൽ ടാഗുകൾ തിരയുക",
+      "clearSearch": "തിരയൽ ഇൻപുട്ട് മായ്ക്കുക",
+      "filterToggle": "വിപുലമായ ഫിൽട്ടറുകൾ ടോഗിൾ ചെയ്യുക",
+      "applyFilters": "തിരഞ്ഞെടുത്ത ഫിൽട്ടറുകൾ പ്രയോഗിക്കുക"
+    },
+    "recipe": {
+      "viewRecipe": "{{recipeName}} പാചകക്കുറിപ്പ് വിശദാംശങ്ങൾ കാണുക",
+      "recipeImage": "{{recipeName}} ന്റെ ചിത്രം",
+      "watchVideo": "{{recipeName}} പാചക വീഡിയോ കാണുക",
+      "similarRecipe": "സമാനമായ പാചകക്കുറിപ്പ്: {{recipeName}}"
+    }
+  },
+  "imageAlt": {
+    "logo": "നവരാത്രി ഉത്സവ ലോഗോ - സ്വസ്തിക ചിഹ്നം",
+    "recipeImage": "{{recipeName}} - പരമ്പരാഗത നവരാത്രി പാചകക്കുറിപ്പ്",
+    "goddessImage": "ദേവി {{goddessName}} - നവരാത്രിയുടെ {{day}} ദിവസം",
+    "festivalImage": "നവരാത്രി ഉത്സവ ആഘോഷം",
+    "decorativeImage": "അലങ്കാര ഘടകം"
+  },
+  "loadingStates": {
+    "loadingRecipes": "പാചകക്കുറിപ്പുകൾ ലോഡ് ചെയ്യുന്നു...",
+    "loadingTranslations": "വിവർത്തനങ്ങൾ ലോഡ് ചെയ്യുന്നു...",
+    "loadingPage": "പേജ് ഉള്ളടക്കം ലോഡ് ചെയ്യുന്നു...",
+    "searchingRecipes": "പാചകക്കുറിപ്പുകൾ തിരയുന്നു...",
+    "applyingFilters": "ഫിൽട്ടറുകൾ പ്രയോഗിക്കുന്നു...",
+    "changingLanguage": "ഭാഷ {{language}} ലേക്ക് മാറ്റുന്നു...",
+    "switchingTheme": "{{theme}} തീമിലേക്ക് മാറുന്നു..."
+  },
+  "errorAnnouncements": {
+    "recipeNotFound": "പാചകക്കുറിപ്പ് കണ്ടെത്താനായില്ല. ദയവായി മറ്റൊരു തിരയൽ ശ്രമിക്കുക.",
+    "translationError": "വിവർത്തനം ലോഡ് ചെയ്യാൻ കഴിഞ്ഞില്ല. സ്ഥിര ഭാഷ ഉപയോഗിക്കുന്നു.",
+    "networkError": "നെറ്റ്‌വർക്ക് പിശക് സംഭവിച്ചു. ദയവായി നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക.",
+    "searchError": "തിരയൽ പരാജയപ്പെട്ടു. ദയവായി വീണ്ടും ശ്രമിക്കുക.",
+    "filterError": "ഫിൽട്ടർ പ്രയോഗം പരാജയപ്പെട്ടു. ദയവായി ഫിൽട്ടറുകൾ റീസെറ്റ് ചെയ്യുക.",
+    "generalError": "ഒരു പിശക് സംഭവിച്ചു. ദയവായി പേജ് പുതുക്കുക."
+  },
+  "statusAnnouncements": {
+    "recipeLoaded": "പാചകക്കുറിപ്പ് {{recipeName}} വിജയകരമായി ലോഡ് ചെയ്തു",
+    "searchCompleted": "തിരയൽ പൂർത്തിയായി. {{count}} പാചകക്കുറിപ്പുകൾ കണ്ടെത്തി.",
+    "filtersApplied": "ഫിൽട്ടറുകൾ പ്രയോഗിച്ചു. {{count}} പാചകക്കുറിപ്പുകൾ നിങ്ങളുടെ മാനദണ്ഡങ്ങളുമായി പൊരുത്തപ്പെടുന്നു.",
+    "languageChanged": "ഭാഷ {{language}} ലേക്ക് മാറ്റി",
+    "themeChanged": "തീം {{theme}} മോഡിലേക്ക് മാറ്റി",
+    "pageLoaded": "{{pageName}} പേജ് ലോഡ് ചെയ്തു"
+  },
+  "instructions": {
+    "keyboardNavigation": "നാവിഗേറ്റ് ചെയ്യാൻ ആരോ കീകൾ ഉപയോഗിക്കുക, തിരഞ്ഞെടുക്കാൻ Enter, അടയ്ക്കാൻ Escape",
+    "screenReaderHelp": "ഇത് ഒരു നവരാത്രി പാചകക്കുറിപ്പ് ആപ്ലിക്കേഷനാണ്. ഘടകങ്ങൾക്കിടയിൽ നാവിഗേറ്റ് ചെയ്യാൻ Tab ഉപയോഗിക്കുക.",
+    "searchHelp": "പാചകക്കുറിപ്പുകൾ തിരയാൻ ടൈപ്പ് ചെയ്യുക. ഫലങ്ങൾ പരിമിതപ്പെടുത്താൻ ഫിൽട്ടറുകൾ ഉപയോഗിക്കുക.",
+    "languageHelp": "ഡ്രോപ്പ്ഡൗൺ മെനുവിൽ നിന്ന് നിങ്ങളുടെ ഇഷ്ട ഭാഷ തിരഞ്ഞെടുക്കുക",
+    "skipToMain": "പ്രധാന ഉള്ളടക്കത്തിലേക്ക് പോകുക"
+  },
+  "landmarks": {
+    "mainContent": "പ്രധാന ഉള്ളടക്കം",
+    "navigation": "സൈറ്റ് നാവിഗേഷൻ",
+    "search": "പാചകക്കുറിപ്പ് തിരയൽ",
+    "filters": "പാചകക്കുറിപ്പ് ഫിൽട്ടറുകൾ",
+    "results": "തിരയൽ ഫലങ്ങൾ",
+    "recipeDetails": "പാചകക്കുറിപ്പ് വിശദാംശങ്ങൾ"
+  }
+}

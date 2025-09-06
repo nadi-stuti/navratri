@@ -1,0 +1,470 @@
+/* AboutFast Component Styles - Minimal Design with Green Theme Support */
+
+.about-fast-container {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: var(--primary-text);
+  background-color: var(--primary-bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  --accent-color: #28a745; /* Green primary */
+  --accent-hover: #34ce57; /* Green-yellow hover */
+  --accent-light: #d4edda; /* Light green background */
+}
+
+/* Dark theme overrides for green colors */
+:root[data-theme="dark"] .about-fast-container {
+  --accent-color: #34ce57; /* Green-yellow for dark theme */
+  --accent-hover: #28a745; /* Green hover for dark theme */
+  --accent-light: rgba(52, 206, 87, 0.1); /* Transparent green background */
+}
+
+/* Light theme explicit overrides for green colors */
+:root[data-theme="light"] .about-fast-container {
+  --accent-color: #28a745; /* Green primary */
+  --accent-hover: #34ce57; /* Green-yellow hover */
+  --accent-light: #d4edda; /* Light green background */
+}
+
+.about-fast-header {
+  /* text-align: center; */
+  margin-bottom: 2rem;
+}
+
+/* .about-fast-header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--primary-text);
+} */
+
+.header-subtitle {
+  font-size: 1.1rem;
+  color: var(--secondary-text);
+  margin: 0;
+  font-style: italic;
+}
+
+.fasting-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Section Styles */
+.fasting-section {
+  background: var(--primary-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.section-header {
+  width: 100%;
+  padding: 1rem;
+  background: var(--secondary-bg);
+  color: var(--primary-text);
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.section-header:hover {
+  background: var(--card-bg);
+  border-color: var(--accent-color);
+}
+
+.section-header.expanded {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.section-title {
+  flex: 1;
+}
+
+.section-toggle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.section-content {
+  padding: 1.5rem;
+  background: var(--primary-bg);
+}
+
+/* Reasons Grid */
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.reason-item {
+  padding: 1rem;
+  background: var(--secondary-bg);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.reason-item h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--primary-text);
+  font-size: 1rem;
+}
+
+.reason-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--secondary-text);
+}
+
+/* Significance Content */
+.significance-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.significance-item {
+  padding: 1rem;
+  background: var(--secondary-bg);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.significance-item h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--primary-text);
+  font-size: 1rem;
+}
+
+.significance-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--secondary-text);
+}
+
+/* Scripture Styles */
+.scriptures-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-description {
+  margin: 0 0 1rem 0;
+  font-style: italic;
+  color: var(--secondary-text);
+}
+
+.scripture-item {
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.scripture-header {
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--secondary-bg);
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-text);
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.scripture-header:hover {
+  background: var(--card-bg);
+  border-color: var(--accent-color);
+}
+
+.scripture-title {
+  flex: 1;
+}
+
+.scripture-toggle {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.scripture-content {
+  padding: 1rem;
+  background: var(--primary-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.scripture-text h5 {
+  margin: 0 0 0.5rem 0;
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.sanskrit-text {
+  font-family: serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  background: var(--secondary-bg);
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  margin: 0;
+  color: var(--primary-text);
+}
+
+.transliteration-text {
+  font-style: italic;
+  background: var(--secondary-bg);
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  margin: 0;
+  color: var(--secondary-text);
+}
+
+.translation-text {
+  line-height: 1.6;
+  background: var(--secondary-bg);
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  margin: 0;
+  color: var(--primary-text);
+}
+
+/* Rules Styles */
+.rules-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.rule-item {
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.rule-header {
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--secondary-bg);
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-text);
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.rule-header:hover {
+  background: var(--card-bg);
+  border-color: var(--accent-color);
+}
+
+.rule-title {
+  flex: 1;
+}
+
+.rule-toggle {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.rule-content {
+  padding: 1rem;
+  background: var(--primary-bg);
+}
+
+.rule-content p {
+  line-height: 1.6;
+  margin: 0 0 0.5rem 0;
+  color: var(--secondary-text);
+}
+
+.rule-importance {
+  color: var(--secondary-text);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+}
+
+/* Food Lists */
+.food-lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.food-list h4 {
+  margin: 0 0 1rem 0;
+  color: var(--primary-text);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.food-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.food-list li {
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  background: var(--secondary-bg);
+  border-left: 3px solid var(--accent-color);
+  border-radius: 0 4px 4px 0;
+  color: var(--primary-text);
+}
+
+/* Health Content */
+.health-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.health-item {
+  padding: 1rem;
+  background: var(--secondary-bg);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.health-item h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--primary-text);
+  font-size: 1rem;
+}
+
+.health-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--secondary-text);
+}
+
+/* Adaptations Content */
+.adaptations-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.adaptation-item {
+  padding: 1rem;
+  background: var(--secondary-bg);
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.adaptation-item h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--primary-text);
+  font-size: 1rem;
+}
+
+.adaptation-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--secondary-text);
+}
+
+/* Footer */
+.about-fast-footer {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--secondary-bg);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.about-fast-footer p {
+  margin: 0;
+  font-style: italic;
+  color: var(--secondary-text);
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-fast-container {
+    padding: 0.5rem;
+  }
+  
+  /* .about-fast-header h1 {
+    font-size: 2rem;
+  }
+   */
+  .header-subtitle {
+    font-size: 1rem;
+  }
+  
+  .reasons-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .food-lists {
+    grid-template-columns: 1fr;
+  }
+  
+  .adaptations-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-header {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .section-content {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* .about-fast-header h1 {
+    font-size: 1.8rem;
+  }
+   */
+  .header-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .section-header {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .section-content {
+    padding: 0.75rem;
+  }
+  
+  .reason-item,
+  .significance-item,
+  .health-item,
+  .adaptation-item {
+    padding: 0.75rem;
+  }
+}

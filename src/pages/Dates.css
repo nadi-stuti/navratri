@@ -1,0 +1,400 @@
+/* Navratri Dates Component Styles - Paginated Calendar Design */
+
+.dates-container {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.dates-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dates-header h1 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-color, #333);
+}
+
+.calendar-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  background: var(--accent-color);
+  color: var(--primary-bg);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button:hover:not(:disabled) {
+  background: var(--button-hover);
+  transform: scale(1.1);
+}
+
+.nav-button:disabled {
+  background: var(--border-color);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Dark theme specific fixes for navigation buttons */
+:root[data-theme="dark"] .nav-button {
+  background: #22c55e; /* Use green instead of bright green-yellow */
+  color: white;
+}
+
+:root[data-theme="dark"] .nav-button:hover:not(:disabled) {
+  background: #16a34a; /* Darker green on hover */
+}
+
+:root[data-theme="light"] .nav-button {
+  background: var(--accent-color);
+  color: white;
+}
+
+.calendar-info {
+  text-align: center;
+  min-width: 280px;
+}
+
+.calendar-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-color, #333);
+}
+
+.festival-period {
+  font-size: 1.1rem;
+  color: var(--text-secondary, #666);
+  margin: 0 0 0.25rem 0;
+  font-weight: 500;
+}
+
+.season-info {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  margin: 0;
+  font-style: italic;
+}
+
+/* Remove pagination indicators as requested */
+.calendar-indicators {
+  display: none;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.date-card {
+  background: var(--card-bg, #fff);
+  border: 2px solid var(--border-color, #e0e0e0);
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px var(--shadow);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+.date-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-color), var(--button-hover));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.date-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px var(--shadow);
+  border-color: var(--accent-color);
+}
+
+.date-card:hover::before {
+  opacity: 1;
+}
+
+.date-card:focus {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.date-card:active {
+  transform: translateY(-2px);
+}
+
+.day-number {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-bg);
+  background: var(--accent-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  min-width: 60px;
+}
+
+/* Dark theme specific fixes for readability */
+:root[data-theme="dark"] .day-number {
+  color: var(--primary-bg);
+  background: #22c55e; /* Use green instead of bright green-yellow for better contrast */
+}
+
+:root[data-theme="light"] .day-number {
+  color: white;
+  background: var(--accent-color);
+}
+
+.date-title {
+  font-size: 0.95rem;
+  color: var(--text-secondary, #666);
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.durga-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-color, #333);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  min-height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recommended-colors {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.color-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.color-dot:hover {
+  transform: scale(1.2);
+}
+
+.calendar-description {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--secondary-bg);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.calendar-description p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dates-container {
+    padding: 0.75rem;
+  }
+  
+  .dates-header h1 {
+    font-size: 2rem;
+  }
+  
+  .calendar-navigation {
+    gap: 0.75rem;
+  }
+  
+  .calendar-info {
+    min-width: 240px;
+  }
+  
+  .calendar-title {
+    font-size: 1.5rem;
+  }
+  
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+  }
+  
+  .calendar-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+  
+  .date-card {
+    padding: 1rem;
+  }
+  
+  .durga-name {
+    font-size: 1rem;
+    min-height: 2.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .dates-header h1 {
+    font-size: 1.75rem;
+  }
+  
+  .calendar-navigation {
+    flex-direction: row;
+    gap: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .calendar-info {
+    min-width: auto;
+    width: 100%;
+    flex: 1;
+    margin: 0 0.5rem;
+  }
+  
+  .calendar-title {
+    font-size: 1.3rem;
+  }
+  
+  .festival-period {
+    font-size: 1rem;
+  }
+  
+  .calendar-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  
+  .date-card {
+    padding: 0.75rem;
+  }
+  
+  .durga-name {
+    font-size: 0.9rem;
+    min-height: 2rem;
+  }
+  
+  .day-number {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.6rem;
+    min-width: 50px;
+  }
+  
+  .date-title {
+    font-size: 0.85rem;
+  }
+  
+  .color-dot {
+    width: 14px;
+    height: 14px;
+  }
+  
+  /* Pagination indicators removed */
+}
+
+/* Light theme (default) */
+.dates-container {
+  --text-color: #333;
+  --text-secondary: #666;
+  --card-bg: #fff;
+  --border-color: #e0e0e0;
+  --primary-color: #28a745; /* Green primary */
+  --primary-bg: #d4edda; /* Light green background */
+}
+
+.date-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.color-dot {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme */
+:root[data-theme="dark"] .dates-container {
+  --text-color: var(--primary-text);
+  --text-secondary: var(--secondary-text);
+  --card-bg: var(--primary-bg);
+  --border-color: var(--border-color);
+  --primary-color: #34ce57; /* Green-yellow for dark theme */
+  --primary-bg: var(--secondary-bg);
+}
+
+:root[data-theme="dark"] .date-card {
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+:root[data-theme="dark"] .date-card:hover {
+  box-shadow: 0 4px 8px var(--shadow);
+}
+
+:root[data-theme="dark"] .color-dot {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Light theme explicit */
+:root[data-theme="light"] .dates-container {
+  --text-color: var(--primary-text);
+  --text-secondary: var(--secondary-text);
+  --card-bg: var(--primary-bg);
+  --border-color: var(--border-color);
+  --primary-color: #28a745; /* Green primary */
+  --primary-bg: var(--secondary-bg);
+}
+
+:root[data-theme="light"] .date-card {
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+:root[data-theme="light"] .date-card:hover {
+  box-shadow: 0 4px 8px var(--shadow);
+}
+
+:root[data-theme="light"] .color-dot {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
