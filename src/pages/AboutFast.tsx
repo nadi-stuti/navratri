@@ -211,13 +211,7 @@ const AboutFast = () => {
   const renderFastingRules = () => (
     <div className="rules-content">
       <p className="section-description">
-        {currentLanguage === "hi"
-          ? "नवरात्रि व्रत के नियम और दिशानिर्देश:"
-          : currentLanguage === "ta"
-          ? "நவராத்திரி விரத விதிகள் மற்றும் வழிகாட்டுதல்கள்:"
-          : currentLanguage === "mr"
-          ? "नवरात्री व्रताचे नियम आणि मार्गदर्शन:"
-          : "Navratri fasting rules and guidelines:"}
+        {t("pages.fasting.rulesIntro", "Navratri fasting rules and guidelines:")}
       </p>
 
       {navratriFastingInformation.fastingRules.map((rule: FastingRule) => (
@@ -246,28 +240,10 @@ const AboutFast = () => {
               <p>{getTranslatedContent(rule.description)}</p>
               <span className="rule-importance">
                 {rule.importance === "mandatory"
-                  ? currentLanguage === "hi"
-                    ? "अनिवार्य"
-                    : currentLanguage === "ta"
-                    ? "கட்டாயம்"
-                    : currentLanguage === "mr"
-                    ? "अनिवार्य"
-                    : "MANDATORY"
+                  ? t("pages.fasting.importance.mandatory", "MANDATORY")
                   : rule.importance === "recommended"
-                  ? currentLanguage === "hi"
-                    ? "सुझावित"
-                    : currentLanguage === "ta"
-                    ? "பரிந்துரைக்கப்பட்டது"
-                    : currentLanguage === "mr"
-                    ? "शिफारसीत"
-                    : "RECOMMENDED"
-                  : currentLanguage === "hi"
-                  ? "वैकल्पिक"
-                  : currentLanguage === "ta"
-                  ? "விருப்பமானது"
-                  : currentLanguage === "mr"
-                  ? "पर्यायी"
-                  : "OPTIONAL"}
+                  ? t("pages.fasting.importance.recommended", "RECOMMENDED")
+                  : t("pages.fasting.importance.optional", "OPTIONAL")}
               </span>
             </div>
           )}
@@ -280,14 +256,7 @@ const AboutFast = () => {
     <div className="food-lists">
       <div className="food-list allowed">
         <h4>
-          ✅{" "}
-          {currentLanguage === "hi"
-            ? "अनुमतित खाद्य पदार्थ"
-            : currentLanguage === "ta"
-            ? "அனுமதிக்கப்பட்ட உணவுகள்"
-            : currentLanguage === "mr"
-            ? "परवानगी असलेले पदार्थ"
-            : "Allowed Foods"}
+          {t("pages.fasting.foodLists.allowedTitle", "✅ Allowed Foods")}
         </h4>
         <ul>
           {(
@@ -304,14 +273,7 @@ const AboutFast = () => {
 
       <div className="food-list forbidden">
         <h4>
-          ❌{" "}
-          {currentLanguage === "hi"
-            ? "निषिद्ध खाद्य पदार्थ"
-            : currentLanguage === "ta"
-            ? "தடைசெய்யப்பட்ட உணவுகள்"
-            : currentLanguage === "mr"
-            ? "निषिद्ध पदार्थ"
-            : "Forbidden Foods"}
+          {t("pages.fasting.foodLists.forbiddenTitle", "❌ Forbidden Foods")}
         </h4>
         <ul>
           {(
@@ -331,7 +293,7 @@ const AboutFast = () => {
   const renderHealthConsiderations = () => (
     <div className="health-content">
       <div className="health-item">
-        <h4>💚 Health Benefits</h4>
+        <h4>{t("pages.fasting.health.benefitsTitle", "💚 Health Benefits")}</h4>
         <p>
           {getTranslatedContent(
             navratriFastingInformation.healthConsiderations.benefits
@@ -340,7 +302,7 @@ const AboutFast = () => {
       </div>
 
       <div className="health-item">
-        <h4>⚠️ Precautions</h4>
+        <h4>{t("pages.fasting.health.precautionsTitle", "⚠️ Precautions")}</h4>
         <p>
           {getTranslatedContent(
             navratriFastingInformation.healthConsiderations.precautions
@@ -349,7 +311,7 @@ const AboutFast = () => {
       </div>
 
       <div className="health-item">
-        <h4>🚫 Who Should Avoid Strict Fasting</h4>
+        <h4>{t("pages.fasting.health.avoidTitle", "🚫 Who Should Avoid Strict Fasting")}</h4>
         <p>
           {getTranslatedContent(
             navratriFastingInformation.healthConsiderations.whoShouldAvoid
@@ -362,7 +324,7 @@ const AboutFast = () => {
   const renderModernAdaptations = () => (
     <div className="adaptations-content">
       <div className="adaptation-item">
-        <h4>💼 Working Professionals</h4>
+        <h4>{t("pages.fasting.adaptations.workingTitle", "💼 Working Professionals")}</h4>
         <p>
           {getTranslatedContent(
             navratriFastingInformation.modernAdaptations.workingProfessionals
@@ -371,7 +333,7 @@ const AboutFast = () => {
       </div>
 
       <div className="adaptation-item">
-        <h4>📚 Students</h4>
+        <h4>{t("pages.fasting.adaptations.studentsTitle", "📚 Students")}</h4>
         <p>
           {getTranslatedContent(
             navratriFastingInformation.modernAdaptations.students
@@ -380,7 +342,7 @@ const AboutFast = () => {
       </div>
 
       <div className="adaptation-item">
-        <h4>👴 Elderly</h4>
+        <h4>{t("pages.fasting.adaptations.elderlyTitle", "👴 Elderly")}</h4>
         <p>
           {getTranslatedContent(
             navratriFastingInformation.modernAdaptations.elderly
@@ -389,7 +351,7 @@ const AboutFast = () => {
       </div>
 
       <div className="adaptation-item">
-        <h4>👶 Children</h4>
+        <h4>{t("pages.fasting.adaptations.childrenTitle", "👶 Children")}</h4>
         <p>
           {getTranslatedContent(
             navratriFastingInformation.modernAdaptations.children
@@ -403,106 +365,52 @@ const AboutFast = () => {
     <div className="about-fast-container">
       <div className="about-fast-header">
         <h1>
-          {currentLanguage === "hi"
-            ? "नवरात्रि उपवास"
-            : currentLanguage === "ta"
-            ? "நவராத்திரி விரதம்"
-            : currentLanguage === "mr"
-            ? "नवरात्री उपवास"
-            : "Navratri Fasting"}
+          {t("pages.fasting.header.title", "Navratri Fasting")}
         </h1>
         <p className="header-subtitle">
-          {currentLanguage === "hi"
-            ? "आध्यात्मिक शुद्धता और दैवीय आशीर्वाद का मार्ग"
-            : currentLanguage === "ta"
-            ? "ஆன்மீக தூய்மை மற்றும் தெய்வீக ஆசீர்வாதத்தின் பாதை"
-            : currentLanguage === "mr"
-            ? "आध्यात्मिक शुद्धता आणि दैवी आशीर्वादाचा मार्ग"
-            : "A Path to Spiritual Purity and Divine Blessings"}
+          {t("pages.fasting.header.subtitle", "A Path to Spiritual Purity and Divine Blessings")}
         </p>
       </div>
 
       <div className="fasting-sections">
         {renderSection(
-          currentLanguage === "hi"
-            ? "🕉️ हिंदू धर्म में उपवास के कारण"
-            : currentLanguage === "ta"
-            ? "🕉️ இந்து மதத்தில் விரதத்தின் காரணங்கள்"
-            : currentLanguage === "mr"
-            ? "🕉️ हिंदू धर्मात उपवासाची कारणे"
-            : "🕉️ Reasons for Fasting in Hinduism",
+          t("pages.fasting.sections.reasonsTitle", "🕉️ Reasons for Fasting in Hinduism"),
           renderReasonsForFasting(),
           "reasons"
         )}
 
         {renderSection(
-          currentLanguage === "hi"
-            ? "🌟 नवरात्रि उपवास का महत्व"
-            : currentLanguage === "ta"
-            ? "🌟 நவராத்திரி விரதத்தின் முக்கியத்துவம்"
-            : currentLanguage === "mr"
-            ? "🌟 नवरात्री उपवासाचे महत्त्व"
-            : "🌟 Navratri Fasting Significance",
+          t("pages.fasting.sections.significanceTitle", "🌟 Navratri Fasting Significance"),
           renderNavratriFastingSignificance(),
           "significance"
         )}
 
         {renderSection(
-          currentLanguage === "hi"
-            ? "📜 हिंदू शास्त्रों में उपवास के संदर्भ"
-            : currentLanguage === "ta"
-            ? "📜 இந்து சாஸ்திரங்களில் விரதம் பற்றிய குறிப்புகள்"
-            : currentLanguage === "mr"
-            ? "📜 हिंदू शास्त्रांमधील उपवासाचे संदर्भ"
-            : "📜 Hindu Scripture References About Fasting",
+          t("pages.fasting.sections.scripturesTitle", "📜 Hindu Scripture References About Fasting"),
           renderScriptureReferences(),
           "scriptures"
         )}
 
         {renderSection(
-          currentLanguage === "hi"
-            ? "📋 नवरात्रि उपवास के नियम और दिशानिर्देश"
-            : currentLanguage === "ta"
-            ? "📋 நவராத்திரி விரத விதிகள் மற்றும் வழிகாட்டுதல்கள்"
-            : currentLanguage === "mr"
-            ? "📋 नवरात्री उपवासाचे नियम आणि मार्गदर्शन"
-            : "📋 Comprehensive Fasting Rules and Guidelines",
+          t("pages.fasting.sections.rulesTitle", "📋 Comprehensive Fasting Rules and Guidelines"),
           renderFastingRules(),
           "rules"
         )}
 
         {renderSection(
-          currentLanguage === "hi"
-            ? "🍎 खाद्य पदार्थों की सूची"
-            : currentLanguage === "ta"
-            ? "🍎 உணவுப் பொருட்களின் பட்டியல்"
-            : currentLanguage === "mr"
-            ? "🍎 खाद्यपदार्थांची यादी"
-            : "🍎 Food Guidelines",
+          t("pages.fasting.sections.foodsTitle", "🍎 Food Guidelines"),
           renderFoodLists(),
           "foods"
         )}
 
         {renderSection(
-          currentLanguage === "hi"
-            ? "💊 स्वास्थ्य संबंधी विचार"
-            : currentLanguage === "ta"
-            ? "💊 சுகாதார பரிசீலனைகள்"
-            : currentLanguage === "mr"
-            ? "💊 आरोग्य संबंधी विचार"
-            : "💊 Health Considerations",
+          t("pages.fasting.sections.healthTitle", "💊 Health Considerations"),
           renderHealthConsiderations(),
           "health"
         )}
 
         {renderSection(
-          currentLanguage === "hi"
-            ? "🏢 आधुनिक जीवनशैली के लिए अनुकूलन"
-            : currentLanguage === "ta"
-            ? "🏢 நவீன வாழ்க்கை முறைக்கான தழுவல்கள்"
-            : currentLanguage === "mr"
-            ? "🏢 आधुनिक जीवनशैलीसाठी अनुकूलन"
-            : "🏢 Modern Lifestyle Adaptations",
+          t("pages.fasting.sections.adaptationsTitle", "🏢 Modern Lifestyle Adaptations"),
           renderModernAdaptations(),
           "adaptations"
         )}
@@ -510,13 +418,7 @@ const AboutFast = () => {
 
       <div className="about-fast-footer">
         <p>
-          {currentLanguage === "hi"
-            ? "भारत में उपवास के नियम समुदाय से समुदाय में भिन्न होते हैं। मेनू तय करने से पहले अपने परिवार के सदस्यों और बुजुर्गों से सलाह लेना हमेशा बेहतर होता है।"
-            : currentLanguage === "ta"
-            ? "இந்தியாவில் விரத விதிகள் சமூகத்திற்கு சமூகம் மாறுபடும். மெனுவை முடிவு செய்வதற்கு முன் உங்கள் குடும்ப உறுப்பினர்கள் மற்றும் பெரியவர்களுடன் ஆலோசிப்பது எப்போதும் நல்லது."
-            : currentLanguage === "mr"
-            ? "भारतात उपवासाचे नियम समुदायानुसार बदलतात. मेनू ठरवण्यापूर्वी आपल्या कुटुंबातील सदस्यांशी आणि वडिलधाऱ्यांशी सल्लामसलत करणे नेहमीच चांगले असते."
-            : "In India, fasting rules vary from community to community. It is always better to check with your family members and elders before deciding the menu."}
+          {t("pages.fasting.footer", "In India, fasting rules vary from community to community. It is always better to check with your family members and elders before deciding the menu.")}
         </p>
       </div>
     </div>
