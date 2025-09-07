@@ -92,10 +92,19 @@
     }
   },
   "fasting": {
-    "title": "About Navratri Fasting",
-    "subtitle": "Guidelines and significance of fasting",
-    "rules": "Fasting Rules",
-    "significance": "Spiritual Significance",
+    "header": {
+      "title": "Navratri Fasting",
+      "subtitle": "A Path to Spiritual Purity and Divine Blessings"
+    },
+    "sections": {
+      "reasonsTitle": "🕉️ Reasons for Fasting in Hinduism",
+      "significanceTitle": "🌟 Navratri Fasting Significance",
+      "scripturesTitle": "📜 Hindu Scripture References About Fasting",
+      "rulesTitle": "📋 Comprehensive Fasting Rules and Guidelines",
+      "foodsTitle": "🍎 Food Guidelines",
+      "healthTitle": "💊 Health Considerations",
+      "adaptationsTitle": "🏢 Modern Lifestyle Adaptations"
+    },
     "reasons": {
       "spiritualTitle": "🕉️ Spiritual Benefits",
       "physicalTitle": "💪 Physical Benefits",
@@ -113,17 +122,28 @@
       "transliterationTitle": "Transliteration:",
       "translationTitle": "Translation:"
     },
-    "health": {
-      "healthBenefitsTitle": "💚 Health Benefits",
-      "precautionsTitle": "⚠️ Precautions",
-      "whoShouldAvoidTitle": "🚫 Who Should Avoid Strict Fasting"
+    "rulesIntro": "Navratri fasting rules and guidelines:",
+    "importance": {
+      "mandatory": "MANDATORY",
+      "recommended": "RECOMMENDED",
+      "optional": "OPTIONAL"
     },
-    "modernAdaptations": {
-      "workingProfessionalsTitle": "💼 Working Professionals",
+    "foodLists": {
+      "allowedTitle": "✅ Allowed Foods",
+      "forbiddenTitle": "❌ Forbidden Foods"
+    },
+    "health": {
+      "benefitsTitle": "💚 Health Benefits",
+      "precautionsTitle": "⚠️ Precautions",
+      "avoidTitle": "🚫 Who Should Avoid Strict Fasting"
+    },
+    "adaptations": {
+      "workingTitle": "💼 Working Professionals",
       "studentsTitle": "📚 Students",
       "elderlyTitle": "👴 Elderly",
       "childrenTitle": "👶 Children"
-    }
+    },
+    "footer": "In India, fasting rules vary from community to community. It is always better to check with your family members and elders before deciding the menu."
   },
   "location": {
     "title": "Navratri Festival in India",
