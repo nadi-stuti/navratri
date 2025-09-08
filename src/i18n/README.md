@@ -12,12 +12,14 @@ This directory contains the configuration and setup for the application's intern
 Currently supports 8 languages:
 
 ### Active Languages
+
 1. English (en) - Default
 2. Hindi (hi)
 3. Marathi (mr)
 4. Bengali (bn)
 
 ### Temporarily Disabled (Mobile Design Issues)
+
 5. Tamil (ta)
 6. Telugu (te)
 7. Malayalam (ml)
@@ -36,20 +38,23 @@ The translations are organized into the following namespaces:
 ## Implementation Details
 
 ### Configuration
+
 ```typescript
-import i18n from 'i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
-import { initReactI18next } from 'react-i18next';
+import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import { initReactI18next } from "react-i18next";
 ```
 
 ### Key Features
 
 1. **Language Detection**
+
    - Automatic browser language detection
    - Local storage persistence
    - HTML lang attribute fallback
 
 2. **Fallback System**
+
    - Primary fallback to English
    - Namespace-specific fallbacks
    - Key-specific fallbacks
@@ -62,11 +67,13 @@ import { initReactI18next } from 'react-i18next';
 ## Usage Guidelines
 
 1. **Adding New Translations**
+
    - Add keys to English first
    - Follow existing namespace structure
    - Include all supported languages
 
 2. **Best Practices**
+
    - Use semantic keys
    - Include context in keys
    - Maintain consistent formatting
@@ -79,11 +86,13 @@ import { initReactI18next } from 'react-i18next';
 ## Future Improvements
 
 1. **Language Support**
+
    - Re-enable South Indian languages
    - Improve mobile design for complex scripts
    - Add more regional languages
 
 2. **Performance**
+
    - Implement translation caching
    - Optimize bundle sizes
    - Improve loading strategies

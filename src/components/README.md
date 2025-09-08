@@ -32,16 +32,19 @@ This directory contains reusable React components used throughout the applicatio
 ## Component Guidelines
 
 1. **Accessibility**
+
    - All components must include proper ARIA labels
    - Support keyboard navigation
    - Use semantic HTML elements
 
 2. **Internationalization**
+
    - Use translation keys from i18n system
    - Avoid hardcoded strings
    - Support RTL languages where applicable
 
 3. **State Management**
+
    - Use React hooks for local state
    - Leverage context for global state
    - Implement proper loading states
@@ -56,11 +59,13 @@ This directory contains reusable React components used throughout the applicatio
 Some components require review and optimization:
 
 1. **EnhancedRecipeList**
+
    - Currently disabled
    - Needs performance optimization
    - Search functionality needs refinement
 
 2. **Recipe Components**
+
    - Consider unifying recipe-related components
    - Improve search algorithm
    - Add filtering capabilities

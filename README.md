@@ -11,12 +11,14 @@ A comprehensive mobile and web application providing traditional fasting recipes
 ## 📱 Quick Overview
 
 **Current Status:**
+
 - **Languages:** 4 active (en, hi, mr, bn), 4 disabled (ta, te, ml, kn)
 - **Core Features:** Fasting recipes, Navratri guide, Multi-language support
 - **Platforms:** Web (PWA), Android & iOS (via Capacitor)
 - **Development:** Some AI-generated code needs review & optimization
 
 **Technical Notes:**
+
 - South Indian language support temporarily disabled (UI optimization needed)
 - Enhanced recipe features under evaluation
 - i18n audit system in place (scripts/i18n-audit.cjs)
@@ -73,7 +75,9 @@ npx cap open ios  # macOS only
 ## ✨ Key Features
 
 ### Core Features
+
 - **Fasting Recipes**
+
   - Traditional fasting-friendly recipes
   - Ingredient information
   - Preparation instructions
@@ -86,6 +90,7 @@ npx cap open ios  # macOS only
   - Important dates and timings
 
 ### Technical Features
+
 - **Multi-language Support**
   - Active: English (en), Hindi (hi), Marathi (mr), Bengali (bn)
   - Disabled: Tamil (ta), Telugu (te), Malayalam (ml), Kannada (kn)
@@ -102,6 +107,7 @@ npx cap open ios  # macOS only
 ## 🛠️ Technology Stack
 
 - **Frontend**
+
   - React 19.0.0
   - TypeScript
   - Vite (Build tool)
@@ -134,6 +140,7 @@ navratri/
 ## 🔧 Available Scripts
 
 ### Core Scripts
+
 ```bash
 npm run dev      # Start development server
 npm run build    # Build for production
@@ -142,6 +149,7 @@ npm run lint     # Run linter
 ```
 
 ### i18n Scripts
+
 ```bash
 # Run translation audit
 npm run i18n:audit
@@ -154,6 +162,7 @@ node scripts/i18n-fill-missing.cjs
 ```
 
 ### Script Details
+
 - **i18n:audit**: Checks for hardcoded strings and missing translations
 - **i18n-missing-keys**: Safe, non-destructive analysis of missing translations
 - **i18n-fill-missing**: Adds placeholder translations (use with caution)
@@ -161,7 +170,9 @@ node scripts/i18n-fill-missing.cjs
 ## 🌍 Internationalization
 
 ### Language Support
+
 - **Active Languages**
+
   - English (en) - Default
   - Hindi (hi)
   - Marathi (mr)
@@ -174,6 +185,7 @@ node scripts/i18n-fill-missing.cjs
   - Kannada (kn)
 
 ### Implementation
+
 - **Framework**: i18next with React bindings
 - **Detection**: Automatic browser language detection
 - **Storage**: Local storage for preferences
@@ -184,6 +196,7 @@ node scripts/i18n-fill-missing.cjs
   - `festival.json`: Festival information
 
 ### Translation Management
+
 - English as reference language
 - Automated audit system
 - Missing key detection
@@ -192,21 +205,25 @@ node scripts/i18n-fill-missing.cjs
 ## 🔄 Development Status
 
 ### Active Development
+
 - Core recipe functionality
 - Festival information
 - Multi-language support
 - Mobile platform optimization
 
 ### AI-Generated Features (Vibe Code)
+
 Several features were initially created using Vibe code assistance:
 
 1. **Content & Information Pages**
+
    - About Navratri section
    - Fasting guidelines
    - Festival information pages
    - Additional recipe content
 
 2. **Language Support**
+
    - Multi-language implementation
    - Translation structure
    - Language switching functionality
@@ -221,6 +238,7 @@ Several features were initially created using Vibe code assistance:
 The enhanced recipe functionality is implemented across two main locations:
 
 1. **EnhancedRecipeList Component** (`src/components/EnhancedRecipeList.tsx`)
+
    - Contains advanced recipe filtering
    - Grid/List view toggle
    - Category-based organization
@@ -232,12 +250,15 @@ The enhanced recipe functionality is implemented across two main locations:
    - Advanced filtering system (currently commented)
 
 **Required Actions:**
+
 1. Code Review:
+
    - Evaluate the necessity of enhanced features
    - Assess performance impact
    - Review code complexity
 
 2. Decision Points:
+
    - Whether to remove enhanced features entirely
    - Simplify the implementation
    - Integrate selected features into main components
@@ -249,12 +270,15 @@ The enhanced recipe functionality is implemented across two main locations:
    - Update related tests and documentation
 
 ### Technical Debt
+
 - **AI-Generated Code Review**
+
   - Unnecessary code cleanup needed
   - Formatting standardization required
   - Code structure optimization pending
 
 - **Feature Evaluation**
+
   - `EnhancedRecipeList.tsx` needs assessment
   - Search & filter system requires review
   - Consider simpler alternatives
@@ -266,6 +290,7 @@ The enhanced recipe functionality is implemented across two main locations:
   - Component structure refinement
 
 ### Components Under Review
+
 - `EnhancedRecipeList.tsx` (AI-generated)
 - Recipe search and filters system
 - Mobile UI for complex scripts
@@ -274,12 +299,14 @@ The enhanced recipe functionality is implemented across two main locations:
 ## 🔮 Future Roadmap
 
 ### Phase 1: Foundation
+
 - [ ] Code quality improvements
 - [ ] Mobile UI optimization
 - [ ] Re-enable South Indian languages
 - [ ] Performance optimization
 
 ### Phase 2: Community Features
+
 - [ ] User accounts and profiles
 - [ ] Recipe sharing capability
 - [ ] Community chat implementation
@@ -287,6 +314,7 @@ The enhanced recipe functionality is implemented across two main locations:
 - [ ] Recipe ratings and reviews
 
 ### Phase 3: Enhanced Features
+
 - [ ] Advanced recipe management
 - [ ] Personalization features
 - [ ] Event planning tools
@@ -295,12 +323,14 @@ The enhanced recipe functionality is implemented across two main locations:
 ## 📱 Mobile Platform Support
 
 ### Android
+
 - Native implementation via Capacitor
 - Material Design guidelines
 - Play Store deployment ready
 - Android-specific optimizations
 
 ### iOS
+
 - Native implementation via Capacitor
 - Human Interface Guidelines
 - App Store deployment ready
@@ -309,27 +339,30 @@ The enhanced recipe functionality is implemented across two main locations:
 ## 💻 Development Guidelines
 
 ### Code Standards
+
 - TypeScript best practices
 - React hooks patterns
 - Mobile-first design
 - Accessibility compliance
 
 ### i18n Best Practices
+
 - Use translation keys for all text
 - Maintain English as reference
 - Regular translation audits
 - Proper attribute translations
 
 ### Example Translation Usage
+
 ```tsx
 // Before
-<button aria-label="Back to top">Back to top</button>
+<button aria-label="Back to top">Back to top</button>;
 
 // After
 const { t } = useTranslation();
 <button aria-label={t("common.buttons.backToTop")}>
   {t("common.buttons.backToTop")}
-</button>
+</button>;
 ```
 
 ## 🤝 Contributing
@@ -354,12 +387,14 @@ We welcome contributions! Please follow these steps:
 ### Contribution Guidelines
 
 1. **Code Style**
+
    - Follow existing patterns
    - Use TypeScript features
    - Maintain accessibility
    - Run linter before PR
 
 2. **Translations**
+
    - Add to English first
    - Use descriptive keys
    - Run i18n audit
@@ -374,6 +409,7 @@ We welcome contributions! Please follow these steps:
 ## 📚 Additional Resources
 
 ### Key Directories
+
 - `src/locales/*/*.json`: Translations
 - `src/components/`: UI Components
 - `src/pages/`: Page Components
@@ -381,6 +417,7 @@ We welcome contributions! Please follow these steps:
 - `scripts/`: Utility Scripts
 
 ### Important Files
+
 - `src/main.tsx`: App Bootstrap
 - `src/Router.tsx`: Route Definitions
 - `capacitor.config.ts`: Native Config
