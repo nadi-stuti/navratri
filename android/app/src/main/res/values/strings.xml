@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Fasting recipes and navratri guide</string>
-    <string name="title_activity_main">Fasting recipes and navratri guide</string>
-    <string name="package_name">com.nulligma.fansting_navratri</string>
-    <string name="custom_url_scheme">com.nulligma.fansting_navratri</string>
+    <string name="app_name">Fasting &amp; Navratri</string>
+    <string name="title_activity_main">Fasting &amp; Navratri</string>
+    <string name="package_name">com.nulligma.fasting_navratri</string>
+    <string name="custom_url_scheme">com.nulligma.fasting_navratri</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.nulligma.fansting_navratri;
+package com.nulligma.fasting_navratri;
 
 import com.getcapacitor.BridgeActivity;
 
