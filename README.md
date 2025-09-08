@@ -1,322 +1,402 @@
-# Navratri — Web + Capacitor app
+# Fasting Recipe and Navratri Guide 🕉️
 
-A React + Vite project with i18n support for multiple Indian languages, curated Navratri festival content and fasting recipes, prepared to be wrapped with Capacitor for Android/iOS.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-19.0.0-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Latest-blue.svg)](https://www.typescriptlang.org/)
+[![Capacitor](https://img.shields.io/badge/Capacitor-7.0.1-blue.svg)](https://capacitorjs.com/)
+[![i18n](https://img.shields.io/badge/i18n-8_languages-green.svg)](./src/i18n)
 
-This README is written for new contributors and maintainers and contains: project overview, features, file structure, translation workflow, scripts, how to run & build, and steps to create Android/iOS apps with Capacitor.
+A comprehensive mobile and web application providing traditional fasting recipes and detailed guidance for Navratri celebrations, built with modern web technologies and native platform capabilities.
 
-## Quick status
+## 📱 Quick Overview
 
-- Languages: en, hi, ta, mr, te, ml, bn, kn
-- i18n: audit script added (scripts/i18n-audit.cjs)
-- Missing translation placeholders were added for `pages` namespace for several locales via `scripts/i18n-fill-missing.cjs` (they are prefixed with " ").
+**Current Status:**
+- **Languages:** 4 active (en, hi, mr, bn), 4 disabled (ta, te, ml, kn)
+- **Core Features:** Fasting recipes, Navratri guide, Multi-language support
+- **Platforms:** Web (PWA), Android & iOS (via Capacitor)
+- **Development:** Some AI-generated code needs review & optimization
 
-## Table of contents
+**Technical Notes:**
+- South Indian language support temporarily disabled (UI optimization needed)
+- Enhanced recipe features under evaluation
+- i18n audit system in place (scripts/i18n-audit.cjs)
 
-- Project overview
-- Features
-- Tech stack
-- Getting started (dev & build)
-- Scripts (what they do)
-- File / folder overview
-- Components & contexts (high level)
-- i18n (how translations work, audit, fill, best practices)
-- Replacing hardcoded strings
-- Capacitor: Android & iOS (how to create native apps)
-- TODOs and recommended next steps
-- Contributing and style notes
+## 🚀 Getting Started
 
-## Project overview
-
-This repository hosts a content-first SPA about Navratri (festival, fasting rules and recipes). It is built with React + TypeScript + Vite and uses `react-i18next` / `i18next` for translations. The project is bundled and packaged for native mobile via Capacitor.
-
-Primary goals:
-
-- Provide festival information and recipe content in multiple Indian languages
-- Offer an accessible, SEO-friendly, and mobile-capable UI
-- Make translations easy to audit and maintain
-
-## Features
-
-- Multi-language UI (English + 7 Indian languages)
-- Accessible components (aria attributes, skip-links, etc.)
-- Content sections: Home, Recipes, About Festival, Dates, Fasting, More
-- Small progressive web/app-ready codebase (Capacitor ready)
-
-## Tech stack
-
-- Framework: React 19 + TypeScript
-- Bundler: Vite
-- i18n: i18next + react-i18next
-- Mobile bridge: Capacitor (v7)
-- Linting: ESLint
-
-## Getting started (dev & build)
-
-Prerequisites:
-
-- Node.js (current LTS recommended) and npm
-- Java JDK and Android SDK if you plan to build Android
-- Xcode + macOS if you plan to build and sign iOS apps
-
-Install dependencies:
+### Prerequisites
 
 ```bash
+# Required
+node >= 16.0.0
+npm >= 7.0.0
+
+# For Mobile Development
+Android Studio (for Android)
+Xcode (for iOS, Mac only)
+```
+
+### Installation & Development
+
+```bash
+# Clone repository
+git clone https://github.com/nadi-stuti/navratri.git
+
+# Install dependencies
+cd navratri
 npm install
-```
 
-Run dev server:
-
-```bash
+# Start development server
 npm run dev
-```
 
-Build production:
-
-```bash
+# Build for production
 npm run build
 ```
 
-Preview production bundle locally:
+### Mobile Development
 
 ```bash
-npm run preview
+# Build web assets
+npm run build
+
+# Initialize mobile platforms
+npx cap add android
+npx cap add ios  # macOS only
+
+# Sync web code with native projects
+npx cap sync
+
+# Open native IDEs
+npx cap open android
+npx cap open ios  # macOS only
 ```
 
-Lint code:
+## ✨ Key Features
 
-```bash
-npm run lint
+### Core Features
+- **Fasting Recipes**
+  - Traditional fasting-friendly recipes
+  - Ingredient information
+  - Preparation instructions
+  - Dietary compliance guidelines
+
+- **Navratri Guide**
+  - Nine forms of Durga
+  - Festival significance
+  - Regional celebrations
+  - Important dates and timings
+
+### Technical Features
+- **Multi-language Support**
+  - Active: English (en), Hindi (hi), Marathi (mr), Bengali (bn)
+  - Disabled: Tamil (ta), Telugu (te), Malayalam (ml), Kannada (kn)
+- **Cross-platform Support**
+  - Progressive Web App
+  - Native Android app
+  - Native iOS app
+- **Accessibility**
+  - ARIA attributes
+  - Screen reader support
+  - Keyboard navigation
+  - Skip links
+
+## 🛠️ Technology Stack
+
+- **Frontend**
+  - React 19.0.0
+  - TypeScript
+  - Vite (Build tool)
+  - i18next (Internationalization)
+
+- **Mobile**
+  - Capacitor 7.0.1
+  - Native Android support
+  - Native iOS support
+
+## 📂 Project Structure
+
+```
+navratri/
+├── src/                # Source code
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Page components
+│   ├── contexts/      # React contexts
+│   ├── hooks/         # Custom React hooks
+│   ├── i18n/          # Internationalization
+│   ├── locales/       # Translation files
+│   ├── utils/         # Utility functions
+│   └── assets/        # Static assets
+├── android/           # Android platform code
+├── ios/              # iOS platform code
+├── public/           # Public assets
+└── scripts/          # Build & utility scripts
 ```
 
-## Project scripts (important ones)
+## 🔧 Available Scripts
 
-- `npm run dev` — start Vite dev server
-- `npm run build` — TypeScript build + vite build
-- `npm run lint` — run ESLint
-- `npm run preview` — preview production build
-- `npm run i18n:audit` — run the audit that reports hardcoded strings and missing translation keys (scripts/i18n-audit.cjs)
-
-Additional helper scripts (added to repo):
-
-- `scripts/i18n-missing-keys.cjs` — list missing keys per language/namespace (safe, non-destructive)
-- `scripts/i18n-fill-missing.cjs` — copy English `pages` namespace keys into target locales with `  ` placeholders (non-destructive but writes files). Use with care.
-
-Usage examples:
-
-- Run the audit to see current issues:
-
+### Core Scripts
 ```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run linter
+```
+
+### i18n Scripts
+```bash
+# Run translation audit
 npm run i18n:audit
-```
 
-- List missing keys explicitly (script):
-
-```bash
+# List missing translation keys
 node scripts/i18n-missing-keys.cjs
-```
 
-- Fill pages locale missing keys with TODO placeholders (will modify files):
-
-```bash
+# Fill missing translations with placeholders
 node scripts/i18n-fill-missing.cjs
 ```
 
-## File / folder overview (high level)
+### Script Details
+- **i18n:audit**: Checks for hardcoded strings and missing translations
+- **i18n-missing-keys**: Safe, non-destructive analysis of missing translations
+- **i18n-fill-missing**: Adds placeholder translations (use with caution)
 
-Important files & directories (root):
+## 🌍 Internationalization
 
-- `vite.config.ts`, `tsconfig.json`, `package.json` — build and tooling
-- `capacitor.config.ts` — Capacitor configuration
-- `src/` — application source code (see below)
-- `android/` — generated Android project (Capacitor)
-- `public/` — static assets
+### Language Support
+- **Active Languages**
+  - English (en) - Default
+  - Hindi (hi)
+  - Marathi (mr)
+  - Bengali (bn)
 
-src/ layout (key folders):
+- **Temporarily Disabled**
+  - Tamil (ta)
+  - Telugu (te)
+  - Malayalam (ml)
+  - Kannada (kn)
 
-- `src/components/` — React components (cards, search, date popup, theme toggle, etc.)
-- `src/contexts/` — React context providers (LanguageContext, ThemeContext, UserPreferences)
-- `src/hooks/` — custom hooks (accessibility announcements, scroll to top)
-- `src/i18n/` — i18n config, detection wiring
-- `src/locales/` — translation JSON files (organized by language and namespace)
-  - `src/locales/en/*.json` is the reference English content
-- `src/model/` — content and data (recipes, dates, types)
-- `src/pages/` — page components for routes
-- `src/main.tsx` — app bootstrap
-- `src/Router.tsx` — route definitions
+### Implementation
+- **Framework**: i18next with React bindings
+- **Detection**: Automatic browser language detection
+- **Storage**: Local storage for preferences
+- **Organization**: Namespaced translation files
+  - `common.json`: UI elements
+  - `pages.json`: Page content
+  - `recipes.json`: Recipe data
+  - `festival.json`: Festival information
 
-If you need to find a component quickly, search `src/components` or use your editor's global search.
+### Translation Management
+- English as reference language
+- Automated audit system
+- Missing key detection
+- Translation placeholder support
 
-## Major components & their purpose
+## 🔄 Development Status
 
-- `BackToTopButton.tsx` — floating button to scroll to top
-- `NavratriDatePopup.tsx` — popup showing goddess/day details (contains some text that must be translated)
-- `RecipeCard.tsx`, `EnhancedRecipeList.tsx` — recipe UI
-- `ThemeToggle.tsx`, `LanguageSelector.tsx` — user preferences UI
-- `ScrollToTop.tsx` — small helper component
+### Active Development
+- Core recipe functionality
+- Festival information
+- Multi-language support
+- Mobile platform optimization
 
-See `src/components/` for many more small, focused components.
+### AI-Generated Features (Vibe Code)
+Several features were initially created using Vibe code assistance:
 
-## i18n — translations and workflow
+1. **Content & Information Pages**
+   - About Navratri section
+   - Fasting guidelines
+   - Festival information pages
+   - Additional recipe content
 
-Structure:
+2. **Language Support**
+   - Multi-language implementation
+   - Translation structure
+   - Language switching functionality
 
-- Translations live in `src/locales/{lang}/{namespace}.json`
-- Supported languages are configured in `scripts/i18n-audit.cjs` and i18n config: `['en','hi','ta','mr','te','ml','bn','kn']`
-- Namespaces used: `common`, `pages`, `recipes`, `festival`
+3. **Enhanced Features (Under Review)**
+   - Enhanced recipe listing system (`src/components/EnhancedRecipeList.tsx`)
+   - Advanced search and filters (`src/pages/recipe/RecipeList.tsx`, lines 15-45)
+   - These features are currently commented out pending evaluation
 
-Reference language:
+### Enhanced Recipe Feature Status
 
-- English (`src/locales/en`) is the canonical reference. When adding new strings, add them to English first and then add translations in other languages.
+The enhanced recipe functionality is implemented across two main locations:
 
-Audit tool:
+1. **EnhancedRecipeList Component** (`src/components/EnhancedRecipeList.tsx`)
+   - Contains advanced recipe filtering
+   - Grid/List view toggle
+   - Category-based organization
+   - Enhanced sorting capabilities
 
-- Run `npm run i18n:audit` to:
-  - scan source files for hardcoded strings (very simple heuristics)
-  - validate translation files vs English reference and report missing keys
+2. **Recipe List Page** (`src/pages/recipe/RecipeList.tsx`)
+   - Enhanced view toggle implementation
+   - Integration with enhanced recipe data
+   - Advanced filtering system (currently commented)
 
-Auto-fill helper (when used):
+**Required Actions:**
+1. Code Review:
+   - Evaluate the necessity of enhanced features
+   - Assess performance impact
+   - Review code complexity
 
-- `scripts/i18n-fill-missing.cjs` will copy missing keys from English `pages.json` into target language `pages.json` with `  ` prefix. This is intended to accelerate translators. After running it, translators should replace `  ...` with actual localized text.
+2. Decision Points:
+   - Whether to remove enhanced features entirely
+   - Simplify the implementation
+   - Integrate selected features into main components
 
-Best practices:
+3. Cleanup Steps:
+   - Remove unnecessary imports from RecipeList.tsx
+   - Clean up enhanced recipe data models
+   - Remove or simplify EnhancedRecipeList component
+   - Update related tests and documentation
 
-- Avoid leaving hardcoded visible strings in `*.tsx`/`*.ts` files. Use `t('namespace.key')` or `t('pages.home.title')` via `useTranslation()`.
-- For attributes, use translations for `alt`, `aria-label`, `placeholder`, `title`.
-- Keep the English reference updated before starting translations.
+### Technical Debt
+- **AI-Generated Code Review**
+  - Unnecessary code cleanup needed
+  - Formatting standardization required
+  - Code structure optimization pending
 
-How to add a translation key:
+- **Feature Evaluation**
+  - `EnhancedRecipeList.tsx` needs assessment
+  - Search & filter system requires review
+  - Consider simpler alternatives
+  - Performance impact analysis needed
 
-1. Add the English text at `src/locales/en/{namespace}.json` using a descriptive key.
-2. Add the key to other locale files under `src/locales/{lang}/{namespace}.json`. If you prefer to generate placeholders, run `node scripts/i18n-fill-missing.cjs` (it will write TODO placeholders).
-3. Replace occurrences in code with `t('namespace.someKey')`.
+- **UI/UX Issues**
+  - South Indian language UI optimization
+  - Mobile responsive design improvements
+  - Component structure refinement
 
-How to remove the TODO placeholders (translator flow):
+### Components Under Review
+- `EnhancedRecipeList.tsx` (AI-generated)
+- Recipe search and filters system
+- Mobile UI for complex scripts
+- Code formatting standards
 
-- Search for files containing `"  ` and replace the value with the translated string, preserving JSON structure.
+## 🔮 Future Roadmap
 
-## Replacing hardcoded strings
+### Phase 1: Foundation
+- [ ] Code quality improvements
+- [ ] Mobile UI optimization
+- [ ] Re-enable South Indian languages
+- [ ] Performance optimization
 
-The audit prints hardcoded occurrences (example output showed `Scroll to top`, `Close`, `Promise`, emoji headings). Steps to fix one:
+### Phase 2: Community Features
+- [ ] User accounts and profiles
+- [ ] Recipe sharing capability
+- [ ] Community chat implementation
+- [ ] Social interactions
+- [ ] Recipe ratings and reviews
 
-1. Pick a descriptive key (e.g., `common.buttons.backToTop` or `pages.home.makeItAMeal`).
-2. Add the key/value to `src/locales/en/{namespace}.json`.
-3. Add translations in other languages (or run the fill script for placeholders).
-4. Replace the literal in the component with `const { t } = useTranslation();` and `t('path.to.key')`.
-5. Re-run `npm run i18n:audit` to verify no missing translations remain.
+### Phase 3: Enhanced Features
+- [ ] Advanced recipe management
+- [ ] Personalization features
+- [ ] Event planning tools
+- [ ] Community engagement features
 
-Example replacement in a component:
+## 📱 Mobile Platform Support
 
-Before:
+### Android
+- Native implementation via Capacitor
+- Material Design guidelines
+- Play Store deployment ready
+- Android-specific optimizations
 
+### iOS
+- Native implementation via Capacitor
+- Human Interface Guidelines
+- App Store deployment ready
+- iOS-specific optimizations
+
+## 💻 Development Guidelines
+
+### Code Standards
+- TypeScript best practices
+- React hooks patterns
+- Mobile-first design
+- Accessibility compliance
+
+### i18n Best Practices
+- Use translation keys for all text
+- Maintain English as reference
+- Regular translation audits
+- Proper attribute translations
+
+### Example Translation Usage
 ```tsx
+// Before
 <button aria-label="Back to top">Back to top</button>
-```
 
-After:
-
-```tsx
+// After
 const { t } = useTranslation();
 <button aria-label={t("common.buttons.backToTop")}>
   {t("common.buttons.backToTop")}
-</button>;
+</button>
 ```
 
-## Capacitor (Android and iOS)
+## 🤝 Contributing
 
-This project is Capacitor-ready. The repo already contains an `android/` folder. Use the Capacitor CLI to add/update native projects.
+We welcome contributions! Please follow these steps:
 
-General notes:
+1. Fork the repository
+2. Create your feature branch
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit changes
+   ```bash
+   git commit -m 'Add: AmazingFeature'
+   ```
+4. Push to branch
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
 
-- Capacitor requires a built web app to copy into the native project. The steps below follow that workflow.
-- Building and signing iOS apps requires macOS + Xcode. You cannot produce an installable iOS binary from Windows.
+### Contribution Guidelines
 
-Android (Windows-friendly)
+1. **Code Style**
+   - Follow existing patterns
+   - Use TypeScript features
+   - Maintain accessibility
+   - Run linter before PR
 
-1. Build the web assets:
+2. **Translations**
+   - Add to English first
+   - Use descriptive keys
+   - Run i18n audit
+   - Test all languages
 
-```bash
-npm run build
-```
+3. **Documentation**
+   - Update README if needed
+   - Document new features
+   - Add JSDoc comments
+   - Include usage examples
 
-2. Copy web assets to the native project and sync plugins:
+## 📚 Additional Resources
 
-```bash
-npx cap copy android
-npx cap sync android
-```
+### Key Directories
+- `src/locales/*/*.json`: Translations
+- `src/components/`: UI Components
+- `src/pages/`: Page Components
+- `src/i18n/`: i18n Configuration
+- `scripts/`: Utility Scripts
 
-3. Open Android Studio if you want to run or debug, or use Gradle to build an APK/AAB.
+### Important Files
+- `src/main.tsx`: App Bootstrap
+- `src/Router.tsx`: Route Definitions
+- `capacitor.config.ts`: Native Config
+- `vite.config.ts`: Build Config
 
-Open in Android Studio (recommended):
+## 📄 License
 
-```bash
-npx cap open android
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Build APK from Android Studio or CLI (example using Gradle wrapper on Windows cmd):
+## 🙏 Acknowledgments
 
-```cmd
-cd android
-gradlew assembleDebug
-```
+- React community
+- Capacitor team
+- i18next contributors
+- Open source community
 
-Note: Ensure ANDROID_HOME/ANDROID_SDK_ROOT, Java JDK, and platform tools are installed and environment variables configured.
+---
 
-iOS (macOS only)
-
-1. Build web assets:
-
-```bash
-npm run build
-```
-
-2. Sync and open Xcode project (on macOS):
-
-```bash
-npx cap copy ios
-npx cap sync ios
-npx cap open ios
-```
-
-3. From Xcode, configure signing & capabilities, then build/run on a device or simulator.
-
-Capacitor common notes
-
-- If you add a plugin, run `npx cap sync` to install native dependencies.
-- If you change `capacitor.config.ts` or native config, run `npx cap copy` + open the native workspace.
-
-## TODOs & roadmap
-
-High-priority:
-
-- Replace the remaining hardcoded strings shown by the audit with translation keys and add actual translations instead of ` ` placeholders.
-- Improve the audit detection to span multi-line JSX and template literals.
-
-Medium-priority:
-
-- Add unit tests for critical components (pages, recipe filtering, date popup)
-- Add CI to run `npm run lint` and `npm run i18n:audit` on PRs
-
-Low-priority / nice-to-have:
-
-- Add a small admin UI for translators to edit translations in-place
-- Implement automated extraction for new keys from source (e.g., i18next-parser)
-
-## Contribution guidelines
-
-- Follow existing code style for indentation and file layout.
-- Run `npm run lint` before opening PRs.
-- When adding copy/content, add it to `src/locales/en` and create translations or placeholders.
-
-## Where to look for things
-
-- Translations: `src/locales/*/*.json`
-- Components: `src/components`
-- Pages: `src/pages`
-- App bootstrap: `src/main.tsx` and `src/Router.tsx`
-- i18n config: `src/i18n`
-- Audit and helper scripts: `scripts/i18n-audit.cjs`, `scripts/i18n-missing-keys.cjs`, `scripts/i18n-fill-missing.cjs`
-
-## Closing / contact
-
-If you're stepping in as a new developer, run the dev server and the i18n audit first. Open an issue for any unclear copy or missing translations. Happy hacking!
+For detailed documentation on specific components and features, please refer to the README files in their respective directories.
