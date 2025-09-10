@@ -20,7 +20,7 @@ const NavratriDatePopup: React.FC<NavratriDatePopupProps> = ({
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    const locale = currentLanguage === "en" ? "en-US" : `${currentLanguage}-IN`;
+    const locale = currentLanguage === "en" ? "en-US" : `hi-IN`;
 
     return date.toLocaleDateString(locale, {
       weekday: "long",

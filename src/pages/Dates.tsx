@@ -221,7 +221,7 @@ const Dates = () => {
   const formatDateRange = (startDate: string, endDate: string) => {
     const start = new Date(startDate);
     const end = new Date(endDate);
-    const locale = currentLanguage === "en" ? "en-US" : `${currentLanguage}-IN`;
+    const locale = currentLanguage === "en" ? "en-US" : `hi-IN`;
 
     return `${start.toLocaleDateString(locale, {
       month: "long",

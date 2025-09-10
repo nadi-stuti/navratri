@@ -104,6 +104,11 @@
   margin-bottom: 2rem;
 }
 
+.colors-section,
+.mantras-section {
+  background: var(--secondary-bg);
+}
+
 .goddess-section h3,
 .colors-section h3,
 .times-section h3,
@@ -263,50 +268,50 @@
   .popup-overlay {
     padding: 0.5rem;
   }
-  
+
   .popup-content {
     max-height: 95vh;
     border-radius: 12px;
   }
-  
+
   .popup-header {
     padding: 1rem;
     border-radius: 10px 10px 0 0;
   }
-  
+
   .popup-header h2 {
     font-size: 1.2rem;
   }
-  
+
   .popup-body {
     padding: 1rem;
   }
-  
+
   .times-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .color-palette {
     gap: 0.75rem;
   }
-  
+
   .color-swatch {
     width: 40px;
     height: 40px;
   }
-  
+
   .goddess-details {
     padding: 1rem;
   }
-  
+
   .sanskrit-name {
     font-size: 1.2rem;
   }
-  
+
   .mantra-item {
     padding: 1rem;
   }
-  
+
   .sanskrit-text {
     font-size: 1rem;
   }
@@ -316,17 +321,17 @@
   .popup-header h2 {
     font-size: 1rem;
   }
-  
+
   .close-button {
     width: 35px;
     height: 35px;
     font-size: 1.5rem;
   }
-  
+
   .date-text {
     font-size: 1rem;
   }
-  
+
   .goddess-section h3,
   .colors-section h3,
   .times-section h3,
