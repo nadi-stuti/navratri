@@ -1,15 +1,22 @@
 import { useState } from "react";
-import { navratri2025Calendar } from "../model/navratri-2025-dates";
-import { NavratriDate, NavratriCalendar } from "../types/enhanced-models";
-import { useLanguage } from "../contexts/LanguageContext";
 import NavratriDatePopup from "../components/NavratriDatePopup";
+import { useLanguage } from "../contexts/LanguageContext";
+import { navratri2025Dates } from "../model/navratri-2025-dates";
+import { NavratriCalendar, NavratriDate } from "../types/enhanced-models";
 import "./Dates.css";
 
 // Mock data for other Navratri festivals - in a real app, this would come from a data service
 const generateNavratriCalendars = (): NavratriCalendar[] => {
-  const calendars: NavratriCalendar[] = [navratri2025Calendar];
+  const calendars: NavratriCalendar[] = [];
 
   const festivals = [
+    {
+      year: 2025,
+      type: "Sharad",
+      startDate: "2025-09-25",
+      endDate: "2025-10-03",
+      season: "Autumn",
+    },
     {
       year: 2025,
       type: "Chaitra",
@@ -118,7 +125,7 @@ const generateNavratriCalendars = (): NavratriCalendar[] => {
   ];
 
   festivals.forEach((festival) => {
-    if (festival.year === 2025 && festival.type === "Sharad") return;
+    // if (festival.year === 2025 && festival.type === "Sharad") return;
 
     const dates: NavratriDate[] = [];
     const startDate = new Date(festival.startDate);
@@ -131,8 +138,8 @@ const generateNavratriCalendars = (): NavratriCalendar[] => {
         date: currentDate.toISOString().split("T")[0],
         day: i + 1,
         dayOfWeek: currentDate.toLocaleDateString("en-US", { weekday: "long" }),
-        durgaForm: navratri2025Calendar.dates[i].durgaForm,
-        recommendedColors: navratri2025Calendar.dates[i].recommendedColors,
+        durgaForm: navratri2025Dates[i].durgaForm,
+        recommendedColors: navratri2025Dates[i].recommendedColors,
         auspiciousTimes: {
           sunrise: "06:15 AM",
           sunset: "06:45 PM",
@@ -201,24 +208,7 @@ const Dates = () => {
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    const locale =
-      currentLanguage === "en"
-        ? "en-US"
-        : currentLanguage === "hi"
-        ? "hi-IN"
-        : currentLanguage === "ta"
-        ? "ta-IN"
-        : currentLanguage === "mr"
-        ? "mr-IN"
-        : currentLanguage === "te"
-        ? "te-IN"
-        : currentLanguage === "ml"
-        ? "ml-IN"
-        : currentLanguage === "bn"
-        ? "bn-IN"
-        : currentLanguage === "kn"
-        ? "kn-IN"
-        : "en-US";
+    const locale = currentLanguage === "en" ? "en-US" : "hi-IN";
 
     return date.toLocaleDateString(locale, {
       weekday: "short",
@@ -337,6 +327,8 @@ const Dates = () => {
   const currentCalendar = calendars[currentCalendarIndex];
   const canGoPrevious = currentCalendarIndex > 0;
   const canGoNext = currentCalendarIndex < calendars.length - 1;
+
+  console.log(calendars);
 
   return (
     <div className="dates-container">
