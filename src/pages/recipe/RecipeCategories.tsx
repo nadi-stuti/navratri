@@ -1,7 +1,6 @@
 import { Link } from "react-router";
 import "./RecipeCategories.css";
 import { recipeCategories } from "../../model/recipe-data/recipeData";
-import React from "react";
 import { useLanguage } from "../../contexts/LanguageContext";
 
 const RecipeCategories = () => {
@@ -38,18 +37,23 @@ const RecipeCategories = () => {
     <div className="categories">
       <h1>{t("pages.recipes.title")}</h1>
       <p>{t("pages.recipes.description")}</p>
-      <ul>
+      <ul className="categories-grid">
         {recipeCategories.map((c) => (
-          <li key={c.title}>
-            <Link to={c.route}>{getCategoryTitle(c.id)}</Link>
-            {getCategoryDescription(c.id)
-              .split("\n")
-              .map((line, index) => (
-                <React.Fragment key={index}>
-                  <i>{line}</i>
-                  <br />
-                </React.Fragment>
-              ))}
+          <li key={c.title} className="category-card">
+            <Link
+              to={c.route}
+              className="category-card__link"
+              aria-label={getCategoryTitle(c.id)}
+            >
+              <span className="category-card__title">{getCategoryTitle(c.id)}</span>
+              <div className="category-card__desc">
+                {getCategoryDescription(c.id)
+                  .split("\n")
+                  .map((line, index) => (
+                    <i key={index}>{line}</i>
+                  ))}
+              </div>
+            </Link>
           </li>
         ))}
       </ul>
