@@ -27,32 +27,67 @@ const BackToTopButton: React.FC<BackToTopButtonProps> = ({
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    const scrollContainer =
+      (document.querySelector(".app-safe-area") as HTMLElement | null) ||
+      (document.scrollingElement as HTMLElement | null) ||
+      (document.documentElement as HTMLElement | null);
+
+    const getScrollTop = () => {
+      if (scrollContainer) {
+        return scrollContainer.scrollTop;
+      }
+      return window.pageYOffset || 0;
+    };
+
     const toggleVisibility = () => {
-      if (window.pageYOffset > threshold) {
+      if (getScrollTop() > threshold) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
       }
     };
 
-    window.addEventListener("scroll", toggleVisibility);
+    const target: EventTarget = scrollContainer || window;
+    target.addEventListener("scroll", toggleVisibility as EventListener);
+    // Initialize visibility in case we mount mid-scroll
+    toggleVisibility();
 
     return () => {
-      window.removeEventListener("scroll", toggleVisibility);
+      target.removeEventListener("scroll", toggleVisibility as EventListener);
     };
   }, [threshold]);
 
   const scrollToTop = () => {
     try {
-      window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: behavior as ScrollBehavior,
-      });
+      const scrollContainer =
+        (document.querySelector(".app-safe-area") as HTMLElement | null) ||
+        (document.scrollingElement as HTMLElement | null) ||
+        (document.documentElement as HTMLElement | null);
+      if (scrollContainer) {
+        scrollContainer.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: behavior as ScrollBehavior,
+        });
+      } else {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: behavior as ScrollBehavior,
+        });
+      }
     } catch (error) {
       // Fallback for older browsers - use console.debug to avoid unused variable lint
       console.debug(error);
-      window.scrollTo(0, 0);
+      const scrollContainer =
+        (document.querySelector(".app-safe-area") as HTMLElement | null) ||
+        (document.scrollingElement as HTMLElement | null) ||
+        (document.documentElement as HTMLElement | null);
+      if (scrollContainer && typeof (scrollContainer as any).scrollTo === "function") {
+        (scrollContainer as any).scrollTo(0, 0);
+      } else {
+        window.scrollTo(0, 0);
+      }
     }
   };
 

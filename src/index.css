@@ -11,6 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html { height: 100vh; }
 /* Light theme variables */
 :root[data-theme="light"] {
   --primary-bg: #ffffff;
@@ -50,7 +51,7 @@
 /* Apply theme variables */
 body {
   color: var(--primary-text);
-  background-color: var(--primary-bg);
+  background-color: #000000;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -68,7 +69,24 @@ a:hover {
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden; /* prevent body from scrolling; scroll within safe-area container */
+}
+
+#root { height: 100%; }
+
+/* Safe area aware app wrapper */
+.app-safe-area {
+  /* Create a viewport that is exactly the safe-area rectangle */
+  position: fixed;
+  top: var(--safe-area-inset-top, var(--inset-top, 0px));
+  right: var(--safe-area-inset-right, var(--inset-right, 0px));
+  bottom: var(--safe-area-inset-bottom, var(--inset-bottom, 0px));
+  left: var(--safe-area-inset-left, var(--inset-left, 0px));
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  box-sizing: border-box;
+  background-color: var(--primary-bg);
 }
 
 h1 {

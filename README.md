@@ -336,6 +336,35 @@ The enhanced recipe functionality is implemented across two main locations:
 - App Store deployment ready
 - iOS-specific optimizations
 
+### Safe Area Support (Android & iOS)
+
+This app uses `capacitor-plugin-safe-area` so content always respects device notches and system gestures.
+
+Included setup:
+
+- Dependency: `capacitor-plugin-safe-area@^4`
+- Synced native projects via Capacitor
+- Viewport set to `viewport-fit=cover` in `index.html`
+- Global wrapper with safe-area paddings in `src/main.tsx` + `src/index.css`
+
+How it works:
+
+- The plugin injects CSS variables (`--safe-area-inset-*`). We also mirror them to `--inset-*` via JS for robustness.
+- Root wrapper `.app-safe-area` applies padding using those variables, so the entire UI is inset-aware.
+- The app listens for `safeAreaChanged` to respond to rotation and dynamic inset changes.
+
+Key files:
+
+- `index.html` – contains `<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />`
+- `src/main.tsx` – initializes Safe Area and wraps the app with `.app-safe-area`
+- `src/index.css` – defines `.app-safe-area` padding using safe-area variables
+
+Testing tips:
+
+- Android: Use devices/emulators with display cutouts; toggle immersive modes.
+- iOS: Test on iPhone with notch; rotate device.
+- Web: Use a safe area simulator extension to emulate insets during development.
+
 ## 💻 Development Guidelines
 
 ### Code Standards
