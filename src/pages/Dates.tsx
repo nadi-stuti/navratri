@@ -13,8 +13,8 @@ const generateNavratriCalendars = (): NavratriCalendar[] => {
     {
       year: 2025,
       type: "Sharad",
-      startDate: "2025-09-25",
-      endDate: "2025-10-03",
+      startDate: "2025-09-22",
+      endDate: "2025-10-30",
       season: "Autumn",
     },
     {
