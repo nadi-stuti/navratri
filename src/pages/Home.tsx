@@ -17,11 +17,31 @@ type GridTileProp = {
 };
 
 const tiles: GridTileProp[] = [
-  { titleKey: "pages.home.tiles.fastingRecipes", bg: Bg1, location: "/recipes" },
-  { titleKey: "pages.home.tiles.aboutNavratri", bg: Bg2, location: "/about-navratri" },
-  { titleKey: "pages.home.tiles.navratriInIndia", bg: Bg3, location: "/locations" },
-  { titleKey: "pages.home.tiles.aboutFastings", bg: Bg4, location: "/about-fast" },
-  { titleKey: "pages.home.tiles.moreOnNavratriFasting", bg: Bg5, location: "/more-fast" },
+  {
+    titleKey: "pages.home.tiles.fastingRecipes",
+    bg: Bg1,
+    location: "/recipes",
+  },
+  {
+    titleKey: "pages.home.tiles.aboutNavratri",
+    bg: Bg2,
+    location: "/about-navratri",
+  },
+  {
+    titleKey: "pages.home.tiles.navratriInIndia",
+    bg: Bg3,
+    location: "/locations",
+  },
+  {
+    titleKey: "pages.home.tiles.aboutFastings",
+    bg: Bg4,
+    location: "/about-fast",
+  },
+  {
+    titleKey: "pages.home.tiles.moreOnNavratriFasting",
+    bg: Bg5,
+    location: "/more-fast",
+  },
   { titleKey: "pages.home.tiles.navratriDates", bg: Bg6, location: "/dates" },
 ];
 
@@ -31,14 +51,27 @@ function Home() {
   return (
     <div className="home-page">
       <header className="home-header">
-        <h2>{t("pages.home.title")}</h2>
-        <nav className="home-controls" aria-label={t('accessibility:landmarks.navigation', 'Site navigation')}>
+        <h2>Welcome</h2>
+        <nav
+          className="home-controls"
+          aria-label={t(
+            "accessibility:landmarks.navigation",
+            "Site navigation"
+          )}
+        >
           <LanguageSelector className="home-language-selector" />
           <ThemeToggle />
         </nav>
       </header>
-      <main role="main" aria-label={t('accessibility:landmarks.mainContent', 'Main content')}>
-        <div className="grid-container" role="navigation" aria-label="Main navigation menu">
+      <main
+        role="main"
+        aria-label={t("accessibility:landmarks.mainContent", "Main content")}
+      >
+        <div
+          className="grid-container"
+          role="navigation"
+          aria-label="Main navigation menu"
+        >
           {tiles.map((tile) => (
             <GridTile {...tile} key={tile.titleKey} />
           ))}
@@ -64,14 +97,18 @@ const GridTile = (prop: GridTileProp) => {
       role="button"
       tabIndex={0}
       onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
+        if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
           setTimeout(() => {
             navigate(prop.location);
           }, 500);
         }
       }}
-      aria-label={t('accessibility:ariaLabels.navigation.navigateTo', 'Navigate to {{destination}}', { destination: t(prop.titleKey) })}
+      aria-label={t(
+        "accessibility:ariaLabels.navigation.navigateTo",
+        "Navigate to {{destination}}",
+        { destination: t(prop.titleKey) }
+      )}
     >
       <div className="content card-grad">{t(prop.titleKey)}</div>
     </div>
